@@ -6,4 +6,4 @@ To preserve the current content of the site (e.g. for sourcing Wikipedia article
 
 * [Leesplein.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/Leesplein)
 * [Lezenvoordelijst.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LezenVoorDeLijst)
-* [Literaireprijzen.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LitarairePrijzennl)
+* [Literaireprijzen.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LiterairePrijzennl)
