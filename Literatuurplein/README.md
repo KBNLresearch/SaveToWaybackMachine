@@ -9,14 +9,10 @@ To preserve the content (per november/december 2019) of the site, e.g. for sourc
 I archived
 
 1) Pages under the following menu items
-* [Nieuws]()
-* [Columns]()
-* [Interviews]()
-* [Literaire prijzen]()
+* [Nieuws]() - [Columns]()
+* [Interviews]() - [Literaire prijzen]()
 * [Recensies]()
-* [Canon]()
-* [Excursies]()
-* [Poezie]()
+* [Canon]() - [Excursies]() - [Poezie]()
 * [Literaire adressen]()
 
 2) Pages that were requested 30 or more times over the last 5 years, 32K pages in all, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
