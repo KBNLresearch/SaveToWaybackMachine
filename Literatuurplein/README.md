@@ -2,12 +2,24 @@
 
 The site www.literatuurplein.nl will be phased out from December 2019 onwards. 
 
-To preserve the current content of the site (e.g. for sourcing Wikipedia articles) I submitted a copy to The Wayback Machine (web.archive.org).
+To preserve the content (per november/december 2019) of the site, e.g. for sourcing Wikipedia articles, I submitted a copy to The Wayback Machine of the Internet Archive (web.archive.org).
 
-I saved 
+I archived
 
-1 Subtrees / menu items of the site, literiate prijzen
-2 the xxx most requested pages (= pages that were requested 30 or more times over the last 5 years) out of a total of xxx pages in the Wayback Machine. 
+1 The pages under the following menu items
+* Nieuws
+* Columns
+* Interviews
+* Literaire prijzen
+* Recensies
+* Canon
+* Excursies
+* Poezie
+* Literaire adressen
+
+2 All pages that were requested 30 or more times over the last 5 years, 32K pages in all, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
+
+The might be overlap between the pages in the first group and thise in the second. 
 
 Steps taken: 
 
