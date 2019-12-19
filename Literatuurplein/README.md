@@ -1,21 +1,24 @@
 # Saving Literatuurplein.nl to the Wayback Machine
 
-The site www.literatuurplein.nl will be phased out from December 2019 onwards. 
+The site www.literatuurplein.nl has been phased per 16 December 2019. 
 
 <image src="images/literatuurplein-homepage_04122019.JPG" width="500"/><br clear="all"/>
 
-To preserve the content (per november/december 2019) of the site, e.g. for sourcing Wikipedia articles, I submitted a copy to The Wayback Machine of the Internet Archive (web.archive.org).
+To preserve its content (e.g. for sourcing Wikipedia articles or Wikidata purposes) I submitted a copy of (the most relevant content of) the site to [The Wayback Machine](https://web.archive.org/) of The Internet Archive during November and December 2019.
 
-I archived
+I actively archived
 
-1) Pages under the following menu items
-* [Nieuws]() - [Columns]()
-* [Interviews]() - [Literaire prijzen]()
-* [Recensies]()
-* [Canon]() - [Excursies]() - [Poezie]()
-* [Literaire adressen]()
+1) Pages under the following menu items of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/)
+* Nieuws - Columns
+* Interviews - Literaire prijzen
+* Recensies
+* Canon - Excursies - Poezie
+* Literaire adressen
 
-2) Pages that were requested 30 or more times over the last 5 years, 32K pages in all, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
+2) Pages that were requested 30 or more times over the last 5 years. This were 32K pages in total, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
+
+3) A dump of the CMS with approx 10K person (mainly authors) (map "Archive")
+
 
 ## Steps taken 
 1) to extact urls the pages in the first group, using the [Chrome-plugin](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=en) of [Webscraper.io](https://webscraper.io/)
