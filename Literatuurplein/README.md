@@ -6,6 +6,60 @@ The site www.literatuurplein.nl has been phased per 16 December 2019.
 
 To preserve its content (e.g. for sourcing Wikipedia articles or Wikidata purposes) I submitted a copy of (the most relevant content of) the site to [The Wayback Machine](https://web.archive.org/) of The Internet Archive during November and December 2019.
 
+## Data
+- The urls are listed in both xlsx and tsv (tab separed value)
+- both the orginla as the archived urls are given
+- short description of each file
+- no overall file list id provided, you'll need to make that ypourself
+- one page can hgave several urls, (show three)
+
+Short descriopto per file, type of content
+* *literatuurplein-adressenbank_03122019.tsv / .xlsx* 
+
+* *literatuurplein-boeken_06122019.tsv / .xlsx* 
+
+* *literatuurplein-canon_28112019.tsv / .xlsx* 
+
+* *literatuurplein-columns_06122019.tsv / .xlsx* 
+
+* *literatuurplein-evenementen_06122019.tsv / .xlsx* 
+
+* *literatuurplein-excursies_28112019.tsv / .xlsx* 
+
+* *literatuurplein-genres_06122019.tsv / .xlsx* 
+
+* *literatuurplein-interviews_28112019.tsv / .xlsx* 
+
+* *literatuurplein-leestips_06122019.tsv / .xlsx* 
+
+* *literatuurplein-nieuws_06122019.tsv / .xlsx* 
+
+* *literatuurplein-overige_06122019.tsv / .xlsx* 
+
+* *literatuurplein-personen-allen_19122019.tsv / .xlsx* 
+
+* *literatuurplein-personen-namen-datums-plaatsen_19122019.tsv / .xlsx* 
+
+* *literatuurplein-poezie_29112019.tsv / .xlsx* 
+
+* *literatuurplein-prijzen_06122019.tsv / .xlsx* 
+
+* *literatuurplein-prijzen-edities_06122019.tsv / .xlsx* 
+
+* *literatuurplein-prijzen-totaal_17122019.tsv / .xlsx* 
+
+* *literatuurplein-recensies_28112019.tsv / .xlsx* 
+
+* *literatuurplein-themas_06122019.tsv / .xlsx* 
+
+* *literatuurplein-trefwoorden_06122019.tsv / .xlsx* 
+
+* *literatuurplein-wereldkaart_06122019.tsv / .xlsx* 
+
+* *literatuurplein-zoeken_06122019.tsv / .xlsx* 
+
+## Process
+
 I actively archived
 
 1) Pages under the following menu items of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/)
