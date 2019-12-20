@@ -6,7 +6,7 @@ To preserve the current content of the site (e.g. for sourcing Wikipedia article
 
 * [Leesplein.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/Leesplein)
 * [Lezenvoordelijst.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LezenVoorDeLijst)
-* [Literaireprijzen.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LiterairePrijzennl)
+<!--* [Literaireprijzen.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/LiterairePrijzennl)-->
 * [Gidsvoornederland.nl](https://www.gidsvoornederland.nl/werken-met-gids/meerwaarde-voor-bibliotheken/bibliotheken-in-nederland) (section with information about public libraries in the Netherlands)
 * [Literatuurplein.nl](https://github.com/ookgezellig/SaveToWaybackMachine/tree/master/Literatuurplein)
 * kb.nl : todo
