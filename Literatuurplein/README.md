@@ -26,30 +26,32 @@ For readability the
 1. prefix *literatuurplein-* , the  
 2. suffix *(_03122019)*, the datestamp when the file was created, anf the
 3. file extension (*.xlsx* / *.tsv*)
-are omitted from the filenames below 
+are omitted from the filenames below
 
-* *adressenbank* : 
-* *boeken* : 
-* *canon* : 
-* *columns* : 
-* *evenementen* : 
-* *excursies* : 
-* *genres* : 
-* *interviews* : 
-* *leestips* : 
-* *nieuws* : 
-* *overige* : 
-* *personen-allen* : 
-* *personen-namen-datums-plaatsen* : 
-* *poezie* : 
-* *prijzen* : 
-* *prijzen-edities* : 
-* *prijzen-totaal* : 
-* *recensies* : 
-* *themas* : 
-* *trefwoorden* : 
-* *wereldkaart* : 
-* *zoeken* : 
+The number behind the filename is the number of URLs captured (= number of rows in the Excel)
+
+* *[adressenbank](literatuurplein-adressenbank_03122019.tsv)* (3.464) : Names and adresses of literary organisations (publishers, book sellers, libraries, reading clubs etc.). Mainly in the Netherlands, sortable by province. Some in Belgium and Europe.
+* *[boeken](literatuurplein-boeken_06122019.tsv)* () : 
+* *[canon](literatuurplein-canon_28112019.tsv)* () : 
+* *[columns](literatuurplein-columns_06122019.tsv)* () : 
+* *[evenementen](literatuurplein-evenementen_06122019.tsv)* () : 
+* *[excursies](literatuurplein-excursies_28112019.tsv)* () : 
+* *[genres](literatuurplein-genres_06122019.tsv)* () :
+* *[interviews](literatuurplein-interviews_28112019.tsv)* () :
+* *[leestips](literatuurplein-leestips_06122019.tsv)* () :
+* *[nieuws](literatuurplein-nieuws_06122019.tsv)* () :
+* *[overige](literatuurplein-overige_06122019.tsv)* () : 
+* *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* () :
+* *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* () :
+* *[poezie](literatuurplein-poezie_29112019.tsv)* () :
+* *[prijzen](literatuurplein-prijzen_06122019.tsv)* () : 
+* *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)* () :
+* *[prijzen-totaal](literatuurplein-prijzen-totaal_17122019.tsv)* () :
+* *[recensies](literatuurplein-recensies_28112019.tsv)* () :
+* *[themas](literatuurplein-themas_06122019.tsv)* () :
+* *[trefwoorden](literatuurplein-trefwoorden_06122019.tsv)* () :
+* *[wereldkaart](literatuurplein-wereldkaart_06122019.tsv)* () : 
+* *[zoeken](literatuurplein-zoeken_06122019.tsv)* () : 
 
 ## Process
 
