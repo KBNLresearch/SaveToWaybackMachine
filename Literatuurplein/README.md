@@ -31,7 +31,7 @@ are omitted from the filenames below
 The number behind the filename is the number of URLs captured (= number of rows in the Excel)
 
 * *[adressenbank](literatuurplein-adressenbank_03122019.tsv)* (3.464) : Names and adresses of literary organisations (publishers, book sellers, libraries, reading clubs etc.). Mainly in the Netherlands, sortable by province. Some in Belgium and Europe.
-* *[boeken](literatuurplein-boeken_06122019.tsv)* () : 
+* *[boeken](literatuurplein-boeken_06122019.tsv)* (16.677) : Details (descriptive metadata) about books. No explicit titles of authors provided.
 * *[canon](literatuurplein-canon_28112019.tsv)* () : 
 * *[columns](literatuurplein-columns_06122019.tsv)* () : 
 * *[evenementen](literatuurplein-evenementen_06122019.tsv)* () : 
