@@ -11,7 +11,7 @@ To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purp
   - *LiteratuurpleinURL* : URL of the orginal page on literatuurplein.nl
   - *LiteratuurpleinArchiefURL* : WBM URL of the page , starting with *http://web.archive.org/web/*
   - *ArchiefURLStatusCheck-datestamp* : HTTP response status code of the WBM page at the given datestamp, indicating if that page can be requested without issues. Status 200 = OK.
-  - *Klik* : Clicking on this will open the archived page in a browser
+  - *Klik* : Clicking on this will open the archived page in a browser.
 * Additionaly, some Excels contain extra columns, including unique IDs, page titles, person names, places or dates.
 * For every .xlsx there is a .tsv (tab separated value) in Unicode UTF-8. This can be readily imported/exported to other data formats.
 * One page can be available under multiple URLs, e.g. in the file *[literatuurplein-adressenbank_03122019.tsv](literatuurplein-adressenbank_03122019.tsv)* there are three lines for *55	Ambo|Anthos uitgevers, Herengracht 499, Amsterdam	Noord-Holland*, as this page was available under 3 distinct URLs	
@@ -19,15 +19,14 @@ To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purp
   - https://www.literatuurplein.nl/detail/organisatie/ambo-anthos-uitgevers/55
   - https://www.literatuurplein.nl/organisatie.jsp?orgId=55   
   Because I archived URLs, *not* pages, this also means that this page has been archived under three distinct WBM URLs. 
-* No overall file list is provided, you'll need to create that yourself from the individual .xlsx/.tsv files if you need it
+* No overall file list is provided, you'll need to compose that yourself from the individual .xlsx/.tsv files if you need it.
 
-Short descriopto per file, type of content
-
-for readability the 
--prefix *literatuurplein-* is omitted
--suffix *(_03122019)*, the datestamp when the file was created, and
--the file extension (*.xlsx* / *.tsv*)
-are also omitted 
+## Short description per file
+For readability the 
+1. prefix *literatuurplein-*,  
+2. suffix *(_03122019)*, the datestamp when the file was created, and 
+3. file extension (*.xlsx* / *.tsv*)
+are omitted from the filenames below 
 
 * *adressenbank* : 
 * *boeken* : 
