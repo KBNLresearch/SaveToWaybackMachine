@@ -65,25 +65,25 @@ Obviously, more Literatuurplein URLs than are listed in these files are (likely 
 ## Data sources
 The data to make the above files was obtained from 3 sources:
 
-1) *Most relevant subsites* of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/): Page URLs and page content under the menu items *Nieuws - Columns - Interviews - Literaire prijzen - Recensies - Canon - Excursies - Poezie - Literaire adressen*, obtained via webscraping.
-2) *Most visited pages*: URLs of pages that were requested 30 or more times over the last 5 years, obtained via Google Analytics. 
-3) *Persons data dump* from the Literatuurplein CMS, containing the names, dates of birth & death and places of birth & death of 10.027 persons (mainly authors).
+1) *Most relevant subsites* of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/) : Page URLs and page content under the menu items *Nieuws - Columns - Interviews - Literaire prijzen - Recensies - Canon - Excursies - Poezie - Literaire adressen*, obtained via webscraping.
+2) *Most visited pages* : URLs of pages that were requested 30 or more times over the last 5 years, obtained via Google Analytics. 
+3) *Persons data* : A data dump from the Literatuurplein CMS, containing the names, dates of birth & death and places of birth & death of 10.027 persons (mainly authors).
 
 ## Steps taken 
 1) For webscraping source 1 I used the [Chrome-plugin](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=en) of [Webscraper.io](https://webscraper.io/). With this tool you can specify which page URLs and HTML-elements (title, headers, bullet lists etc) you want to extract from a website. The result can be downloaded as a csv file for futher processing in Excel.
 
 2) To get the URLs of the most visited pages (source 2), I used Google Analytics. This were 32K URLs in total, out of a total of 964K pages that were requested in that time period (extreme long tail distribution).  
 
-3) In the [data dump](archive/literatuurplein-personen-oorspronkelijk_SophieHam_07112019.csv) (source 3) I transfomed the ID in column 1 (e.g. **161934**) into a Leesplein URL (https://www.literatuurplein.nl/persdetail?persId=**161934**). This data dump ended up in *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* and *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* 
+3) In the [data dump](archive/literatuurplein-personen-oorspronkelijk_SophieHam_07112019.csv) (source 3) I transfomed the ID in column 1 (e.g. 161934) into a Leesplein URL (https://www.literatuurplein.nl/persdetail?persId=161934). This data dump ended up in *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* and *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* 
 
 4) I combined these three lists of URLs into a single list and did some deduplication (using Excel) to avoid any overlap, as the three sources are not necessarily disjunct.
 
-5) Using the [url-status-checker.py](scripts/url-status-checker/url-status-checker.py) script I checked if all the Literatuurplein URLs actually worked (=status 200). Tis took many hours. I deleted the URLs giving 404s or other errors from the list.
+5) Using the [url-status-checker.py](scripts/url-status-checker/url-status-checker.py) script I checked if all the Literatuurplein URLs actually worked (= status 200). This took many hours. I deleted the URLs giving 404s or other errors.
 
 6) Once all the preparations were done, it was now time to actually archive all URLs to the Wayback Machine. For that I ran [SaveLiteratuurpleinToWaybackMachine.py](scripts/wbm-archiver/SaveLiteratuurpleinToWaybackMachine.py). This was not a 100% process, some URLs could not be captured correctly by the WBM and were thus omitted from further processing.
 
-7) To make sure all generated WBM URLs actually work, I again ran [url-status-checker.py](scripts/url-status-checker/url-status-checker.py), but now with the archived URLs as input. This took many hours again. I deleted the URLs giving 404s or other errors.
+7) To make sure all generated WBM URLs actually work, I again ran [url-status-checker.py](scripts/url-status-checker/url-status-checker.py), but now with the archived URLs as input. Once again this took many hours. I deleted the URLs giving 404s or other errors.
 
-8) For improved overview I split up the URLs list into 22 categories, according to the file listing above.
+8) For improved overview I split up URLs list into 22 Excels, according to the file listing above.
 
 9) I converted all Excels into open .tsv (tab separated value) files in plain text Unicode UTF-8. These can be readily imported/exported to other data formats.
