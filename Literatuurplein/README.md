@@ -1,4 +1,5 @@
 # Saving Literatuurplein.nl to the Wayback Machine
+*Latest update: 20-12-2019*
 
 <image src="images/literatuurplein-homepage_04122019.JPG" width="500"/><br clear="all"/>
 
