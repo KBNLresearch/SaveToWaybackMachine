@@ -53,26 +53,25 @@ The number behind the filename is the number of URLs captured (= number of rows 
 * *[wereldkaart](literatuurplein-wereldkaart_06122019.tsv)* () : 
 * *[zoeken](literatuurplein-zoeken_06122019.tsv)* () : 
 
-## Process
+Obviously, more Literatuurplein URLs than are listed in these files are (likely to be) available in the WBM. This is because apart from the *active* archiving effort described here, the WMB crawler/archiver has visited the site over its lifetime, thus archiving pages for many years (we could call this *passive* archiving).   
 
-I actively archived
+## Data sources
+The data to make the above files was obtained from 3 sources:
 
-1) Pages under the following menu items of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/)
-* Nieuws - Columns
-* Interviews - Literaire prijzen
-* Recensies
-* Canon - Excursies - Poezie
-* Literaire adressen
+1) *Most relevant subsites* of [www.literatuurplein.nl](https://web.archive.org/web/20191125105524/https://www.literatuurplein.nl/): Page URLs and page content under the menu items *Nieuws - Columns - Interviews - Literaire prijzen - Recensies - Canon - Excursies - Poezie - Literaire adressen* of  were extracted using webscraping.
 
-2) Pages that were requested 30 or more times over the last 5 years. This were 32K pages in total, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
+2) *Google Analytics*: URLs of pages that were requested 30 or more times over the last 5 years were extracted from Google Analytics. This were 32K URLs in total, out of a total of 964K pages that were requested in that time period (extreme long tail distribution)  
 
-3) A dump of the CMS with approx 10K person (mainly authors) (map "Archive")
+3) *[Data dump](archive/literatuurplein-personen-oorspronkelijk_SophieHam_07112019.csv)* from the Literatuurplein CMS,  containing names, dates of birth & death and places of birth & death of 10.027 persons (mainly authors).
 
 
 ## Steps taken 
 1) to extact urls the pages in the first group, using the [Chrome-plugin](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=en) of [Webscraper.io](https://webscraper.io/)
 
 2) to extact urls the pages in the second group, extracted an [input list of xxx URLs](Input-Literatuurplein_TeArchiverenURLs.txt) from Google Analytics. 
+
+For instance, from the ID in column 1 (**161934**) we we able to construct a Leesplein URL (https://www.literatuurplein.nl/persdetail?persId=**161934**) which we then sent to the WBM (http://web.archive.org/web/20191204192638/https://www.literatuurplein.nl/persdetail?persId=**161934**). This data dump ended up in *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* and *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* 
+
 
 3) Combined both url lists and did deduplication to avoid overlap
 
