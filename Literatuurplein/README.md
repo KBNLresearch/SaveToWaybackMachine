@@ -23,8 +23,8 @@ To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purp
 
 ## Short description per file
 For readability the 
-1. prefix *literatuurplein-*,  
-2. suffix *(_03122019)*, the datestamp when the file was created, and 
+1. prefix *literatuurplein-* , the  
+2. suffix *(_03122019)*, the datestamp when the file was created, anf the
 3. file extension (*.xlsx* / *.tsv*)
 are omitted from the filenames below 
 
