@@ -5,13 +5,15 @@
 
 The site www.literatuurplein.nl has been phased out per 16 December 2019. 
 
-To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, I submitted copies of (=archived) its most relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
+To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, I submitted copies of (=archived) its most NNNNN relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
+
+The results of this archiving effort are listed in the .xlsx and .tsv files. 
 
 ## The data
 * Every Excel file contains 4 standard columns:
-  - *LiteratuurpleinURL* : URL of the page on literatuurplein.nl
+  - *LiteratuurpleinURL* : URL of the page on literatuurplein.nl. As this site has been phased out by now, these URLs are not accessible anymore)
   - *LiteratuurpleinArchiefURL* : WBM URL of the archived page , starting with *http://web.archive.org/web/*
-  - *ArchiefURLStatusCheck-datestamp* : [HTTP response status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of the WBM page, indicating if that page could be requested without issues at the given datestamp. Status 200 = OK.
+  - *ArchiefURLStatusCheck-datestamp* : [HTTP response status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of the WBM page, indicating if that page could be requested without issues at the given datestamp. All pages should have Status 200 = OK.
   - *Klik* : Clicking on this will open the archived page in a browser.
 * Additionaly, some Excels contain extra columns, including unique IDs, page titles, person names, places or dates.
 * For every .xlsx there is a .tsv (tab separated value) in plain text Unicode UTF-8. This can be readily imported/exported to other data formats.
@@ -25,15 +27,15 @@ To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purp
 ## Short description per file
 For readability the 
 1. prefix *literatuurplein-* , the  
-2. suffix *(_03122019)*, the datestamp when the file was created, anf the
+2. suffix *(_03122019)*, the datestamp when the file was created, and the
 3. file extension (*.xlsx* / *.tsv*)
 are omitted from the filenames below
 
-The number behind the filename is the number of URLs captured (= number of rows in the Excel)
+The number behind the filename is the number of URLs captured (= number of rows in the Excel -1)
 
 Persons
-* *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* () :
-* *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* () :
+* *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* (19.404) : Persons - mainly authors from the Netherlands, but also from abroad.  *Without* dates of birth & death and places of birth & death. Persons can occur more than once (as I archived URLs, *not* pages) 
+* *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* (11.598) : Subset of *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* containing only named persons. Persons occur only once. Additionally in many cases the dates of birth & death and places of birth & death are listed. The plan is to merge all these persons into Wikidata in the near future. 
 
 Literary prizes
 * *[prijzen](literatuurplein-prijzen_06122019.tsv)* () : 
