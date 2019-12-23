@@ -38,12 +38,12 @@ Persons
 * *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* (11.598) : Subset of *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* containing only named persons. Persons occur only once. Additionally in many cases the dates of birth & death and places of birth & death are listed. The plan is to merge all these persons into Wikidata in the near future. 
 
 Literary prizes
-* *[prijzen](literatuurplein-prijzen_06122019.tsv)* () : 
-* *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)* () :
-* *[prijzen-totaal](literatuurplein-prijzen-totaal_17122019.tsv)* () :
+* *[prijzen](literatuurplein-prijzen_06122019.tsv)* (243) : Literay awards in the Netherlands and Flanders. Individual editions on these awards are listed in *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)*.
+* *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)* (2.347) : Editions of literay awards in the Netherlands and Flanders.
+* *[prijzen-totaal](literatuurplein-prijzen-totaal_17122019.tsv)* (2.032) : Combined deduplicated listing of both awards and editions.
 
 Books
-* *[boeken](literatuurplein-boeken_06122019.tsv)* (16.677) : Details (descriptive metadata) about books. No explicit titles of authors provided.
+* *[boeken](literatuurplein-boeken_06122019.tsv)* (16.677) : Descritions (metadata) of books. No explicit titles of authors provided.
 
 Other
 * *[adressenbank](literatuurplein-adressenbank_03122019.tsv)* (3.464) : Names and adresses of literary organisations (publishers, book sellers, libraries, reading clubs etc.). Mainly in the Netherlands, sortable by province. Some in Belgium and Europe.
@@ -75,7 +75,7 @@ The data to make the above files was obtained from 3 sources:
 ## Steps taken 
 1) For webscraping source 1 I used the [Chrome-plugin](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=en) of [Webscraper.io](https://webscraper.io/). With this tool you can specify which page URLs and HTML-elements (title, headers, bullet lists etc) you want to extract from a website. The result can be downloaded as a csv file for futher processing in Excel.
 
-2) To get the URLs of the most visited pages (source 2), I used Google Analytics. This were 32K URLs in total, out of a total of 964K pages that were requested in that time period (extreme long tail distribution).  
+2) To get the URLs of the most visited pages (source 2), I used Google Analytics. This were 32K URLs in total, out of a total of 964K URLs that were requested in that time period (extreme long tail distribution).  
 
 3) In the [data dump](archive/literatuurplein-personen-oorspronkelijk_SophieHam_07112019.csv) (source 3) I transfomed the ID in column 1 (e.g. 161934) into a Leesplein URL (https://www.literatuurplein.nl/persdetail?persId=161934). This data dump ended up in *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* and *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* 
 
