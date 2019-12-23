@@ -11,7 +11,7 @@ The results of this archiving effort are listed in the .xlsx and .tsv files.
 
 ## The data
 * Every Excel file contains 4 standard columns:
-  - *LiteratuurpleinURL* : URL of the page on literatuurplein.nl. As this site has been phased out by now, these URLs are not accessible anymore)
+  - *LiteratuurpleinURL* : URL of the page on literatuurplein.nl. As this site has been phased out by now, these URLs are not accessible anymore.
   - *LiteratuurpleinArchiefURL* : WBM URL of the archived page , starting with *http://web.archive.org/web/*
   - *ArchiefURLStatusCheck-datestamp* : [HTTP response status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of the WBM page, indicating if that page could be requested without issues at the given datestamp. All pages should have Status 200 = OK.
   - *Klik* : Clicking on this will open the archived page in a browser.
@@ -38,7 +38,7 @@ Persons
 * *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* (11.598) : Subset of *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* containing only named persons. Persons occur only once. Additionally in many cases the dates of birth & death and places of birth & death are listed. The plan is to merge all these persons into Wikidata in the near future. 
 
 Literary prizes
-* *[prijzen](literatuurplein-prijzen_06122019.tsv)* (243) : [Literay awards](https://web.archive.org/web/20191129220242/https://www.literatuurplein.nl/litprijzen) in the Netherlands and Flanders. Individual editions on these awards are listed in *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)*.
+* *[prijzen](literatuurplein-prijzen_06122019.tsv)* (243) : [Literary awards](https://web.archive.org/web/20191129220242/https://www.literatuurplein.nl/litprijzen) in the Netherlands and Flanders. Individual editions on these awards are listed in *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)*.
 * *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)* (2.347) : Editions of literay awards in the Netherlands and Flanders.
 * *[prijzen-totaal](literatuurplein-prijzen-totaal_17122019.tsv)* (2.032) : Combined deduplicated listing of both awards and editions.
 
