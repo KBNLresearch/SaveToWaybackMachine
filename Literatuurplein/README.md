@@ -5,7 +5,7 @@
 
 The site www.literatuurplein.nl has been phased out per 16 December 2019. 
 
-To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, I submitted copies of (=archived) its most NNNNN relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
+To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, I submitted copies of (=archived) its most relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
 
 The results of this archiving effort are listed in the .xlsx and .tsv files. 
 
@@ -38,30 +38,30 @@ Persons
 * *[personen-namen-datums-plaatsen](literatuurplein-personen-namen-datums-plaatsen_19122019.tsv)* (11.598) : Subset of *[personen-allen](literatuurplein-personen-allen_19122019.tsv)* containing only named persons. Persons occur only once. Additionally in many cases the dates of birth & death and places of birth & death are listed. The plan is to merge all these persons into Wikidata in the near future. 
 
 Literary prizes
-* *[prijzen](literatuurplein-prijzen_06122019.tsv)* (243) : Literay awards in the Netherlands and Flanders. Individual editions on these awards are listed in *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)*.
+* *[prijzen](literatuurplein-prijzen_06122019.tsv)* (243) : [Literay awards](https://web.archive.org/web/20191129220242/https://www.literatuurplein.nl/litprijzen) in the Netherlands and Flanders. Individual editions on these awards are listed in *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)*.
 * *[prijzen-edities](literatuurplein-prijzen-edities_06122019.tsv)* (2.347) : Editions of literay awards in the Netherlands and Flanders.
 * *[prijzen-totaal](literatuurplein-prijzen-totaal_17122019.tsv)* (2.032) : Combined deduplicated listing of both awards and editions.
 
 Books
 * *[boeken](literatuurplein-boeken_06122019.tsv)* (16.677) : Descritions (metadata) of books. No explicit titles of authors provided.
+* *[canon](literatuurplein-canon_28112019.tsv)* (3.006) : Book titles related to the 50 topics in the [canon of Dutch history](http://web.archive.org/web/20191128080343/https://www.literatuurplein.nl/canonoverzicht).
+* *[wereldkaart](literatuurplein-wereldkaart_06122019.tsv)* (680) : Books titles related to certain [locations on the world map] (http://web.archive.org/web/20191130202911/https://www.literatuurplein.nl/wereldkaart).
+* *[trefwoorden](literatuurplein-trefwoorden_06122019.tsv)* (439) : Books titles related to certain keywords.
+* *[genres](literatuurplein-genres_06122019.tsv)* (43) : Book titles according to literary genre.
 
-Other
-* *[adressenbank](literatuurplein-adressenbank_03122019.tsv)* (3.464) : Names and adresses of literary organisations (publishers, book sellers, libraries, reading clubs etc.). Mainly in the Netherlands, sortable by province. Some in Belgium and Europe.
-* *[canon](literatuurplein-canon_28112019.tsv)* () : 
-* *[columns](literatuurplein-columns_06122019.tsv)* () : 
-* *[evenementen](literatuurplein-evenementen_06122019.tsv)* () : 
-* *[excursies](literatuurplein-excursies_28112019.tsv)* () : 
-* *[genres](literatuurplein-genres_06122019.tsv)* () :
-* *[interviews](literatuurplein-interviews_28112019.tsv)* () :
-* *[leestips](literatuurplein-leestips_06122019.tsv)* () :
-* *[nieuws](literatuurplein-nieuws_06122019.tsv)* () :
-* *[overige](literatuurplein-overige_06122019.tsv)* () : 
-* *[recensies](literatuurplein-recensies_28112019.tsv)* () :
-* *[themas](literatuurplein-themas_06122019.tsv)* () :
-* *[trefwoorden](literatuurplein-trefwoorden_06122019.tsv)* () :
-* *[wereldkaart](literatuurplein-wereldkaart_06122019.tsv)* () : 
-* *[zoeken](literatuurplein-zoeken_06122019.tsv)* () : 
-* *[poezie](literatuurplein-poezie_29112019.tsv)* () :
+Other 
+* *[nieuws](literatuurplein-nieuws_06122019.tsv)* (4.793) : [Literary news archive](http://web.archive.org/web/20191129220520/https://www.literatuurplein.nl/nieuwsarchief).
+* *[adressenbank](literatuurplein-adressenbank_03122019.tsv)* (3.464) : [Names and adresses of literary organisations](https://web.archive.org/web/20191125105546/https://www.literatuurplein.nl/adressenbank) (publishers, book sellers, libraries, reading clubs etc.). Mainly in the Netherlands, sortable by province. Some in Belgium and Europe.
+* *[recensies](literatuurplein-recensies_28112019.tsv)* (1.982) : [Reviews](http://web.archive.org/web/20191130191607/https:/www.literatuurplein.nl/recensies) of literary publications.
+* *[excursies](literatuurplein-excursies_28112019.tsv)* (464) : [Literary excursions](http://web.archive.org/web/20191129212445/https://www.literatuurplein.nl/excursies) to cities, towns and villages in the Netherlands and abroad.
+* *[evenementen](literatuurplein-evenementen_06122019.tsv)* (247) : Events from the literary agenda.
+* *[interviews](literatuurplein-interviews_28112019.tsv)* (364) : [Interviews](http://web.archive.org/web/20191129213127/https://www.literatuurplein.nl/interviews) with Dutch and foreign authors. Inludes full-texts of the interviews.
+* *[leestips](literatuurplein-leestips_06122019.tsv)* (64) : [Reading tips](http://web.archive.org/web/20191129213154/https://www.literatuurplein.nl/leestips_overzicht).
+* *[poezie](literatuurplein-poezie_29112019.tsv)* (44) : Profiles of 21 Dutch and Belgium [poets](http://web.archive.org/web/20191130174929/https://www.literatuurplein.nl/poezieoverzicht)
+* *[columns](literatuurplein-columns_06122019.tsv)* (36) : [Literary columns](http://web.archive.org/web/20191128080421/https://www.literatuurplein.nl/columns).
+* *[themas](literatuurplein-themas_06122019.tsv)* (18) : Pages related to certain themes.
+* *[zoeken](literatuurplein-zoeken_06122019.tsv)* (51) : Pages related to simple and advanced search. 
+* *[overige](literatuurplein-overige_06122019.tsv)* (16) : Pages like Sitemap, Contact, Disclaimer, Colophon etc.
 
 Obviously, more Literatuurplein URLs than are listed in these files are (likely to be) available in the WBM. This is because apart from the *active* archiving effort described here, the WMB crawler/archiver has visited the site over its lifetime, thus archiving pages for many years (we could call this *passive* archiving).   
 
