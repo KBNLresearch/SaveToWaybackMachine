@@ -14,23 +14,66 @@ breadcrumb:
 
 <img src="images/homepage.png" width="500"/><br clear="all"/>
 
-## Wayback Machine screenshots
-
-| Homepage | Collections | Highlights |
-|:--------:|:-----------:|:----------:|
-| <img src="images/wbm_homepage.png" width="280"/> | <img src="images/collections-index.png" width="280"/> | <img src="images/highlights-index.png" width="280"/> |
-
-| Literature | Research & Education | About |
-|:----------:|:--------------------:|:-----:|
-| <img src="images/literature-index.png" width="280"/> | <img src="images/research-education-index.png" width="280"/> | <img src="images/about.png" width="280"/> |
-
 ## About
 
-[mmdc.nl](https://mmdc.nl/) — the **Medieval Manuscripts Digital Collection** of the KB, National Library of the Netherlands — was scheduled to be phased out on **15 December 2025**.
+[mmdc.nl](https://mmdc.nl/) — the **Medieval Manuscripts in Dutch Collections** of the KB, National Library of the Netherlands — was scheduled to be phased out on **15 December 2025**.
 
 To preserve its content, its URLs (static pages, catalog records, PDFs and images) were submitted to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during **December 2025**. In addition, a full local rendering of the site was produced, because the catalog pages are JavaScript-rendered and the WBM capture alone does not always reproduce them faithfully.
 
-The results are listed in [`mmdc-urls-unified_15042026.xlsx`](mmdc-urls-unified_15042026.xlsx).
+## URL spreadsheet
+
+The results are listed in [`mmdc-urls-unified_15042026.xlsx`](mmdc-urls-unified_15042026.xlsx). See the [URL spreadsheet page](url-spreadsheet.md) for a full description of the three sheets and every column.
+
+## Before / after: original site vs. Wayback Machine capture
+
+Each pair shows the live mmdc.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top).
+
+### Homepage
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/homepage.png" width="380"/> | <img src="images/wbm_homepage.png" width="380"/> |
+| [`https://mmdc.nl/`](https://mmdc.nl/) | [WBM capture](https://web.archive.org/web/20251214093310/https://mmdc.nl/) |
+
+### Collections
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/collections-index.png" width="380"/> | <img src="images/wbm_collections-index.png" width="380"/> |
+| [`https://mmdc.nl/static/site/collections/index.html`](https://mmdc.nl/static/site/collections/index.html) | [WBM capture](https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html) |
+
+### Highlights
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/highlights-index.png" width="380"/> | <img src="images/wbm_highlights-index.png" width="380"/> |
+| [`https://mmdc.nl/static/site/highlights/index.html`](https://mmdc.nl/static/site/highlights/index.html) | [WBM capture](https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html) |
+
+### Literature
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/literature-index.png" width="380"/> | <img src="images/wbm_literature-index.png" width="380"/> |
+| [`https://mmdc.nl/static/site/literature/index.html`](https://mmdc.nl/static/site/literature/index.html) | [WBM capture](https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html) |
+
+### Research & Education
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/research-education-index.png" width="380"/> | <img src="images/wbm_research-education-index.png" width="380"/> |
+| [`https://mmdc.nl/static/site/research_and_education/palaeography/index.html`](https://mmdc.nl/static/site/research_and_education/palaeography/index.html) | [WBM capture](https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html) |
+
+### About
+| Original (defunct) | Wayback Machine |
+|:------------------:|:---------------:|
+| <img src="images/about.png" width="380"/> | <img src="images/wbm_about.png" width="380"/> |
+| [`https://mmdc.nl/static/site/about/index.html`](https://mmdc.nl/static/site/about/index.html) | [WBM capture](https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html) |
+
+## Catalog pages in the Wayback Machine
+
+The 11,738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. Because the original live pages were rendered client-side, no comparable "before" screenshot of the original URL could be captured — only the archived version is shown below.
+
+| catalog-page-2 | catalog-page-500 | catalog-page-5000 |
+|:--------------:|:----------------:|:-----------------:|
+| <img src="images/wbm_catalog-page-2.png" width="280"/> | <img src="images/wbm_catalog-page-500.png" width="280"/> | <img src="images/wbm_catalog-page-5000.png" width="280"/> |
+| *Tongeren fragments / Usuard* | *Book of hours* | *Lectionary* |
+| Original (defunct): [`…detail.html?recordId=2`](https://mmdc.nl/static/site/search/detail.html?recordId=2#r2) | Original (defunct): [`…detail.html?recordId=500`](https://mmdc.nl/static/site/search/detail.html?recordId=500#r500) | Original (defunct): [`…detail.html?recordId=5000`](https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000) |
+| [WBM capture](https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html) | [WBM capture](https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html) | [WBM capture](https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html) |
 
 ## Statistics
 
