@@ -12,6 +12,12 @@ breadcrumb:
 Browse all websites archived by KB to the Wayback Machine.
 
 <div class="nav-cards">
+  <a href="mmdc.nl/" class="nav-card">
+    <img src="mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
+    <h3>mmdc.nl</h3>
+    <p>Medieval Manuscripts Digital Collection - 429 URLs archived, 11,738 catalog pages rendered locally</p>
+    <span class="archive-date">Dec 2025</span>
+  </a>
   <a href="kb.nl/" class="nav-card">
     <img src="kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>

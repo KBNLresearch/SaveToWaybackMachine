@@ -2,7 +2,6 @@
 layout: default
 title: Sitemap
 ---
-
 [← Back to Home](./)
 
 # Sitemap
@@ -27,6 +26,7 @@ Complete overview of all pages on this site.
 
 | Site | Page | URLs Archived |
 |------|------|---------------|
+| [mmdc.nl](./archived-sites/mmdc.nl/) | Medieval Manuscripts Digital Collection | 429 (+ 11,738 local) |
 | [kb.nl](./archived-sites/kb.nl/) | KB National Library | 7,633 |
 | ├─ [24122021/](./archived-sites/kb.nl/24122021/) | Old site (Dec 2021) | 5,719 |
 | └─ [23032022/](./archived-sites/kb.nl/23032022/) | New site (Mar 2022) | 1,914 |
