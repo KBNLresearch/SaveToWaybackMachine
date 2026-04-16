@@ -16,6 +16,12 @@ Some websites managed by the KB have been discontinued. To preserve their conten
 ## Browse archived sites
 
 <div class="nav-cards">
+  <a href="archived-sites/mmdc.nl/" class="nav-card">
+    <img src="archived-sites/mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
+    <h3>Medieval Manuscripts in Dutch Collections</h3>
+    <p>mmdc.nl — 12,205 URLs archived (317 static pages, 112 PDFs, 38 assets, 11,738 manuscript catalog records)</p>
+    <span class="archive-date">Dec 2025 & Apr 2026</span>
+  </a>
   <a href="archived-sites/kb.nl/" class="nav-card">
     <img src="archived-sites/kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>
