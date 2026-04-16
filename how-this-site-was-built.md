@@ -15,6 +15,7 @@ This GitHub Pages site was created in multiple intensive sessions on December 2-
 
 - [Timeline overview](#timeline-overview)
 - [Development phases](#development-phases)
+- [April 2026: mmdc.nl catalog pages submitted to WBM](#april-2026-mmdcnl-catalog-pages-submitted-to-wbm)
 - [Major achievement: AI vision recognition](#major-achievement-ai-vision-recognition)
 - [KB huisstijl implementation](#kb-huisstijl-implementation)
 - [Accessibility, privacy & licensing](#compliance--accessibility)
@@ -34,7 +35,8 @@ This GitHub Pages site was created in multiple intensive sessions on December 2-
 | [Bug fixes & polish](#phase-5-bug-fixes--polish-dec-2-session-1) | Dec 2 | (session 1) | 48m | 5 |
 | [KB huisstijl & compliance](#phase-6-kb-huisstijl--compliance-dec-3-session-2) | Dec 3 | (session 2) | ~2h | 6 |
 | [Code organization & footer redesign](#phase-7-code-organization--footer-redesign-dec-3-session-2) | Dec 3 | (session 2) | ~1h | 4 |
-| **Total** | | | **~10 hours** | **33 commits** |
+| [mmdc.nl catalog WBM submissions](#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) | Apr 2–11, 2026 | (7 active days) | ~6 calendar days of wall-clock submission time | — |
+| **Total** | | | **~10 hours** (+ catalog run) | **33 commits** |
 
 ---
 
@@ -178,6 +180,38 @@ This GitHub Pages site was created in multiple intensive sessions on December 2-
 
 ---
 
+## April 2026: mmdc.nl catalog pages submitted to WBM
+
+After the initial December 2025 WBM submissions covered the 317 static HTML pages, 112 PDFs and 38 static-asset images of [mmdc.nl](archived-sites/mmdc.nl/), the remaining 11,738 JavaScript-rendered **catalog pages** still could not be captured by the Wayback Machine directly — the live URLs returned an empty `<div id="recordDetail">` shell. Once each record had been rendered into a self-contained static HTML file (see [the catalog rendering write-up](archived-sites/mmdc.nl/#why-the-catalog-pages-needed-local-rendering-first)), the pre-rendered files were uploaded to a temporary public path `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the WBM's Save Page Now API in a sequential run.
+
+### Submission timeline (from `WBM_Timestamp_submission` in the Excel)
+
+All 11,738 `catalog-pages` rows in [`mmdc-urls-unified_15042026.xlsx`](archived-sites/mmdc.nl/mmdc-urls-unified_15042026.xlsx) carry a WBM submission timestamp. Aggregated by day:
+
+| Date (UTC) | Catalog pages submitted | First submission | Last submission |
+|------------|------------------------:|:----------------:|:---------------:|
+| 2026-04-02 | 361 | 14:36:53 | 23:59:41 |
+| 2026-04-03 | 2,911 | 00:00:04 | 23:59:52 |
+| 2026-04-04 | 2,921 | 00:00:23 | 23:59:26 |
+| 2026-04-05 | 2,453 | 00:00:02 | 23:03:37 |
+| 2026-04-06 | 1,083 | 11:09:14 | 23:59:47 |
+| 2026-04-07 | 1,929 | 00:00:22 | 13:50:53 |
+| 2026-04-11 | 80 (retry) | 17:10:07 | 17:44:21 |
+| **Total** | **11,738** | **2026-04-02 14:36:53** | **2026-04-11 17:44:21** |
+
+### What the timestamps tell us
+
+- **Overall window:** submissions ran almost non-stop from the afternoon of April 2 until midday April 7, with the retry pass on April 11 picking up the 80 records that had failed on the first pass.
+- **Steady throughput:** on the four full days (Apr 3–6) the pipeline averaged roughly **2,000–3,000 submissions/day**, or one submission every ~30–40 seconds — the pacing imposed by Save Page Now to avoid being rate-limited. The shorter ramps on April 2 (started 14:36) and April 7 (stopped 13:50) are consistent with a multi-session manual-kickoff operation rather than a single cron run.
+- **April 8–10 gap:** no catalog submissions happened on April 8, 9, or 10. These days were used to run WBM CDX queries to verify that the first 11,658 submissions had been indexed, and to identify the 80 URLs that needed a retry.
+- **April 11 cleanup pass:** a tight 34-minute run (17:10 → 17:44, 80 submissions) finished the last batch — exactly the pattern expected when a small list of failures is re-submitted one-by-one with no pacing issues.
+
+The matching `WBM_Timestamp_capture` column in the same sheet (which holds the *latest* snapshot the CDX API reports for each URL) shows that in every case the Wayback Machine subsequently indexed the submission successfully — see the [catalog-page-2 / 500 / 5000 examples](archived-sites/mmdc.nl/#catalog-pages-in-the-wayback-machine) on the mmdc.nl page.
+
+Scripts that drove the run: `archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog.py` (initial submission), `fetch_actual_wbm_timestamps.py` (CDX verification), and `scripts/wbm-archiver/SaveToWBM_mmdc_rerun.py` (April 11 retry).
+
+---
+
 ## Major achievement: AI vision recognition
 
 ### The breakthrough
@@ -200,6 +234,9 @@ Claude Opus 4.5 used its native vision capabilities to:
 4. **Generate meaningful captions** in Dutch and Frisian
 
 ### Results
+
+![Annotated LezenVoorDeLijst screenshot: the generic gallery caption "Pagina 104937" at the bottom of the image is circled in red, and the actual page title "Training verplaatst, nog plaatsen vrij" at the top is also circled — showing what the vision model read to replace the meaningless caption.](assets/images/ai-vision-example-annotated.png)
+*Example: the AI read the page title "Training verplaatst" directly from the screenshot to replace the generic "Pagina 104937" caption — the first row in the table below.*
 
 | Site | Old caption | New caption (from vision) |
 |------|-------------|---------------------------|
