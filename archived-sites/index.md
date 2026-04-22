@@ -9,19 +9,19 @@ breadcrumb:
 
 # Archived sites
 
-Browse all websites archived by KB to the Wayback Machine.
+Browse all websites archived by KB, national library of the Netherlands, into to the Wayback Machine.
 
 <div class="nav-cards">
   <a href="mmdc.nl/" class="nav-card">
     <img src="mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
     <h3>mmdc.nl</h3>
-    <p>Medieval Manuscripts Digital Collection - 429 URLs archived, 11,738 catalog pages rendered locally</p>
-    <span class="archive-date">Dec 2025</span>
+    <p>Medieval Manuscripts in Dutch Collections - 12.204 URLs archived</p>
+    <span class="archive-date">Dec 2025 + April 2026</span>
   </a>
   <a href="kb.nl/" class="nav-card">
     <img src="kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>
-    <p>KB website archives - 7,633 URLs archived</p>
+    <p>KB website archives - 7.633 URLs archived</p>
     <span class="archive-date">Dec 2021 & Mar 2022</span>
   </a>
   <a href="Literatuurgeschiedenis.org/" class="nav-card">
@@ -33,7 +33,7 @@ Browse all websites archived by KB to the Wayback Machine.
   <a href="Literatuurplein/" class="nav-card">
     <img src="Literatuurplein/images/wbm_homepage.png" alt="Literatuurplein.nl screenshot">
     <h3>Literatuurplein.nl</h3>
-    <p>Comprehensive literary portal - 69,599 URLs archived</p>
+    <p>Comprehensive literary portal - 69.599 URLs archived</p>
     <span class="archive-date">Dec 2019</span>
   </a>
   <a href="GidsVoorNederland/" class="nav-card">
@@ -51,13 +51,20 @@ Browse all websites archived by KB to the Wayback Machine.
   <a href="LezenVoorDeLijst/" class="nav-card">
     <img src="LezenVoorDeLijst/images/wbm_homepage.png" alt="LezenVoorDeLijst.nl screenshot">
     <h3>LezenVoorDeLijst.nl</h3>
-    <p>Reading list portal - 12,456 URLs archived</p>
+    <p>Reading list portal - 12.456 URLs archived</p>
     <span class="archive-date">Aug 2018</span>
   </a>
   <a href="Leesplein/" class="nav-card">
     <img src="Leesplein/images/wbm_homepage.png" alt="Leesplein.nl screenshot">
     <h3>Leesplein.nl</h3>
-    <p>Children's reading portal - 23,784 URLs archived</p>
+    <p>Children's reading portal - 23.784 URLs archived</p>
     <span class="archive-date">Jun 2018</span>
   </a>
 </div>
+
+## KB's own web archive
+For websites archived in KB's own web archive, see https://kb.webarchief.online/. 
+
+<a href="https://kb.webarchief.online/" target="_blank" class="nav-card"><img src="../assets/images/kbwebarchief-home-screenshot-20260422.jpg" alt="KB's webarchief homepage screenshot"></a>
+
+

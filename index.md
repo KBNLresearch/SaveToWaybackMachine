@@ -68,21 +68,13 @@ Some websites managed by the KB have been discontinued. To preserve their conten
 
 ---
 
-## Scripts
-
-<div class="nav-cards">
-  <a href="scripts/wbm-archiver/" class="nav-card">
-    <h3>wbm-archiver</h3>
-    <p>Python script to save pages to the Wayback Machine or retrieve archived versions</p>
-  </a>
-</div>
-
----
 
 ## Quick reference
 
 | Site | Archive Date | URLs |
 |------|--------------|------|
+| [Medieval Manuscripts in Dutch Collections (catalog records)](archived-sites/mmdc.nl/) | Apr 2026 | 11,738 |
+| [Medieval Manuscripts in Dutch Collections (static pages, PDFs, assets)](archived-sites/mmdc.nl/) | Dec 2025 | 467 |
 | [kb.nl (new)](archived-sites/kb.nl/) | Mar 2022 | 1,914 |
 | [Literatuurgeschiedenis.org](archived-sites/Literatuurgeschiedenis.org/) | Mar 2022 | 464 |
 | [kb.nl (old)](archived-sites/kb.nl/) | Dec 2021 | 5,719 |
@@ -92,29 +84,3 @@ Some websites managed by the KB have been discontinued. To preserve their conten
 | [Lezenvoordelijst.nl](archived-sites/LezenVoorDeLijst/) | Aug 2018 | 12,456 |
 | [Leesplein.nl](archived-sites/Leesplein/) | Jun 2018 | 23,784 |
 
----
-
-## How this site was built
-
-This GitHub Pages site was created in multiple intensive sessions (~10 hours) on December 2-3, 2025, through collaboration between a human curator at the KB and **Claude Opus 4.5**, an AI assistant.
-
-### Development highlights
-
-1. **Repository reorganization** - Transformed flat folder structure into clean hierarchy
-2. **Screenshot galleries** - Captured 36 Wayback Machine screenshots using Python/Playwright
-3. **GitHub Pages** - Built responsive site with navigation, breadcrumbs, and lightbox
-4. **🎯 AI vision recognition** - Used multimodal AI to extract meaningful captions from screenshots
-
-### The AI vision breakthrough
-
-Generic captions like "Pagina 104937" and "Boek 277" were transformed into meaningful titles like "Training verplaatst" and "Annemarie Bon" by having the AI **visually read** each screenshot image and extract the actual page titles.
-
-📖 **[Read the full story →](how-this-site-was-built.md)**
-
-🗺️ **[View Sitemap](sitemap.md)**
-
----
-
-## License
-
-The source code and text content of this project are dedicated to the public domain under [CC0 1.0](LICENSE). For image credits and copyright information, see [compliance](compliance#image-credits--copyrights).
