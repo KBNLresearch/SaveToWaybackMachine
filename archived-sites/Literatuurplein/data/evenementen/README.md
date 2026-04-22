@@ -1,16 +1,17 @@
-# Evenementen
+# Literatuurplein - Evenementen
 
-## Data Files
+Events from the literary agenda.
 
-### literatuurplein-evenementen_06122019.tsv
+
+### Downloads
+
+* **TSV version:** [literatuurplein-evenementen_06122019.tsv](literatuurplein-evenementen_06122019.tsv)
+* **Excel version:** [literatuurplein-evenementen_06122019.xlsx](literatuurplein-evenementen_06122019.xlsx)
 
 | Property | Value |
 |----------|-------|
 | Rows | 247 |
-| Columns | 5 |
+| Datestamp | 06-12-2019 |
+| Columns (4) | • ID<br>• LiteratuurpleinURL<br>• LiteratuurpleinArchiefURL<br>• ArchiefURLStatusCheck-05122019 |
 | Encoding | UTF-8 |
-
-**Columns:** ID, LiteratuurpleinURL, LiteratuurpleinArchiefURL, ArchiefURLStatusCheck-05122019
-
-**Excel version:** [literatuurplein-evenementen_06122019.xlsx](literatuurplein-evenementen_06122019.xlsx)
 

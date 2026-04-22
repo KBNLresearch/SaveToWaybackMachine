@@ -1,16 +1,17 @@
-# Leestips
+# Literatuurplein - Leestips
 
-## Data Files
+[Reading tips](http://web.archive.org/web/20191129213154/https://www.literatuurplein.nl/leestips_overzicht).
 
-### literatuurplein-leestips_06122019.tsv
+
+### Downloads
+
+* **TSV version:** [literatuurplein-leestips_06122019.tsv](literatuurplein-leestips_06122019.tsv)
+* **Excel version:** [literatuurplein-leestips_06122019.xlsx](literatuurplein-leestips_06122019.xlsx)
 
 | Property | Value |
 |----------|-------|
 | Rows | 64 |
-| Columns | 6 |
+| Datestamp | 06-12-2019 |
+| Columns (4) | • ID<br>• LiteratuurpleinURL<br>• LiteratuurpleinArchiefURL<br>• ArchiefURLStatusCheck-07122019 |
 | Encoding | UTF-8 |
-
-**Columns:** ID, LiteratuurpleinURL, LiteratuurpleinArchiefURL, ArchiefURLStatusCheck-07122019
-
-**Excel version:** [literatuurplein-leestips_06122019.xlsx](literatuurplein-leestips_06122019.xlsx)
 

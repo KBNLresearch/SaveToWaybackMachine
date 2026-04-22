@@ -1,16 +1,17 @@
-# Genres
+# Literatuurplein - Genres
 
-## Data Files
+Book titles according to literary genre.
 
-### literatuurplein-genres_06122019.tsv
+
+### Downloads
+
+* **TSV version:** [literatuurplein-genres_06122019.tsv](literatuurplein-genres_06122019.tsv)
+* **Excel version:** [literatuurplein-genres_06122019.xlsx](literatuurplein-genres_06122019.xlsx)
 
 | Property | Value |
 |----------|-------|
 | Rows | 43 |
-| Columns | 4 |
+| Datestamp | 06-12-2019 |
+| Columns (3) | • LiteratuurpleinURL<br>• LiteratuurpleinArchiefURL<br>• ArchiefURLStatusCheck-07122019 |
 | Encoding | UTF-8 |
-
-**Columns:** LiteratuurpleinURL, LiteratuurpleinArchiefURL, ArchiefURLStatusCheck-07122019
-
-**Excel version:** [literatuurplein-genres_06122019.xlsx](literatuurplein-genres_06122019.xlsx)
 

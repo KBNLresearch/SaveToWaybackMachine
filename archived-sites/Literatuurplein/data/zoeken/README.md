@@ -1,16 +1,17 @@
-# Zoeken
+# Literatuurplein - Zoeken
 
-## Data Files
+Pages related to simple and advanced search.
 
-### literatuurplein-zoeken_06122019.tsv
+
+### Downloads
+
+* **TSV version:** [literatuurplein-zoeken_06122019.tsv](literatuurplein-zoeken_06122019.tsv)
+* **Excel version:** [literatuurplein-zoeken_06122019.xlsx](literatuurplein-zoeken_06122019.xlsx)
 
 | Property | Value |
 |----------|-------|
 | Rows | 51 |
-| Columns | 4 |
+| Datestamp | 06-12-2019 |
+| Columns (3) | • LiteratuurpleinURL<br>• LiteratuurpleinArchiefURL<br>• ArchiefURLStatusCheck-07122019 |
 | Encoding | UTF-8 |
-
-**Columns:** LiteratuurpleinURL, LiteratuurpleinArchiefURL, ArchiefURLStatusCheck-07122019
-
-**Excel version:** [literatuurplein-zoeken_06122019.xlsx](literatuurplein-zoeken_06122019.xlsx)
 
