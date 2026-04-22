@@ -14,7 +14,7 @@ Some websites managed by the KB, national library of the Netherlands, have been 
 ---
 
 ## Browse archived sites
-See the [overview of archived sites](archived-sites/). This also give access to the datasets of pages (URLs) archived in the Wayback Machine, available as Excel, TXT or CSV files.
+See the [overview of archived sites](archived-sites/). This page also gives access to the datasets of pages (URLs) archived in the Wayback Machine, available as Excel, TXT or CSV files.
 
 <a href="archived-sites/"><img src="assets/images/archived-sites-overview.png" width="600" alt="Screenshot of the overview page of all archived sites"/></a>
 
@@ -22,4 +22,4 @@ See the [overview of archived sites](archived-sites/). This also give access to 
 
 ## Scripts
 
-See the [scripts](scripts/index.md) we used to archive sites into the Wayback Machine.
+See the [Python scripts](scripts/index.md) we used to archive sites into the Wayback Machine.

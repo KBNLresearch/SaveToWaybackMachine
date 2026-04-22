@@ -9,19 +9,19 @@ breadcrumb:
 
 # Archived sites
 
-Browse all websites archived by KB, national library of the Netherlands, into to the Wayback Machine.
+Browse all websites that the KB, national library of the Netherlands, archived into to the Wayback Machine.
 
 <div class="nav-cards">
   <a href="mmdc.nl/" class="nav-card">
     <img src="mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
     <h3>mmdc.nl</h3>
     <p>Medieval Manuscripts in Dutch Collections - 12.204 URLs archived</p>
-    <span class="archive-date">Dec 2025 + April 2026</span>
+    <span class="archive-date">Dec 2025 & April 2026</span>
   </a>
   <a href="kb.nl/" class="nav-card">
     <img src="kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>
-    <p>KB website archives - 7.633 URLs archived</p>
+    <p>KB website archives - 5.720 & 1.915 URLs archived</p>
     <span class="archive-date">Dec 2021 & Mar 2022</span>
   </a>
   <a href="Literatuurgeschiedenis.org/" class="nav-card">
@@ -39,7 +39,7 @@ Browse all websites archived by KB, national library of the Netherlands, into to
   <a href="GidsVoorNederland/" class="nav-card">
     <img src="GidsVoorNederland/images/wbm_homepage.png" alt="GidsVoorNederland.nl screenshot">
     <h3>GidsVoorNederland.nl</h3>
-    <p>Library section - 1,415 URLs archived</p>
+    <p>Library section - 1.300 URLs archived</p>
     <span class="archive-date">Nov 2018</span>
   </a>
   <a href="Literaireprijzen.nl/" class="nav-card">
