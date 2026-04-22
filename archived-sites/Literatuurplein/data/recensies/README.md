@@ -6,7 +6,7 @@
 
 | Property | Value |
 |----------|-------|
-| Rows | 1,982 |
+| Rows | 1.982 |
 | Columns | 7 |
 | Encoding | UTF-8 |
 

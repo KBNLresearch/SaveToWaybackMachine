@@ -6,7 +6,7 @@
 
 | Property | Value |
 |----------|-------|
-| Rows | 21,009 |
+| Rows | 21.009 |
 | Columns | 25 |
 | Encoding | UTF-16 |
 
@@ -18,7 +18,7 @@
 
 | Property | Value |
 |----------|-------|
-| Rows | 11,598 |
+| Rows | 11.598 |
 | Columns | 13 |
 | Encoding | UTF-8 |
 

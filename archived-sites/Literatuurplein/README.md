@@ -117,28 +117,28 @@ The data to make the above files was obtained from 3 sources:
 
 ## Data overview
 
-| Category | Description | Total URLs | Files |
-|----------|-------------|------------|-------|
-| [personen](data/personen/) | Person/author data | 32,607 | 2 |
-| [boeken](data/boeken/) | Book metadata | 16,677 | 1 |
-| [nieuws](data/nieuws/) | Literary news | 4,793 | 1 |
-| [prijzen](data/prijzen/) | Literary awards | 4,622 | 3 |
-| [adressenbank](data/adressenbank/) | Literary organisations | 3,464 | 1 |
-| [canon](data/canon/) | Canon of Dutch history | 3,006 | 1 |
-| [recensies](data/recensies/) | Book reviews | 1,982 | 1 |
-| [wereldkaart](data/wereldkaart/) | Books by world location | 680 | 1 |
-| [excursies](data/excursies/) | Literary excursions | 464 | 1 |
-| [trefwoorden](data/trefwoorden/) | Books by keyword | 439 | 1 |
-| [interviews](data/interviews/) | Author interviews | 365 | 1 |
-| [evenementen](data/evenementen/) | Literary events | 247 | 1 |
-| [leestips](data/leestips/) | Reading tips | 64 | 1 |
-| [zoeken](data/zoeken/) | Search pages | 51 | 1 |
-| [poezie](data/poezie/) | Poet profiles | 44 | 1 |
-| [genres](data/genres/) | Books by genre | 43 | 1 |
-| [columns](data/columns/) | Literary columns | 36 | 1 |
-| [themas](data/themas/) | Themed pages | 18 | 1 |
-| [overige](data/overige/) | Misc pages | 16 | 1 |
-| **Total** | | **69,618** | **22** |
+| Category | Description | Total URLs | Data files (tsv) |
+|----------|-------------|------------|------------------|
+| [personen](data/personen/) | Person/author data | 32.607 | [personen-allen](data/personen/literatuurplein-personen-allen_19122019.tsv), [personen-namen-datums-plaatsen](data/personen/literatuurplein-personen-namen-datums-plaatsen_19122019.tsv) |
+| [boeken](data/boeken/) | Book metadata | 16.677 | [boeken](data/boeken/literatuurplein-boeken_06122019.tsv) |
+| [nieuws](data/nieuws/) | Literary news | 4.793 | [nieuws](data/nieuws/literatuurplein-nieuws_06122019.tsv) |
+| [prijzen](data/prijzen/) | Literary awards | 4.622 | [prijzen](data/prijzen/literatuurplein-prijzen_06122019.tsv), [prijzen-edities](data/prijzen/literatuurplein-prijzen-edities_06122019.tsv), [prijzen-totaal](data/prijzen/literatuurplein-prijzen-totaal_17122019.tsv) |
+| [adressenbank](data/adressenbank/) | Literary organisations | 3.464 | [adressenbank](data/adressenbank/literatuurplein-adressenbank_03122019.tsv) |
+| [canon](data/canon/) | Canon of Dutch history | 3.006 | [canon](data/canon/literatuurplein-canon_28112019.tsv) |
+| [recensies](data/recensies/) | Book reviews | 1.982 | [recensies](data/recensies/literatuurplein-recensies_28112019.tsv) |
+| [wereldkaart](data/wereldkaart/) | Books by world location | 680 | [wereldkaart](data/wereldkaart/literatuurplein-wereldkaart_06122019.tsv) |
+| [excursies](data/excursies/) | Literary excursions | 464 | [excursies](data/excursies/literatuurplein-excursies_28112019.tsv) |
+| [trefwoorden](data/trefwoorden/) | Books by keyword | 439 | [trefwoorden](data/trefwoorden/literatuurplein-trefwoorden_06122019.tsv) |
+| [interviews](data/interviews/) | Author interviews | 365 | [interviews](data/interviews/literatuurplein-interviews_28112019.tsv) |
+| [evenementen](data/evenementen/) | Literary events | 247 | [evenementen](data/evenementen/literatuurplein-evenementen_06122019.tsv) |
+| [leestips](data/leestips/) | Reading tips | 64 | [leestips](data/leestips/literatuurplein-leestips_06122019.tsv) |
+| [zoeken](data/zoeken/) | Search pages | 51 | [zoeken](data/zoeken/literatuurplein-zoeken_06122019.tsv) |
+| [poezie](data/poezie/) | Poet profiles | 44 | [poezie](data/poezie/literatuurplein-poezie_29112019.tsv) |
+| [genres](data/genres/) | Books by genre | 43 | [genres](data/genres/literatuurplein-genres_06122019.tsv) |
+| [columns](data/columns/) | Literary columns | 36 | [columns](data/columns/literatuurplein-columns_06122019.tsv) |
+| [themas](data/themas/) | Themed pages | 18 | [themas](data/themas/literatuurplein-themas_06122019.tsv) |
+| [overige](data/overige/) | Misc pages | 16 | [overige](data/overige/literatuurplein-overige_06122019.tsv) |
+| **Total** | | **69.618** | **22** |
 
 Each subfolder contains a README.md with detailed statistics about the data files.
 
@@ -154,21 +154,21 @@ Literatuurplein/
 │   ├── literatuurplein-personen-namen-datums-plaatsen_1-100.xlsx
 │   └── literatuurplein-personen-namen-datums-plaatsen_19122019.xlsx
 └── data/                        # Archived URL data files organized by category
-    ├── adressenbank/            # Literary organisations (3,464 URLs)
-    ├── boeken/                  # Book metadata (16,677 URLs)
-    ├── canon/                   # Canon of Dutch history books (3,006 URLs)
+    ├── adressenbank/            # Literary organisations (3.464 URLs)
+    ├── boeken/                  # Book metadata (16.677 URLs)
+    ├── canon/                   # Canon of Dutch history books (3.006 URLs)
     ├── columns/                 # Literary columns (36 URLs)
     ├── evenementen/             # Literary events (247 URLs)
     ├── excursies/               # Literary excursions (464 URLs)
     ├── genres/                  # Books by genre (43 URLs)
     ├── interviews/              # Author interviews (365 URLs)
     ├── leestips/                # Reading tips (64 URLs)
-    ├── nieuws/                  # Literary news (4,793 URLs)
+    ├── nieuws/                  # Literary news (4.793 URLs)
     ├── overige/                 # Misc pages (16 URLs)
-    ├── personen/                # Person/author data (32,607 URLs)
+    ├── personen/                # Person/author data (32.607 URLs)
     ├── poezie/                  # Poet profiles (44 URLs)
-    ├── prijzen/                 # Literary awards (4,622 URLs)
-    ├── recensies/               # Book reviews (1,982 URLs)
+    ├── prijzen/                 # Literary awards (4.622 URLs)
+    ├── recensies/               # Book reviews (1.982 URLs)
     ├── themas/                  # Themed pages (18 URLs)
     ├── trefwoorden/             # Books by keyword (439 URLs)
     ├── wereldkaart/             # Books by world location (680 URLs)
