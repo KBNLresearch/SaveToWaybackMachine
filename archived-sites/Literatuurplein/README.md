@@ -60,8 +60,6 @@ Each Category contains a README with statistics about the data and download link
 | [columns](data/columns/README.md)                  | [Literary columns](http://web.archive.org/web/20191128080421/https://www.literatuurplein.nl/columns) | 36 |
 | [themas](data/themas/README.md)                    | Pages related to certain themes | 18 |
 | [overige](data/overige/README.md)                  | Pages like Sitemap, Contact, Disclaimer, Colophon etc. | 16 |
-| **Total**                                          | | **68.013** |
-
 
 ## The data
 * Every Excel file contains 4 standard columns:
