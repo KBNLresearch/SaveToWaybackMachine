@@ -31,19 +31,15 @@ The KB website was relaunched on 17 March 2022. On the same day, a dedicated [KB
 
 ## Contents
 
-### [24122021](24122021/) - Old kb.nl site (December 2021)
-Archived before the website relaunch.
+* ### [24122021](24122021/) - Old kb.nl site (December 2021)
+  Pages archived before the website relaunch.
 
-### [23032022](23032022/) - New kb.nl site (March 2022)
-Archived shortly after the website relaunch, including the new collecties.kb.nl.
+* ### [23032022](23032022/) - New kb.nl site (March 2022)
+  Pages archived shortly after the website relaunch, including the new collecties.kb.nl.
 
-### [sources](sources/)
-Source data used to compile the URL lists:
+* ### [sources](sources/)
+  Source data used to compile the URL lists
 
-| Subfolder | Description |
-|-----------|-------------|
-| [txt/](sources/txt/) | Text files with URLs from Wikipedia/Wikidata special searches |
-| [xlsx/](sources/xlsx/) | Excel versions of the source data |
 
 ## Data format
 
