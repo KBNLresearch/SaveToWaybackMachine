@@ -12,19 +12,20 @@ breadcrumb:
 # Saving Literatuurplein.nl to the Wayback Machine
 *Latest update: 22-04-2026*
 
-<img src="images/literatuurplein-homepage_04122019.JPG" width="500"/><br clear="all"/>
+<img src="images/literatuurplein-homepage_04122019.JPG" width="500" alt="Screenshot of homepage of Literatuurplein.nl, 04-12-2019"/><br clear="all"/>
+*Screenshot of homepage of Literatuurplein.nl, 04-12-2019* 
 
 ## Wayback Machine screenshots
 
 | Homepage | Thea Beckman | Literaire prijzen |
 |:--------:|:------------:|:-----------------:|
-| <img src="images/wbm_homepage.png" width="280"/> | <img src="images/wbm_auteur_thea_beckman.png" width="280"/> | <img src="images/wbm_prijzen_overzicht.png" width="280"/> |
-| Homepage with reading tips carousel and news section | Author detail page with biography, birth/death dates and book titles | Overview of literary prizes in the Netherlands and Belgium |
+| <img src="images/wbm_homepage.png" width="280" alt="Screenshot of homepage, as archived in Wayback Machine on 25-11-2019"/> | <img src="images/wbm_auteur_thea_beckman.png" width="280" alt="Screenshot of Author detail page about Thea Beckman, as archived in Wayback Machine on 29-11-2019"/> | <img src="images/wbm_prijzen_overzicht.png" width="280" alt="Screenshot of Overview of literary prizes, as archived in Wayback Machine on 29-11-2019"/> |
+| Screenshot of homepage, as archived in Wayback Machine on 25-11-2019 | Screenshot of Author detail page about Thea Beckman, as archived in Wayback Machine on 29-11-2019 | Screenshot of Overview of literary prizes, as archived in Wayback Machine on 29-11-2019 |
 
 | Canon van de Nederlandse geschiedenis | Archief Nieuwsberichten | Recensies |
-|:-------------------------------------:|:-----------------------:|:---------:|
-| <img src="images/wbm_canon_overzicht.png" width="280"/> | <img src="images/wbm_nieuws_archief.png" width="280"/> | <img src="images/wbm_recensies.png" width="280"/> |
-| 50 topics of the canon of Dutch history with book recommendations | Searchable news archive with date filters | Book reviews with cover images, sortable by title, author or reviewer |
+|:--------------------------------------:|:-----------------------:|:---------:|
+| <img src="images/wbm_canon_overzicht.png" width="280" alt="Screenshot of Canon van de Nederlandse geschiedenis, as archived in Wayback Machine on 28-11-2019"/> | <img src="images/wbm_nieuws_archief.png" width="280" alt="Screenshot of Archief Nieuwsberichten, as archived in Wayback Machine on 14-12-2019"/> | <img src="images/wbm_recensies.png" width="280" alt="Screenshot of Recensies page, as archived in Wayback Machine on 30-11-2019"/> |
+| Screenshot of Canon van de Nederlandse geschiedenis, as archived in Wayback Machine on 28-11-2019 | Screenshot of Archief Nieuwsberichten, as archived in Wayback Machine on 14-12-2019 | Screenshot of Recensies page, as archived in Wayback Machine on 30-11-2019 |
 
 ## About
 
@@ -36,30 +37,31 @@ The results of this archiving effort are listed in the .xlsx and .tsv files that
 
 ## Data overview
 
-| Category | Description | Total URLs | Data files (tsv) |
-|----------|-------------|------------|------------------|
-| [personen](data/personen/) | Persons - mainly authors from the Netherlands, but also from abroad | 31.002 | [personen-allen](data/personen/literatuurplein-personen-allen_19122019.tsv), [personen-namen-datums-plaatsen](data/personen/literatuurplein-personen-namen-datums-plaatsen_19122019.tsv) |
-| [boeken](data/boeken/) | Descriptions (metadata) of books. No explicit titles or authors provided | 16.677 | [boeken](data/boeken/literatuurplein-boeken_06122019.tsv) |
-| [nieuws](data/nieuws/) | [Literary news archive](http://web.archive.org/web/20191129220520/https://www.literatuurplein.nl/nieuwsarchief) | 4.793 | [nieuws](data/nieuws/literatuurplein-nieuws_06122019.tsv) |
-| [prijzen](data/prijzen/) | [Literary awards](https://web.archive.org/web/20191129220242/https://www.literatuurplein.nl/litprijzen) in the Netherlands and Flanders | 4.622 | [prijzen](data/prijzen/literatuurplein-prijzen_06122019.tsv), [prijzen-edities](data/prijzen/literatuurplein-prijzen-edities_06122019.tsv), [prijzen-totaal](data/prijzen/literatuurplein-prijzen-totaal_17122019.tsv) |
-| [adressenbank](data/adressenbank/) | [Names and addresses](https://web.archive.org/web/20191125105546/https://www.literatuurplein.nl/adressenbank) of literary organisations (publishers, book sellers, libraries, reading clubs etc.) | 3.464 | [adressenbank](data/adressenbank/literatuurplein-adressenbank_03122019.tsv) |
-| [canon](data/canon/) | Book titles related to the 50 topics in the [canon of Dutch history](http://web.archive.org/web/20191128080343/https://www.literatuurplein.nl/canonoverzicht) | 3.006 | [canon](data/canon/literatuurplein-canon_28112019.tsv) |
-| [recensies](data/recensies/) | [Reviews](http://web.archive.org/web/20191130191607/https:/www.literatuurplein.nl/recensies) of literary publications | 1.982 | [recensies](data/recensies/literatuurplein-recensies_28112019.tsv) |
-| [wereldkaart](data/wereldkaart/) | Book titles related to certain [locations on the world map](http://web.archive.org/web/20191130202911/https://www.literatuurplein.nl/wereldkaart) | 680 | [wereldkaart](data/wereldkaart/literatuurplein-wereldkaart_06122019.tsv) |
-| [excursies](data/excursies/) | [Literary excursions](http://web.archive.org/web/20191129212445/https://www.literatuurplein.nl/excursies) to cities, towns and villages in the Netherlands and abroad | 464 | [excursies](data/excursies/literatuurplein-excursies_28112019.tsv) |
-| [trefwoorden](data/trefwoorden/) | Book titles related to certain keywords | 439 | [trefwoorden](data/trefwoorden/literatuurplein-trefwoorden_06122019.tsv) |
-| [interviews](data/interviews/) | [Interviews](http://web.archive.org/web/20191129213127/https://www.literatuurplein.nl/interviews) with Dutch and foreign authors. Includes full-texts | 365 | [interviews](data/interviews/literatuurplein-interviews_28112019.tsv) |
-| [evenementen](data/evenementen/) | Events from the literary agenda | 247 | [evenementen](data/evenementen/literatuurplein-evenementen_06122019.tsv) |
-| [leestips](data/leestips/) | [Reading tips](http://web.archive.org/web/20191129213154/https://www.literatuurplein.nl/leestips_overzicht) | 64 | [leestips](data/leestips/literatuurplein-leestips_06122019.tsv) |
-| [zoeken](data/zoeken/) | Pages related to simple and advanced search | 51 | [zoeken](data/zoeken/literatuurplein-zoeken_06122019.tsv) |
-| [poezie](data/poezie/) | Profiles of 21 Dutch and Belgian [poets](http://web.archive.org/web/20191130174929/https://www.literatuurplein.nl/poezieoverzicht) | 44 | [poezie](data/poezie/literatuurplein-poezie_29112019.tsv) |
-| [genres](data/genres/) | Book titles according to literary genre | 43 | [genres](data/genres/literatuurplein-genres_06122019.tsv) |
-| [columns](data/columns/) | [Literary columns](http://web.archive.org/web/20191128080421/https://www.literatuurplein.nl/columns) | 36 | [columns](data/columns/literatuurplein-columns_06122019.tsv) |
-| [themas](data/themas/) | Pages related to certain themes | 18 | [themas](data/themas/literatuurplein-themas_06122019.tsv) |
-| [overige](data/overige/) | Pages like Sitemap, Contact, Disclaimer, Colophon etc. | 16 | [overige](data/overige/literatuurplein-overige_06122019.tsv) |
-| **Total** | | **68.013** | **22** |
+Each Category contains a README with statistics about the data and download links to TSV and Excel files.
 
-Each subfolder contains a README.md with detailed statistics about the data files.
+| Category | Description | Total URLs |
+|----------------------------------------------------|-------------|------------|
+| [personen](data/personen/README.md)                | Persons - mainly authors from the Netherlands, but also from abroad | 31.002 |
+| [boeken](data/boeken/README.md)                    | Descriptions (metadata) of books. No explicit titles or authors provided | 16.677 |
+| [nieuws](data/nieuws/README.md)                    | [Literary news archive](http://web.archive.org/web/20191129220520/https://www.literatuurplein.nl/nieuwsarchief) | 4.793 |
+| [prijzen](data/prijzen/README.md)                  | [Literary awards](https://web.archive.org/web/20191129220242/https://www.literatuurplein.nl/litprijzen) in the Netherlands and Flanders | 4.622 |
+| [adressenbank](data/adressenbank/README.md)        | [Names and addresses](https://web.archive.org/web/20191125105546/https://www.literatuurplein.nl/adressenbank) of literary organisations (publishers, book sellers, libraries, reading clubs etc.) | 3.464 |
+| [canon](data/canon/README.md)                      | Book titles related to the 50 topics in the [canon of Dutch history](http://web.archive.org/web/20191128080343/https://www.literatuurplein.nl/canonoverzicht) | 3.006 |
+| [recensies](data/recensies/README.md)              | [Reviews](http://web.archive.org/web/20191130191607/https:/www.literatuurplein.nl/recensies) of literary publications | 1.982 |
+| [wereldkaart](data/wereldkaart/README.md)          | Book titles related to certain [locations on the world map](http://web.archive.org/web/20191130202911/https://www.literatuurplein.nl/wereldkaart) | 680 |
+| [excursies](data/excursies/README.md)              | [Literary excursions](http://web.archive.org/web/20191129212445/https://www.literatuurplein.nl/excursies) to cities, towns and villages in the Netherlands and abroad | 464 |
+| [trefwoorden](data/trefwoorden/README.md)          | Book titles related to certain keywords | 439 |
+| [interviews](data/interviews/README.md)            | [Interviews](http://web.archive.org/web/20191129213127/https://www.literatuurplein.nl/interviews) with Dutch and foreign authors. Includes full-texts | 365 |
+| [evenementen](data/evenementen/README.md)          | Events from the literary agenda | 247 |
+| [leestips](data/leestips/README.md)                | [Reading tips](http://web.archive.org/web/20191129213154/https://www.literatuurplein.nl/leestips_overzicht) | 64 |
+| [zoeken](data/zoeken/README.md)                    | Pages related to simple and advanced search | 51 |
+| [poezie](data/poezie/README.md)                    | Profiles of 21 Dutch and Belgian [poets](http://web.archive.org/web/20191130174929/https://www.literatuurplein.nl/poezieoverzicht) | 44 |
+| [genres](data/genres/README.md)                    | Book titles according to literary genre | 43 |
+| [columns](data/columns/README.md)                  | [Literary columns](http://web.archive.org/web/20191128080421/https://www.literatuurplein.nl/columns) | 36 |
+| [themas](data/themas/README.md)                    | Pages related to certain themes | 18 |
+| [overige](data/overige/README.md)                  | Pages like Sitemap, Contact, Disclaimer, Colophon etc. | 16 |
+| **Total**                                          | | **68.013** |
+
 
 ## The data
 * Every Excel file contains 4 standard columns:
@@ -149,13 +151,9 @@ The data to make the above files was obtained from 3 sources:
 
 ```
 Literatuurplein/
-├── README.md                    # This file
-├── images/                      # Screenshots of the website
-├── archive/                     # Original data dumps
-│   └── literatuurplein-personen-oorspronkelijk_SophieHam_07112019.csv
-├── AuteursLPNaarWikidata/       # Working files for Wikidata import project
-│   ├── literatuurplein-personen-namen-datums-plaatsen_1-100.xlsx
-│   └── literatuurplein-personen-namen-datums-plaatsen_19122019.xlsx
+├── index.md                     # This page
+├── README.md                    # Mirror of index.md
+├── images/                      # Screenshots of the website in the WBM
 └── data/                        # Archived URL data files organized by category
     ├── adressenbank/            # Literary organisations (3.464 URLs)
     ├── boeken/                  # Book metadata (16.677 URLs)
