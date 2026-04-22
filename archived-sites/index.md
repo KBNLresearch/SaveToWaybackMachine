@@ -15,19 +15,19 @@ Browse all websites that the KB, national library of the Netherlands, archived i
   <a href="mmdc.nl/" class="nav-card">
     <img src="mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
     <h3>mmdc.nl</h3>
-    <p>Medieval Manuscripts in Dutch Collections - 12.204 URLs archived</p>
-    <span class="archive-date">Dec 2025 & April 2026</span>
+    <p>Medieval Manuscripts in Dutch Collections - 11.738 & 466 URLs archived</p>
+    <span class="archive-date">April 2026 & Dec 2025</span>
   </a>
   <a href="kb.nl/" class="nav-card">
     <img src="kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>
-    <p>KB website archives - 5.720 & 1.915 URLs archived</p>
-    <span class="archive-date">Dec 2021 & Mar 2022</span>
+    <p>KB website archives - 1.915 & 5.720 URLs archived</p>
+    <span class="archive-date">Mar 2022 & Dec 2021 </span>
   </a>
   <a href="Literatuurgeschiedenis.org/" class="nav-card">
     <img src="Literatuurgeschiedenis.org/images/wbm_homepage.png" alt="Literatuurgeschiedenis.org screenshot">
     <h3>Literatuurgeschiedenis.org</h3>
-    <p>Literary history - 464 URLs archived</p>
+    <p>Literary history - 465 URLs archived</p>
     <span class="archive-date">Mar 2022</span>
   </a>
   <a href="Literatuurplein/" class="nav-card">
