@@ -13,6 +13,10 @@ breadcrumb:
 
 *Archived: November 2018*
 
+## About
+
+This folder contains URLs archived from [gidsvoornederland.nl](https://www.gidsvoornederland.nl/), specifically the section with information about public libraries in the Netherlands.
+
 ## Wayback Machine Screenshots
 
 | Homepage | Bibliotheken | Contact |
@@ -22,10 +26,6 @@ breadcrumb:
 | Over Ons | Help | Zoeken |
 |:--------:|:----:|:------:|
 | <img src="images/wbm_over_ons.png" width="280"/> | <img src="images/wbm_help.png" width="280"/> | <img src="images/wbm_zoeken.png" width="280"/> |
-
-## About
-
-This folder contains URLs archived from [gidsvoornederland.nl](https://www.gidsvoornederland.nl/), specifically the section with information about public libraries in the Netherlands.
 
 ## Contents
 

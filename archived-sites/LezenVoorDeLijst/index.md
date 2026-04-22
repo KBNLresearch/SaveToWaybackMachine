@@ -13,6 +13,10 @@ breadcrumb:
 
 *Archived: July-August 2018*
 
+## About
+
+This folder contains URLs archived from [lezenvoordelijst.nl](https://www.lezenvoordelijst.nl/), a former Dutch website that helped students find books for their required reading lists (the "leeslijst" for secondary education).
+
 ## Wayback Machine screenshots
 
 | Homepage | Training verplaatst | De leesniveaus |
@@ -22,10 +26,6 @@ breadcrumb:
 | De man die alles achterliet | Opdracht N2 | Foarstelling (Fries) |
 |:---------------------------:|:-----------:|:--------------------:|
 | <img src="images/wbm_pagina_154224.png" width="280"/> | <img src="images/wbm_pagina_168938.png" width="280"/> | <img src="images/wbm_pagina_50393.png" width="280"/> |
-
-## About
-
-This folder contains URLs archived from [lezenvoordelijst.nl](https://www.lezenvoordelijst.nl/), a former Dutch website that helped students find books for their required reading lists (the "leeslijst" for secondary education).
 
 ## Contents
 

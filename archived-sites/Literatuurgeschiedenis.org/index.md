@@ -13,6 +13,10 @@ breadcrumb:
 
 *Archived: March 2022*
 
+## About
+
+This folder contains URLs archived from [literatuurgeschiedenis.org](https://www.literatuurgeschiedenis.org/), a Dutch website about the history of Dutch literature, covering various literary periods and authors.
+
 ## Wayback Machine screenshots
 
 | Homepage | 16e Eeuw | 17e Eeuw |
@@ -22,10 +26,6 @@ breadcrumb:
 | 18e Eeuw | De Drukpers als Wapen | Gouden Tijden |
 |:--------:|:---------------------:|:-------------:|
 | <img src="images/wbm_18e_eeuw.png" width="280"/> | <img src="images/wbm_drukpers_als_wapen.png" width="280"/> | <img src="images/wbm_gouden_tijden.png" width="280"/> |
-
-## About
-
-This folder contains URLs archived from [literatuurgeschiedenis.org](https://www.literatuurgeschiedenis.org/), a former Dutch website about the history of Dutch literature, covering various literary periods and authors.
 
 ## Contents
 

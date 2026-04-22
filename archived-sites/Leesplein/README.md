@@ -13,6 +13,10 @@ breadcrumb:
 
 *Archived: June 2018*
 
+## About
+
+This folder contains URLs archived from [leesplein.nl](https://www.leesplein.nl/), a former Dutch website focused on reading promotion and literacy for children and young adults.
+
 ## Wayback Machine Screenshots
 
 | Homepage | Annemarie Bon | Nanda Roep |
@@ -22,10 +26,6 @@ breadcrumb:
 | Ron Langenus | Tim Bowler | Anton Quintana |
 |:------------:|:----------:|:--------------:|
 | <img src="images/wbm_boek_342.png" width="280"/> | <img src="images/wbm_boek_372.png" width="280"/> | <img src="images/wbm_boek_400.png" width="280"/> |
-
-## About
-
-This folder contains URLs archived from [leesplein.nl](https://www.leesplein.nl/), a former Dutch website focused on reading promotion and literacy for children and young adults.
 
 ## Contents
 

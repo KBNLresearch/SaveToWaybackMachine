@@ -12,8 +12,16 @@ breadcrumb:
 # Saving Literatuurplein.nl to the Wayback Machine
 *Latest update: 22-04-2026*
 
+## About
+
+The site www.literatuurplein.nl has been phased out per 16 December 2019.
+
 <img src="images/literatuurplein-homepage_04122019.JPG" width="500" alt="Screenshot of homepage of Literatuurplein.nl, 04-12-2019"/><br clear="all"/>
 *Screenshot of homepage of Literatuurplein.nl, 04-12-2019* 
+
+To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, the KB submitted copies of (=archived) its most relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
+
+The results of this archiving effort are listed in the .xlsx and .tsv files that can be found using the table below.
 
 ## Wayback Machine screenshots
 
@@ -26,14 +34,6 @@ breadcrumb:
 |:--------------------------------------:|:-----------------------:|:---------:|
 | <img src="images/wbm_canon_overzicht.png" width="280" alt="Screenshot of Canon van de Nederlandse geschiedenis, as archived in Wayback Machine on 28-11-2019"/> | <img src="images/wbm_nieuws_archief.png" width="280" alt="Screenshot of Archief Nieuwsberichten, as archived in Wayback Machine on 14-12-2019"/> | <img src="images/wbm_recensies.png" width="280" alt="Screenshot of Recensies page, as archived in Wayback Machine on 30-11-2019"/> |
 | Screenshot of Canon van de Nederlandse geschiedenis, as archived in Wayback Machine on 28-11-2019 | Screenshot of Archief Nieuwsberichten, as archived in Wayback Machine on 14-12-2019 | Screenshot of Recensies page, as archived in Wayback Machine on 30-11-2019 |
-
-## About
-
-The site www.literatuurplein.nl has been phased out per 16 December 2019.
-
-To preserve its content, e.g. for sourcing Wikipedia articles or (Wiki)data purposes, the KB submitted copies of (=archived) its most relevant pages to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive during November and December 2019.
-
-The results of this archiving effort are listed in the .xlsx and .tsv files that can be found using the table below.
 
 ## Data overview
 
