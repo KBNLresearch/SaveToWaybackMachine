@@ -17,8 +17,8 @@ The master spreadsheet [`mmdc-urls-unified_15042026.xlsx`](mmdc-urls-unified_150
 
 | Sheet | Rows | Purpose |
 |-------|-----:|---------|
-| [`catalog-pages`](#sheet-catalog-pages) | 11,738 | One row per manuscript catalog record |
-| [`catalog-pages-full-metadata`](#sheet-catalog-pages-full-metadata) | 18,724 | One row per item/sub-item, with full descriptive metadata |
+| [`catalog-pages`](#sheet-catalog-pages) | 11.738 | One row per manuscript catalog record |
+| [`catalog-pages-full-metadata`](#sheet-catalog-pages-full-metadata) | 18.724 | One row per item/sub-item, with full descriptive metadata |
 | [`non-catalog-pages`](#sheet-non-catalog-pages) | 466 | One row per static HTML page (homepage, section indexes, glossary, about, links, press, etc.) |
 
 All WBM timestamps use the standard 14-digit Wayback Machine format `YYYYMMDDhhmmss`.

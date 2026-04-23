@@ -22,4 +22,7 @@ See the [overview of archived sites](archived-sites/). This page also gives acce
 
 ## Scripts
 
-See the [Python scripts](scripts/index.md) we used to archive sites into the Wayback Machine.
+The Python scripts used to archive websites into the Wayback Machine are documented in the [scripts section](scripts/index.md). These include:
+
+* **General-purpose scripts** — interactive tools that read a list of URLs from a text file and submit them to the Wayback Machine (or retrieve existing archived versions). Built on the [waybackpy](https://pypi.org/project/waybackpy/) library. Suitable for any website.
+* **mmdc.nl-specific scripts** — production scripts developed for the [mmdc.nl archiving project](archived-sites/mmdc.nl/), using the Internet Archive's SPN2 API with authenticated access, sequential submission, rate-limit handling, and checkpoint-based resume. Used to archive 12.204 URLs with a 100% success rate.

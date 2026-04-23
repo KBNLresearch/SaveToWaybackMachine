@@ -12,44 +12,44 @@ Complete overview of all pages on this site.
 
 ## Main pages
 
-- [🏠 Home](./index.md) - Main landing page
-- [📖 How this site was built](./how-this-site-was-built.md) - Development story and timeline
-- [🎨 KB huisstijl implementation](./kb-huisstijl.md) - Brand colors and house style
-- [♿ Accessibility, privacy & licensing](./compliance.md) - GDPR, WCAG 2.1, SEO documentation
-- [🗺️ Sitemap](./sitemap.md) - This page
+- [Home](./index.md) - Main landing page
+- [How this site was built](./how-this-site-was-built.md) - Development story and timeline
+- [KB huisstijl implementation](./kb-huisstijl.md) - Brand colors and house style
+- [Accessibility, privacy & licensing](./compliance.md) - GDPR, WCAG 2.1, SEO documentation
+- [Sitemap](./sitemap.md) - This page
 
 ---
 
 ## Archived sites
 
-### [📁 Archived sites overview](./archived-sites/)
+### [Archived sites overview](./archived-sites/)
 
-| Site | Page | URLs Archived |
-|------|------|---------------|
-| [mmdc.nl](./archived-sites/mmdc.nl/) | Medieval Manuscripts Digital Collection | 429 (+ 11,738 local) |
-| [kb.nl](./archived-sites/kb.nl/) | KB National Library | 7,633 |
-| ├─ [24122021/](./archived-sites/kb.nl/24122021/) | Old site (Dec 2021) | 5,719 |
-| └─ [23032022/](./archived-sites/kb.nl/23032022/) | New site (Mar 2022) | 1,914 |
+| Site | Description | URLs archived |
+|------|-------------|---------------|
+| [mmdc.nl](./archived-sites/mmdc.nl/) | Medieval Manuscripts in Dutch Collections | 12.204 |
+| ├─ [Excel details](./archived-sites/mmdc.nl/excel-details.md) | Column-by-column breakdown of the master spreadsheet | |
+| └─ [Lessons learned](./archived-sites/mmdc.nl/lessons-learned.md) | JavaScript rendering, rate limiting, human-AI collaboration | |
+| [kb.nl](./archived-sites/kb.nl/) | KB National Library | 7.633 |
+| ├─ [24122021/](./archived-sites/kb.nl/24122021/) | Old site (Dec 2021) | 5.719 |
+| └─ [23032022/](./archived-sites/kb.nl/23032022/) | New site (Mar 2022) | 1.914 |
 | [Literatuurgeschiedenis.org](./archived-sites/Literatuurgeschiedenis.org/) | Literary history | 464 |
 | └─ [25032022/](./archived-sites/Literatuurgeschiedenis.org/25032022/) | Archive data | |
-| [Literatuurplein.nl](./archived-sites/Literatuurplein/) | Literary portal | 69,599 |
-| [GidsVoorNederland.nl](./archived-sites/GidsVoorNederland/) | Library information | 1,415 |
+| [Literatuurplein.nl](./archived-sites/Literatuurplein/) | Literary portal | 68.013 |
+| [GidsVoorNederland.nl](./archived-sites/GidsVoorNederland/) | Library information | 1.300 |
 | └─ [OBwebsiteURLs/](./archived-sites/GidsVoorNederland/OBwebsiteURLs/) | Public library URLs | |
 | [Literaireprijzen.nl](./archived-sites/Literaireprijzen.nl/) | Literary prizes | 452 |
-| [LezenVoorDeLijst.nl](./archived-sites/LezenVoorDeLijst/) | Reading lists | 12,456 |
-| [Leesplein.nl](./archived-sites/Leesplein/) | Children's reading | 23,784 |
+| [LezenVoorDeLijst.nl](./archived-sites/LezenVoorDeLijst/) | Reading lists | 12.456 |
+| [Leesplein.nl](./archived-sites/Leesplein/) | Children's reading | 23.785 |
 
 ---
 
 ## Scripts
 
-### [📁 Scripts overview](./scripts/)
+### [Scripts overview](./scripts/)
 
 | Script | Description |
 |--------|-------------|
-| [wbm-archiver/](./scripts/wbm-archiver/) | Main archiving tool |
-| ├─ [wbm-archiver_15072021/](./scripts/wbm-archiver/wbm-archiver_15072021/) | Version 1 (July 2021) |
-| └─ [wbm-archiver_v2_30112021/](./scripts/wbm-archiver/wbm-archiver_v2_30112021/) | Version 2 (Nov 2021) |
+| [wbm-archiver](./scripts/wbm-archiver/) | General-purpose and mmdc.nl-specific archiving scripts |
 
 ---
 
@@ -57,19 +57,10 @@ Complete overview of all pages on this site.
 
 | File | Description |
 |------|-------------|
-| [README.md](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/README.md) | Project documentation |
-| [LICENSE](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/LICENSE) | CC0 1.0 Public Domain |
-| [_config.yml](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/_config.yml) | Jekyll configuration |
-| [_layouts/default.html](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/_layouts/default.html) | Site template |
-
----
-
-## Session logs
-
-| Log file | Description |
-|----------|-------------|
-| [.claude/logs/2025-12-02-session-1.md](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/.claude/logs/2025-12-02-session-1.md) | Session 1: repository reorganization, screenshots, GitHub Pages |
-| [.claude/logs/2025-12-03-session-1.md](https://github.com/ookgezellig/SaveToWaybackMachine/blob/main/.claude/logs/2025-12-03-session-1.md) | Session 2: KB huisstijl, compliance, documentation refinements |
+| [README.md]({{ site.github.repository_url }}/blob/main/README.md) | Project documentation |
+| [LICENSE]({{ site.github.repository_url }}/blob/main/LICENSE) | CC0 1.0 Public Domain |
+| [_config.yml]({{ site.github.repository_url }}/blob/main/_config.yml) | Jekyll configuration |
+| [_layouts/default.html]({{ site.github.repository_url }}/blob/main/_layouts/default.html) | Site template |
 
 ---
 
@@ -77,16 +68,14 @@ Complete overview of all pages on this site.
 
 | Metric | Count |
 |--------|-------|
-| **Total archived sites** | 7 |
-| **Total URLs archived** | ~115,803 |
-| **Total pages on this site** | 15+ |
-| **Git commits** | 33 |
-| **Development time** | ~10 hours |
+| **Total archived sites** | 8 |
+| **Total URLs archived** | ~126.307 |
+| **Total pages on this site** | 20+ |
 
 ---
 
 ## External links
 
-- [GitHub Repository](https://github.com/ookgezellig/SaveToWaybackMachine)
+- [GitHub Repository]({{ site.github.repository_url }})
 - [Internet Archive Wayback Machine](https://web.archive.org)
 - [KB - National Library of the Netherlands](https://www.kb.nl)
