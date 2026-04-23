@@ -4,6 +4,11 @@ description: Scripts and data for archiving KB-managed websites to the Internet 
 baseurl: "/SaveToWaybackMachine"
 url: "https://ookgezellig.github.io"
 
+# Include underscore-prefixed directories (Jekyll ignores _ dirs by default)
+include:
+  - _spider-artifacts
+  - _archiving-artifacts
+
 # Exclude from build
 exclude:
   - .idea/

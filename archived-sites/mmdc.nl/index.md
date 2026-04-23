@@ -138,9 +138,9 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
 
 Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP crawler could not discover all URLs. A custom spider was built, see the `_spider-artifacts/` folder:
 
-1. **[Seed URLs](./_spider-artifacts/input/seed-urls.txt)** - a manually composed list of top-level section pages (homepage, `/collections/`, `/highlights/`, `/literature/`, `/research_and_education/`, `/about/`, `/links/`).
+1. **[Seed URLs](_spider-artifacts/input/seed-urls.txt)** - a manually composed list of top-level section pages (homepage, `/collections/`, `/highlights/`, `/literature/`, `/research_and_education/`, `/about/`, `/links/`).
 
-2. **[Crawler](./_spider-artifacts/scripts/spider.py)** - Python + Crawlee with a headless browser, renders each page, extracts internal links, and classifies them by URL pattern (`SEARCH_CATALOG`, `HIGHLIGHTS`, `LITERATURE`, `COLLECTIONS`, `STATIC_ASSETS`, …) via [url_classifier.py](_spider-artifacts/scripts/url_classifier.py).
+2. **[Crawler](_spider-artifacts/scripts/spider.py)** - Python + Crawlee with a headless browser, renders each page, extracts internal links, and classifies them by URL pattern (`SEARCH_CATALOG`, `HIGHLIGHTS`, `LITERATURE`, `COLLECTIONS`, `STATIC_ASSETS`, …) via [url_classifier.py](_spider-artifacts/scripts/url_classifier.py).
 
 3. **Catalog expansion** - search results were paginated and catalog IDs extracted using [extract_catalog_ids.py](_spider-artifacts/scripts/extract_catalog_ids.py) and [generate_catalog_urls.py](_spider-artifacts/scripts/generate_catalog_urls.py) to enumerate all **11.738** manuscript catalog records. PDF links were harvested separately using [extract_pdfs.py](_spider-artifacts/scripts/extract_pdfs.py).
 
