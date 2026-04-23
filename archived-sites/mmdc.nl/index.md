@@ -197,6 +197,7 @@ For a detailed account of what went wrong, what we tried, and what we learned �
 ```
 mmdc.nl/
 ├── index.md                              # This page
+├── lessons-learned.md                    # Lessons learned from this project
 ├── excel-details.md                      # Column-by-column breakdown of the Excel
 ├── mmdc-urls-unified_15042026.xlsx       # Master URL list with WBM status
 ├── images/                               # Screenshots used in docs
@@ -212,7 +213,6 @@ mmdc.nl/
     │   ├── SaveToWBM_mmdc_non-catalog-pages.py  # submit static pages to WBM
     │   └── SaveToWBM_mmdc_catalog-pages.py      # submit catalog pages to WBM
     ├── data/                             # JSON result files (progress, results)
-    ├── docs/                             # Experiment reports, lessons learned
     └── local-archive/                    # Full local site copy
         ├── static-pages/                 #   318 rendered static HTML pages
         ├── catalog-pages/                #   10 sample catalog pages (of 11.738)
