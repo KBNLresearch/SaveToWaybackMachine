@@ -1,0 +1,29 @@
+===ENTRY POINT
+https://mmdc.nl/
+
+======SEARCH CATALOG===========
+https://mmdc.nl/static/site/search/?searchMode=advanced&recordId=null&selectedRecordId=null&maximumRecords=15&recordDisplayLevel=1&startRecord=1&showMap=1&freetextsearch=*
+
+=========Highlights=======
+https://mmdc.nl/static/site/highlights/index.html
+
+======== Research & education========
+https://mmdc.nl/static/site/research_and_education/56/Bifolium_19832007.html
+see also URLS under 'More in Research & education' + 'Downloads:'
+
+======Literature==========
+https://mmdc.nl/static/site/literature/index.html
+See also Browse by: Alphabet
+
+========Collections========
+https://mmdc.nl/static/site/collections/index.html#
+Browse by: Alphabet
+Browse by: City
+
+=======Links=========
+https://mmdc.nl/static/site/links/index.html
+see also URLS under 'More in Links'
+
+===========About============
+https://mmdc.nl/static/site/about/746/Instructions_for_the_use_of_the_database.html
+see also URLS under 'More in About'
