@@ -162,11 +162,23 @@ To work around this, a headless-browser rendering pipeline was built using Pytho
 
 The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webserver at `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the Wayback Machine in April 2026. This is why the catalog pages in the WBM captures above show the full record content instead of an empty shell.
 
-The same rendered files are kept locally under `_archiving-artifacts/local-archive/catalog-pages/` as a second, independent preservation copy.
+The same rendered files are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of Github storage limits, only 10 (out of 11.738) sample pages are available in this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). 
 
 ### 3. Submitting to the Wayback Machine
 
-Once the full URL list was known, the URLs were submitted to the Wayback Machine via the scripts in `scripts/wbm-archiver/` (top-level of this repo) and locally rendered copies were saved under `_archiving-artifacts/local-archive/`. Experiment notes on which WBM submission method worked best are in [`_archiving-artifacts/docs/EXPERIMENT-REPORT-wbm-methods.md`](_archiving-artifacts/docs/EXPERIMENT-REPORT-wbm-methods.md).
+Once the full URL list was known, the URLs were submitted to the Wayback Machine. This was done in two phases:
+
+1. First, static pages, PDFs and images were archived during December 2025.
+"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_non-catalog-pages.py"
+
+
+
+3. 
+4. In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see above).
+5. 
+"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_catalog-pages.py"
+
+
 
 ## Folder structure
 

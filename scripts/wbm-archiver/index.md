@@ -35,6 +35,14 @@ This script has three modes:
 | [SaveToWaybackMachine_v2_30112021.py](SaveToWaybackMachine_v2_30112021.py) | Main script (v2) |
 | [SaveToWaybackMachine_v2_30112021_improvedVeraDeKok.py](SaveToWaybackMachine_v2_30112021_improvedVeraDeKok.py) | Improved version by Vera de Kok |
 
+mmdc specific archiving scriopts: 
+
+
+"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_non-catalog-pages.py"
+
+. 
+"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_catalog-pages.py"
+
 ## Usage
 
 ```bash
