@@ -163,20 +163,9 @@ To work around this, a headless-browser rendering pipeline was built using Pytho
 
 4. **Resume, retry, log.** The pipeline checkpoints progress to a JSON file, retries transient failures up to three times, and logs any unrecoverable errors to another JSON file. This means the full 11.738-page run could be executed over several sessions without data loss.
 
-The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webserver at `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the Wayback Machine in April 2026. This is why the catalog pages in the WBM captures above show the full record content instead of an empty shell.
+The 11.738 rendered HTML files were then put on a temporary KB hosted webserver at `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the Wayback Machine in April 2026. This is why the catalog pages in the WBM captures above show the full record content instead of an empty shell.
 
-### 3. Local archive (on Github)
-
-The rendered catalog pages are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of GitHub storage limits, only 10 (out of 11.738) sample pages have been uploaded to this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). 
-The full set of 11.738 html files can be obtained from the Wayback Machine (using the [master Excel](mmdc-urls-unified_15042026.xlsx)), or via the KB (olaf.janssen@kb.nl).
-
-Additionally, all static pages were rendered locally using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py). These, together with all PDFs and images, have also been archived locally on GitHub:
-
-* [`static-pages`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/) (318)
-* [`pdfs`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/) (63)
-* [`images`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/) (38)
-
-### 4. Submitting to the Wayback Machine
+### 3. Submitting to the Wayback Machine
 
 Once the full URL list was known, the URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access.
 
@@ -188,7 +177,18 @@ The submissions were done in two phases:
 
  Both scripts use concurrent connections (max 12), automatic retry on failure (up to 3 attempts), rate-limit handling, and checkpoint-based resume.
 
-### Lessons learned
+### 4. Local archive (on Github)
+
+The rendered catalog pages are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of GitHub storage limits, only 10 (out of 11.738) sample pages have been uploaded to this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). 
+The full set of 11.738 html files can be obtained from the Wayback Machine (using the [master Excel](mmdc-urls-unified_15042026.xlsx)), or via the KB (olaf.janssen@kb.nl).
+
+Additionally, all static pages were rendered locally using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py). These, together with all PDFs and images, have also been archived locally on GitHub:
+
+* [`static-pages`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/) (318)
+* [`pdfs`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/) (63)
+* [`images`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/) (38)
+
+### 5. Lessons learned
 
 For a detailed account of what went wrong, what we tried, and what we learned — including the JavaScript rendering problem, the rate limiting disaster, and reflections on human-AI collaboration — see the **[Lessons learned](lessons-learned.md)** page.
 
