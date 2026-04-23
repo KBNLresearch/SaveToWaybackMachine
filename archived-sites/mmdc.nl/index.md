@@ -100,7 +100,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 ### Catalog pages
 
-The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. No comparable "before" WBM screenshot could be captured, because the JavaScript-based catalog pages were not suitable to be captured by the WBM — only the archived version of the pre-rendered HTML is shown below.
+The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. No comparable "before" WBM screenshot could be captured, because the JavaScript-based catalog pages were not suitable to be captured by the WBM - only the archived version of the pre-rendered HTML is shown below.
 
 <table>
 <tr>
@@ -134,18 +134,22 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
 
 ## How mmdc.nl got into the Wayback Machine
 
-### Spidering the site
+### 1. Spidering the site
 
-Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP crawler could not discover all URLs. A custom spider was built in the `_spider-artifacts/` folder:
+Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP crawler could not discover all URLs. A custom spider was built, see the `_spider-artifacts/` folder:
 
-1. **Seed URLs** (`_spider-artifacts/input/seed-urls.txt`) — a handful of top-level section pages (homepage, `/collections/`, `/highlights/`, `/literature/`, `/research_and_education/`, `/about/`, `/links/`).
-2. **Crawler** (`_spider-artifacts/scripts/spider.py`, Python + Crawlee with a headless browser) — renders each page, extracts internal links, and classifies them by URL pattern (`SEARCH_CATALOG`, `HIGHLIGHTS`, `LITERATURE`, `COLLECTIONS`, `STATIC_ASSETS`, …) via `url_classifier.py`.
-3. **Catalog expansion** — search results were paginated and catalog IDs extracted (`extract_catalog_ids.py`, `generate_catalog_urls.py`) to enumerate all **11.738** manuscript records. PDF links were harvested separately (`extract_pdfs.py`).
-4. **Consolidation** — all discovered URLs were deduplicated and written to a single spreadsheet (`combine_all_urls.py`, `create_unified_excel.py`), producing `mmdc-urls-unified_15042026.xlsx`.
+1. **[Seed URLs](_spider-artifacts/input/seed-urls.txt)** - a manually composed list of top-level section pages (homepage, `/collections/`, `/highlights/`, `/literature/`, `/research_and_education/`, `/about/`, `/links/`).
 
-Full planning notes are in [`_spider-artifacts/docs/PLAN-url-spider-mmdc.md`](_spider-artifacts/docs/PLAN-url-spider-mmdc.md).
+2. **[Crawler](_spider-artifacts/scripts/spider.py)** - Python + Crawlee with a headless browser, renders each page, extracts internal links, and classifies them by URL pattern (`SEARCH_CATALOG`, `HIGHLIGHTS`, `LITERATURE`, `COLLECTIONS`, `STATIC_ASSETS`, …) via [url_classifier.py](_spider-artifacts/scripts/url_classifier.py).
 
-### Rendering the catalog pages
+3. **Catalog expansion** - search results were paginated and catalog IDs extracted using [extract_catalog_ids.py](_spider-artifacts/scripts/extract_catalog_ids.py) and [generate_catalog_urls.py](_spider-artifacts/scripts/generate_catalog_urls.py) to enumerate all **11.738** manuscript catalog records. PDF links were harvested separately using [extract_pdfs.py](_spider-artifacts/scripts/extract_pdfs.py).
+
+4. **Consolidation** - all discovered URLs were deduplicated and written to a single spreadsheet using [combine_all_urls.py](_spider-artifacts/scripts/combine_all_urls.py) and [create_unified_excel.py](_spider-artifacts/scripts/create_unified_excel.py), eventually resulting into the 'master' Excel [mmdc-urls-unified_15042026.xlsx](mmdc-urls-unified_15042026.xlsx).
+
+Full planning notes are available in [PLAN-url-spider-mmdc.md](_spider-artifacts/docs/PLAN-url-spider-mmdc.md). This document outlines the complete URL discovery strategy for mmdc.nl before the December 15, 2025 shutdown. The goal is to capture ALL URLs present on the site and save them to an Excel file.
+
+
+### 2. Rendering the catalog pages
 
 On the (by now defunct) live mmdc.nl site, every manuscript record lived behind a single URL of the form `https://mmdc.nl/static/site/search/detail.html?recordId={N}#r{N}`. The HTML at that URL contained almost no content: an empty `<div id="recordDetail">` shell plus a block of JavaScript that fetched the record data client-side and injected it into the DOM. As a result, a conventional crawler — and the Wayback Machine's Save Page Now robot — captured only the empty shell, not the manuscript description.
 
@@ -160,7 +164,7 @@ The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webse
 
 The same rendered files are kept locally under `_archiving-artifacts/local-archive/catalog-pages/` as a second, independent preservation copy.
 
-### Submitting to the Wayback Machine
+### 3. Submitting to the Wayback Machine
 
 Once the full URL list was known, the URLs were submitted to the Wayback Machine via the scripts in `scripts/wbm-archiver/` (top-level of this repo) and locally rendered copies were saved under `_archiving-artifacts/local-archive/`. Experiment notes on which WBM submission method worked best are in [`_archiving-artifacts/docs/EXPERIMENT-REPORT-wbm-methods.md`](_archiving-artifacts/docs/EXPERIMENT-REPORT-wbm-methods.md).
 
