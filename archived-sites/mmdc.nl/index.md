@@ -241,4 +241,4 @@ Dates reconstructed from the `WBM_Timestamp_submission` columns of the spreadshe
 See also the [broader development timeline](../../how-this-site-was-built.md#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) for day-by-day submission counts.
 
 ## Notes & known issues
- * The large local artifacts (11.738 rendered catalog pages in `[`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/)` are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
+ * The large local artifacts (11.738 rendered catalog pages in [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
