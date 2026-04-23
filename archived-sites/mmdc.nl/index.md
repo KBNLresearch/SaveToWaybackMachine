@@ -14,11 +14,11 @@ breadcrumb:
 
 ## About
 
-[mmdc.nl](https://mmdc.nl/) — the **Medieval Manuscripts in Dutch Collections** website of the KB, national library of the Netherlands — was scheduled to be phased out on **15 December 2025**.
+[mmdc.nl](https://mmdc.nl/) - the *Medieval Manuscripts in Dutch Collections* website of the KB, national library of the Netherlands - has been phased out on 15 December 2025.
 
 <img src="images/homepage.png" width="500"/><br clear="all"/>
 
-To preserve its content, URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases: 
+To preserve its content, prior to going offline, URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases: 
 
 1. First, its static pages, PDFs and images were archived during **December 2025**.
 2. In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see below).
@@ -45,8 +45,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/homepage.png" width="380"/></td><td><img src="images/wbm_homepage_07122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/
-- Wayback Machine (07-12-2025): https://web.archive.org/web/20251207222812/https://mmdc.nl/static/site/
+- Original: <https://mmdc.nl/static/site/>
+- Wayback Machine (07-12-2025): <https://web.archive.org/web/20251207222812/https://mmdc.nl/static/site/>
 
 #### Collections
 
@@ -55,8 +55,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/collections-index.png" width="380"/></td><td><img src="images/wbm_collections-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/collections/index.html
-- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html
+- Original: <https://mmdc.nl/static/site/collections/index.html>
+- Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html>
 
 #### Highlights
 
@@ -65,8 +65,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/highlights-index.png" width="380"/></td><td><img src="images/wbm_highlights-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/highlights/index.html
-- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html
+- Original: <https://mmdc.nl/static/site/highlights/index.html>
+- Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html>
 
 #### Literature
 
@@ -75,8 +75,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/literature-index.png" width="380"/></td><td><img src="images/wbm_literature-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/literature/index.html
-- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html
+- Original: <https://mmdc.nl/static/site/literature/index.html>
+- Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html>
 
 #### Research & Education (Palaeography)
 
@@ -85,8 +85,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/research-education-index.png" width="380"/></td><td><img src="images/wbm_research-education-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/research_and_education/palaeography/index.html
-- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html
+- Original: <https://mmdc.nl/static/site/research_and_education/palaeography/index.html>
+- Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html>
 
 #### About
 
@@ -95,8 +95,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/about.png" width="380"/></td><td><img src="images/wbm_about_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: https://mmdc.nl/static/site/about/index.html
-- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html
+- Original: <https://mmdc.nl/static/site/about/index.html>
+- Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html>
 
 ### Catalog pages
 
