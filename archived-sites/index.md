@@ -13,7 +13,7 @@ Browse all websites that the KB, national library of the Netherlands, archived i
 
 <div class="nav-cards">
   <a href="mmdc.nl/" class="nav-card">
-    <img src="mmdc.nl/images/wbm_homepage.png" alt="mmdc.nl screenshot">
+    <img src="mmdc.nl/images/wbm_homepage_07122025.png" alt="mmdc.nl screenshot">
     <h3>mmdc.nl</h3>
     <p>Medieval Manuscripts in Dutch Collections - 11.738 & 466 URLs archived</p>
     <span class="archive-date">April 2026 & Dec 2025</span>
