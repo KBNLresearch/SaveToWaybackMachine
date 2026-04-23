@@ -10,15 +10,15 @@ breadcrumb:
 [← Back to Archived sites](../)
 
 # Saving mmdc.nl to the Wayback Machine
-*Latest update: 22-04-2026*
+*Latest update: 23-04-2026*
 
 ## About
 
 [mmdc.nl](https://mmdc.nl/) - the *Medieval Manuscripts in Dutch Collections* website of the KB, national library of the Netherlands - has been phased out on 15 December 2025.
 
-<img src="images/homepage.png" width="500"/><br clear="all"/>
+<img src="images/homepage.png" width="500" alt="Screenshot of mmdc.nl homepage"/>
 
-To preserve its content, prior to going offline, URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases: 
+Before the site went offline, its URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases: 
 
 1. First, its static pages, PDFs and images were archived during **December 2025**.
 2. In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see below).
@@ -34,7 +34,7 @@ To preserve its content, prior to going offline, URLs were archived to [The Wayb
 
 ## Screenshots
 
-### Static pages - before/after screenshots
+### 1. Static pages - before/after screenshots
 
 Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top).
 
@@ -42,7 +42,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/homepage.png" width="380"/></td><td><img src="images/wbm_homepage_07122025.png" width="380"/></td></tr>
+<tr><td><img src="images/homepage.png" width="380" alt="mmdc.nl homepage, original"/></td><td><img src="images/wbm_homepage_07122025.png" width="380" alt="mmdc.nl homepage, as archived in Wayback Machine on 07-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/>
@@ -52,7 +52,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/collections-index.png" width="380"/></td><td><img src="images/wbm_collections-index_14122025.png" width="380"/></td></tr>
+<tr><td><img src="images/collections-index.png" width="380" alt="mmdc.nl Collections page, original"/></td><td><img src="images/wbm_collections-index_14122025.png" width="380" alt="mmdc.nl Collections page, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/collections/index.html>
@@ -62,7 +62,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/highlights-index.png" width="380"/></td><td><img src="images/wbm_highlights-index_14122025.png" width="380"/></td></tr>
+<tr><td><img src="images/highlights-index.png" width="380" alt="mmdc.nl Highlights page, original"/></td><td><img src="images/wbm_highlights-index_14122025.png" width="380" alt="mmdc.nl Highlights page, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/highlights/index.html>
@@ -72,7 +72,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/literature-index.png" width="380"/></td><td><img src="images/wbm_literature-index_14122025.png" width="380"/></td></tr>
+<tr><td><img src="images/literature-index.png" width="380" alt="mmdc.nl Literature page, original"/></td><td><img src="images/wbm_literature-index_14122025.png" width="380" alt="mmdc.nl Literature page, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/literature/index.html>
@@ -82,7 +82,7 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/research-education-index.png" width="380"/></td><td><img src="images/wbm_research-education-index_14122025.png" width="380"/></td></tr>
+<tr><td><img src="images/research-education-index.png" width="380" alt="mmdc.nl Research &amp; Education page, original"/></td><td><img src="images/wbm_research-education-index_14122025.png" width="380" alt="mmdc.nl Research &amp; Education page, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/research_and_education/palaeography/index.html>
@@ -92,19 +92,19 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/about.png" width="380"/></td><td><img src="images/wbm_about_14122025.png" width="380"/></td></tr>
+<tr><td><img src="images/about.png" width="380" alt="mmdc.nl About page, original"/></td><td><img src="images/wbm_about_14122025.png" width="380" alt="mmdc.nl About page, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://mmdc.nl/static/site/about/index.html>
 - Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html>
 
-### Catalog pages
+### 2. Catalog pages
 
 The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. No comparable "before" WBM screenshot could be captured, because the JavaScript-based catalog pages were not suitable to be captured by the WBM - only the archived version of the pre-rendered HTML is shown below.
 
 <table>
 <tr>
-  <td width="30%"><img src="images/wbm_catalog-page-2_02042026.png" width="280"/></td>
+  <td width="30%"><img src="images/wbm_catalog-page-2_02042026.png" width="280" alt="Catalog page 2: Tongeren fragments / Usuard, as archived in Wayback Machine on 02-04-2026"/></td>
   <td><strong>catalog-page-2: <em>Tongeren fragments / Usuard - The Hague, KB : ms. 70 E 4</em></strong><br/>
     <ul>
       <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=2#r2">https://mmdc.nl/static/site/search/detail.html?recordId=2#r2</a></li>
@@ -113,7 +113,7 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
   </td>
 </tr>
 <tr>
-  <td><img src="images/wbm_catalog-page-500_02042026.png" width="280"/></td>
+  <td><img src="images/wbm_catalog-page-500_02042026.png" width="280" alt="Catalog page 500: Book of hours, as archived in Wayback Machine on 02-04-2026"/></td>
   <td><strong>catalog-page-500: <em>Book of hours - The Hague, KB : ms. 77 L 60</em></strong><br/>
     <ul>
       <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=500#r500">https://mmdc.nl/static/site/search/detail.html?recordId=500#r500</a></li>
@@ -122,7 +122,7 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
   </td>
 </tr>
 <tr>
-  <td><img src="images/wbm_catalog-page-5000_03042026.png" width="280"/></td>
+  <td><img src="images/wbm_catalog-page-5000_03042026.png" width="280" alt="Catalog page 5000: Lectionary, as archived in Wayback Machine on 03-04-2026"/></td>
   <td><strong>catalog-page-5000: <em>Lectionary - The Hague, KB : ms. 70 E 8</em></strong><br/>
     <ul>
       <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000">https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000</a></li>
@@ -146,7 +146,7 @@ Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP 
 
 4. **Consolidation** - all discovered URLs were deduplicated and written to a single spreadsheet using [combine_all_urls.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/scripts/combine_all_urls.py) and [create_unified_excel.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/scripts/create_unified_excel.py), eventually resulting into the 'master' Excel [mmdc-urls-unified_15042026.xlsx](mmdc-urls-unified_15042026.xlsx).
 
-Full planning notes are available in [PLAN-url-spider-mmdc.md]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/docs/PLAN-url-spider-mmdc.md). This document outlines the complete URL discovery strategy for mmdc.nl before the December 15, 2025 shutdown. The goal is to capture ALL URLs present on the site and save them to an Excel file.
+Full planning notes are available in [PLAN-url-spider-mmdc.md]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/docs/PLAN-url-spider-mmdc.md).
 
 
 ### 2. Rendering the catalog pages
@@ -159,7 +159,7 @@ To work around this, a headless-browser rendering pipeline was built using Pytho
 
 2. **Inline all CSS.** External stylesheets were walked via `document.styleSheets`, their rules serialised, and fetched `<link rel="stylesheet">` files downloaded over HTTP and concatenated. The resulting CSS was embedded in a single `<style>` block in the rendered file, so each page is a self-contained standalone HTML file with no external dependencies.
 
-3. **Write a stable, flat filename.** Each page was saved as `catalog-page-{N}.html` under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/), replacing the query-string URL (`/static/site/search/detail.html?recordId=N`) with a clean path-based one (`/wbm/site/search/catalog-page-N.html`) that the Wayback Machine could index cleanly.
+3. **Write a stable, flat filename.** Each page was saved as `catalog-page-{N}.html` under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/), replacing the query-string URL (`/static/site/search/detail.html?recordId=N`) with a clean path-based one (`/wbm/site/search/catalog-page-N.html`) that the Wayback Machine could index cleanly.
 
 4. **Resume, retry, log.** The pipeline checkpoints progress to a JSON file, retries transient failures up to three times, and logs any unrecoverable errors to another JSON file. This means the full 11.738-page run could be executed over several sessions without data loss.
 
@@ -167,16 +167,14 @@ The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webse
 
 ### 3. Local archive (on Github)
 
-As mentioned above, the rendered catalog pages are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of GitHub storage limits, only 10 (out of 11.738) sample pages have been uploaded to this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). <br/>
+The rendered catalog pages are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of GitHub storage limits, only 10 (out of 11.738) sample pages have been uploaded to this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). 
 The full set of 11.738 html files can be obtained from the Wayback Machine (using the [master Excel](mmdc-urls-unified_15042026.xlsx)), or via the KB (olaf.janssen@kb.nl).
 
 Additionally, all static pages were rendered locally using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py). These, together with all PDFs and images, have also been archived locally on GitHub:
 
-* [`static-pages`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/) (318)
-
-* [`pdfs`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/) (63)
-
-* [`images`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/) (38)
+* [`static-pages`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/) (318)
+* [`pdfs`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/) (63)
+* [`images`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/) (38)
 
 ### 4. Submitting to the Wayback Machine
 
@@ -241,6 +239,4 @@ Dates reconstructed from the `WBM_Timestamp_submission` columns of the spreadshe
 See also the [broader development timeline](../../how-this-site-was-built.md#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) for day-by-day submission counts.
 
 ## Notes & known issues
-
-- Two URLs have minor source-data issues: `…/AccessibilityStatement` (missing `.html`) and `…/index_Bifolium.pdx` (typo, should be `.pdf`).
-- The large local artifacts (11.738 rendered catalog pages in `_archiving-artifacts/local-archive/`) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
+ * The large local artifacts (11.738 rendered catalog pages in `[`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/)`) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
