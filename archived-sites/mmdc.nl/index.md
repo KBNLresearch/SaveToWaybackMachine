@@ -18,10 +18,10 @@ breadcrumb:
 
 <img src="images/homepage.png" width="500"/><br clear="all"/>
 
-To preserve its content, URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases. 
+To preserve its content, URLs were archived to [The Wayback Machine](https://web.archive.org/) (WBM) of The Internet Archive in two phases: 
 
-* First, its static pages, PDFs and images were archived during **December 2025**.
-* In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see below).
+1. First, its static pages, PDFs and images were archived during **December 2025**.
+2. In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see below).
 
 ## Results & URL spreadsheet
 
@@ -32,72 +32,71 @@ To preserve its content, URLs were archived to [The Wayback Machine](https://web
   2. `catalog-pages` (11.738 rows - Phase 2, April 2026)
   3. `catalog-pages-full-metadata` (18.724 rows) 
 
-
 ## Screenshots
 
-### Before / after: static pages
+### Static pages - before/after screenshots
 
-Each pair shows the live mmdc.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top).
+Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top).
 
 #### Homepage
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/homepage.png" width="380"/></td><td><img src="images/wbm_homepage.png" width="380"/></td></tr>
+<tr><td><img src="images/homepage.png" width="380"/></td><td><img src="images/wbm_homepage_07122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/`](https://mmdc.nl/)
-- WBM: [`…20251214093310/https://mmdc.nl/`](https://web.archive.org/web/20251214093310/https://mmdc.nl/)
+- Original: [`https://mmdc.nl/static/site/`](https://mmdc.nl/static/site/)
+- Wayback Machine (07-12-2025): [`…20251207/…/static/site/`](https://web.archive.org/web/20251207/https://mmdc.nl/static/site/)
 
 #### Collections
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/collections-index.png" width="380"/></td><td><img src="images/wbm_collections-index.png" width="380"/></td></tr>
+<tr><td><img src="images/collections-index.png" width="380"/></td><td><img src="images/wbm_collections-index_14122025.png" width="380"/></td></tr>
 </table>
 
 - Original: [`https://mmdc.nl/static/site/collections/index.html`](https://mmdc.nl/static/site/collections/index.html)
-- WBM: [`…20251214072708/…/collections/index.html`](https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html)
+- Wayback Machine (14-12-2025): [`…20251214072708/…/collections/index.html`](https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html)
 
 #### Highlights
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/highlights-index.png" width="380"/></td><td><img src="images/wbm_highlights-index.png" width="380"/></td></tr>
+<tr><td><img src="images/highlights-index.png" width="380"/></td><td><img src="images/wbm_highlights-index_14122025.png" width="380"/></td></tr>
 </table>
 
 - Original: [`https://mmdc.nl/static/site/highlights/index.html`](https://mmdc.nl/static/site/highlights/index.html)
-- WBM: [`…20251214074859/…/highlights/index.html`](https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html)
+- Wayback Machine (14-12-2025): [`…20251214074859/…/highlights/index.html`](https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html)
 
 #### Literature
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/literature-index.png" width="380"/></td><td><img src="images/wbm_literature-index.png" width="380"/></td></tr>
+<tr><td><img src="images/literature-index.png" width="380"/></td><td><img src="images/wbm_literature-index_14122025.png" width="380"/></td></tr>
 </table>
 
 - Original: [`https://mmdc.nl/static/site/literature/index.html`](https://mmdc.nl/static/site/literature/index.html)
-- WBM: [`…20251214080033/…/literature/index.html`](https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html)
+- Wayback Machine (14-12-2025): [`…20251214080033/…/literature/index.html`](https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html)
 
 #### Research & Education (Palaeography)
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/research-education-index.png" width="380"/></td><td><img src="images/wbm_research-education-index.png" width="380"/></td></tr>
+<tr><td><img src="images/research-education-index.png" width="380"/></td><td><img src="images/wbm_research-education-index_14122025.png" width="380"/></td></tr>
 </table>
 
 - Original: [`https://mmdc.nl/static/site/research_and_education/palaeography/index.html`](https://mmdc.nl/static/site/research_and_education/palaeography/index.html)
-- WBM: [`…20251214082705/…/palaeography/index.html`](https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html)
+- Wayback Machine (14-12-2025): [`…20251214082705/…/palaeography/index.html`](https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html)
 
 #### About
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/about.png" width="380"/></td><td><img src="images/wbm_about.png" width="380"/></td></tr>
+<tr><td><img src="images/about.png" width="380"/></td><td><img src="images/wbm_about_14122025.png" width="380"/></td></tr>
 </table>
 
 - Original: [`https://mmdc.nl/static/site/about/index.html`](https://mmdc.nl/static/site/about/index.html)
-- WBM: [`…20251214063529/…/about/index.html`](https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html)
+- Wayback Machine (14-12-2025): [`…20251214063529/…/about/index.html`](https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html)
 
 ### Catalog pages in the Wayback Machine
 
@@ -110,17 +109,17 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
   <th width="33%">catalog-page-5000 — <em>Lectionary</em></th>
 </tr>
 <tr>
-  <td><img src="images/wbm_catalog-page-2.png" width="280"/></td>
-  <td><img src="images/wbm_catalog-page-500.png" width="280"/></td>
-  <td><img src="images/wbm_catalog-page-5000.png" width="280"/></td>
+  <td><img src="images/wbm_catalog-page-2_02042026.png" width="280"/></td>
+  <td><img src="images/wbm_catalog-page-500_02042026.png" width="280"/></td>
+  <td><img src="images/wbm_catalog-page-5000_03042026.png" width="280"/></td>
 </tr>
 </table>
 
-**catalog-page-2** — Original (defunct): [`…detail.html?recordId=2`](https://mmdc.nl/static/site/search/detail.html?recordId=2#r2) · WBM: [`…20260402123710/…/catalog-page-2.html`](https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html)
+**catalog-page-2** — Original (defunct): [`…detail.html?recordId=2`](https://mmdc.nl/static/site/search/detail.html?recordId=2#r2) · WBM (02-04-2026): [`…20260402123710/…/catalog-page-2.html`](https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html)
 
-**catalog-page-500** — Original (defunct): [`…detail.html?recordId=500`](https://mmdc.nl/static/site/search/detail.html?recordId=500#r500) · WBM: [`…20260402222805/…/catalog-page-500.html`](https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html)
+**catalog-page-500** — Original (defunct): [`…detail.html?recordId=500`](https://mmdc.nl/static/site/search/detail.html?recordId=500#r500) · WBM (02-04-2026): [`…20260402222805/…/catalog-page-500.html`](https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html)
 
-**catalog-page-5000** — Original (defunct): [`…detail.html?recordId=5000`](https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000) · WBM: [`…20260403213400/…/catalog-page-5000.html`](https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html)
+**catalog-page-5000** — Original (defunct): [`…detail.html?recordId=5000`](https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000) · WBM (03-04-2026): [`…20260403213400/…/catalog-page-5000.html`](https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html)
 
 ## How it was done
 
