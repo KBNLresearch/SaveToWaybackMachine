@@ -136,7 +136,7 @@ The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the l
 
 ### 1. Spidering the site
 
-Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP crawler could not discover all URLs. A custom spider was built, see the `_spider-artifacts/` folder:
+Because mmdc.nl is a JavaScript-rendered single-page application, a simple HTTP crawler could not discover all URLs. A custom spider was built, see the [`_spider-artifacts/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/) folder:
 
 1. **[Seed URLs]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_spider-artifacts/input/seed-urls.txt)** - a manually composed list of top-level section pages (homepage, `/collections/`, `/highlights/`, `/literature/`, `/research_and_education/`, `/about/`, `/links/`).
 
@@ -178,13 +178,15 @@ Additionally, all static pages were rendered locally using [render_static_pages.
 
 ### 4. Submitting to the Wayback Machine
 
-Once the full URL list was known, the URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access. Both scripts use concurrent connections (max 12), automatic retry on failure (up to 3 attempts), rate-limit handling, and checkpoint-based resume.
+Once the full URL list was known, the URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access.
 
 The submissions were done in two phases:
 
-1. **Phase 1 — Static pages (Dec 2025):** 429 non-catalog URLs (static HTML pages + PDFs) were submitted on Dec 7-8, 2025 using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py). Result: **429/429 (100%) successfully archived**.
+1. **Phase 1 — Non-catalog pages (Dec 2025):** 466 non-catalog URLs (317 static HTML pages, 112 PDFs and 38 images) were submitted on Dec 7-8, 2025 using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py). Result: **466/466 (100%) successfully archived**.
 
 2. **Phase 2 — Catalog pages (Apr 2026):** All 11.738 pre-rendered catalog pages were submitted Apr 2-11, 2026 using [SaveToWBM_mmdc_catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py). After an initial pass (11.658 successful) and a retry of the remaining 80, result: **11.738/11.738 (100%) indexed in the Wayback Machine**.
+
+ Both scripts use concurrent connections (max 12), automatic retry on failure (up to 3 attempts), rate-limit handling, and checkpoint-based resume.
 
 ### Lessons learned
 
@@ -227,7 +229,7 @@ Dates reconstructed from the `WBM_Timestamp_submission` columns of the spreadshe
 | 2025 (sporadic) | A handful of early WBM captures of individual pages (one each on 2025-01-20, 2025-04-29, 2025-05-14, 2025-09-17/18/19) | 7 static pages opportunistically in the Wayback Machine |
 | Nov–early Dec 2025 | Site spidering with Python + Crawlee (headless browser), URL classification, catalog-ID enumeration, PDF harvesting | [mmdc-urls-unified_15042026.xlsx](mmdc-urls-unified_15042026.xlsx) — 317 static pages, 112 PDFs, 38 assets, 11.738 catalog record IDs |
 | Dec 2025 | Rendering of all static pages to standalone HTML using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py) | 318 rendered static HTML pages in `local-archive/static-pages/` |
-| **2025-12-07 → 2025-12-08** | Mass WBM submission of all 429 non-catalog URLs (static pages + PDFs) via SPN2 API using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py) | **429/429 (100%) successfully archived** |
+| **2025-12-07 → 2025-12-08** | Mass WBM submission of all 466 non-catalog URLs (317 static pages, 112 PDFs, 38 images) via SPN2 API using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py) | **429/429 (100%) successfully archived** |
 | **2025-12-15** | mmdc.nl officially phased out; domain starts redirecting to the KB manuscripts landing page | Live site no longer available |
 | Dec 2025 | PDFs and static asset images downloaded locally; 26 PDFs freshly indexed in WBM, 40 already had older captures | 112 PDFs + 38 images preserved locally |
 | Late Dec 2025 – Mar 2026 | Headless-browser rendering of all 11.738 catalog records to self-contained HTML using [render_catalog_full.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_catalog_full.py), with resume + retry across multiple sessions | 11.738 files in `local-archive/catalog-pages/catalog-page-{N}.html` |
@@ -239,4 +241,4 @@ Dates reconstructed from the `WBM_Timestamp_submission` columns of the spreadshe
 See also the [broader development timeline](../../how-this-site-was-built.md#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) for day-by-day submission counts.
 
 ## Notes & known issues
- * The large local artifacts (11.738 rendered catalog pages in `[`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/)`) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
+ * The large local artifacts (11.738 rendered catalog pages in `[`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/)` are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
