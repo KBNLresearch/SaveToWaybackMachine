@@ -386,4 +386,4 @@ The result is a complete, searchable history that serves as both documentation a
 
 ## License
 
-The source code and text content of this project are dedicated to the public domain under [CC0 1.0](LICENSE). For image credits and copyright information, see [compliance](compliance#image-credits--copyrights).
+The source code and text content of this project are dedicated to the public domain under [CC0 1.0](LICENSE). For image credits and copyright information, see [Accessibility, privacy & licensing](compliance#image-credits--copyrights).
