@@ -45,11 +45,11 @@ Complete overview of all pages on this site.
 
 ## Scripts
 
-### [Scripts overview](./scripts/)
+### [WBM archiver scripts](./wbm-archiver-scripts/)
 
 | Script | Description |
 |--------|-------------|
-| [wbm-archiver](./scripts/wbm-archiver/) | General-purpose and mmdc.nl-specific archiving scripts |
+| [wbm-archiver-scripts](./wbm-archiver-scripts/) | General-purpose and mmdc.nl-specific archiving scripts |
 
 ---
 

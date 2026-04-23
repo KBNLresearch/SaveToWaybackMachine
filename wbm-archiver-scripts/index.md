@@ -1,13 +1,11 @@
 ---
 layout: default
-title: wbm-archiver
+title: WBM archiver scripts
 breadcrumb:
-  - title: Scripts
-    url: /scripts/
-  - title: wbm-archiver
+  - title: WBM archiver scripts
 ---
 
-[← Back to Scripts](../)
+[← Back to Home](../)
 
 # wbm-archiver
 
@@ -53,7 +51,7 @@ The script will prompt you for:
 
 ## 2. mmdc.nl-specific scripts
 
-These scripts were developed for the [mmdc.nl archiving project](../../archived-sites/mmdc.nl/) and are located in the [`_archiving-artifacts/scripts/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts) folder. They use the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access.
+These scripts were developed for the [mmdc.nl archiving project](../archived-sites/mmdc.nl/) and are located in the [`_archiving-artifacts/scripts/`]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts) folder. They use the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access.
 
 | Script | Description |
 |--------|-------------|
@@ -116,4 +114,4 @@ The core submission logic (SPN2 API calls, retry handling, progress tracking) is
 
 ---
 
-For more context on how these scripts were used, see the [mmdc.nl archiving documentation](../../archived-sites/mmdc.nl/) and the [lessons learned](../../archived-sites/mmdc.nl/lessons-learned.md).
+For more context on how these scripts were used, see the [mmdc.nl archiving documentation](../archived-sites/mmdc.nl/) and the [lessons learned](../archived-sites/mmdc.nl/lessons-learned.md).
