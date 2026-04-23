@@ -45,8 +45,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/homepage.png" width="380"/></td><td><img src="images/wbm_homepage_07122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/`](https://mmdc.nl/static/site/)
-- Wayback Machine (07-12-2025): [`…20251207/…/static/site/`](https://web.archive.org/web/20251207/https://mmdc.nl/static/site/)
+- Original: https://mmdc.nl/static/site/
+- Wayback Machine (07-12-2025): https://web.archive.org/web/20251207222812/https://mmdc.nl/static/site/
 
 #### Collections
 
@@ -55,8 +55,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/collections-index.png" width="380"/></td><td><img src="images/wbm_collections-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/collections/index.html`](https://mmdc.nl/static/site/collections/index.html)
-- Wayback Machine (14-12-2025): [`…20251214072708/…/collections/index.html`](https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html)
+- Original: https://mmdc.nl/static/site/collections/index.html
+- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214072708/https://mmdc.nl/static/site/collections/index.html
 
 #### Highlights
 
@@ -65,8 +65,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/highlights-index.png" width="380"/></td><td><img src="images/wbm_highlights-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/highlights/index.html`](https://mmdc.nl/static/site/highlights/index.html)
-- Wayback Machine (14-12-2025): [`…20251214074859/…/highlights/index.html`](https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html)
+- Original: https://mmdc.nl/static/site/highlights/index.html
+- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214074859/https://mmdc.nl/static/site/highlights/index.html
 
 #### Literature
 
@@ -75,8 +75,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/literature-index.png" width="380"/></td><td><img src="images/wbm_literature-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/literature/index.html`](https://mmdc.nl/static/site/literature/index.html)
-- Wayback Machine (14-12-2025): [`…20251214080033/…/literature/index.html`](https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html)
+- Original: https://mmdc.nl/static/site/literature/index.html
+- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214080033/https://mmdc.nl/static/site/literature/index.html
 
 #### Research & Education (Palaeography)
 
@@ -85,8 +85,8 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/research-education-index.png" width="380"/></td><td><img src="images/wbm_research-education-index_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/research_and_education/palaeography/index.html`](https://mmdc.nl/static/site/research_and_education/palaeography/index.html)
-- Wayback Machine (14-12-2025): [`…20251214082705/…/palaeography/index.html`](https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html)
+- Original: https://mmdc.nl/static/site/research_and_education/palaeography/index.html
+- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214082705/https://mmdc.nl/static/site/research_and_education/palaeography/index.html
 
 #### About
 
@@ -95,33 +95,44 @@ Each pair shows the (now defunct) mmdc.nl page (left) and the same URL as captur
 <tr><td><img src="images/about.png" width="380"/></td><td><img src="images/wbm_about_14122025.png" width="380"/></td></tr>
 </table>
 
-- Original: [`https://mmdc.nl/static/site/about/index.html`](https://mmdc.nl/static/site/about/index.html)
-- Wayback Machine (14-12-2025): [`…20251214063529/…/about/index.html`](https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html)
+- Original: https://mmdc.nl/static/site/about/index.html
+- Wayback Machine (14-12-2025): https://web.archive.org/web/20251214063529/https://mmdc.nl/static/site/about/index.html
 
-### Catalog pages in the Wayback Machine
+### Catalog pages
 
-The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. No comparable "before" WBM screenshot could be captured, because the JS-based catalog pages were not suitable to be captured by the WBM — only the archived version of the pre-rendered HTML is shown below.
+The 11.738 catalog (manuscript detail) records were JavaScript-rendered on the live site, so they were pre-rendered to static HTML and submitted to the Wayback Machine under the `/wbm/site/search/catalog-page-N.html` path. No comparable "before" WBM screenshot could be captured, because the JavaScript-based catalog pages were not suitable to be captured by the WBM — only the archived version of the pre-rendered HTML is shown below.
 
 <table>
 <tr>
-  <th width="33%">catalog-page-2 — <em>Tongeren fragments / Usuard</em></th>
-  <th width="33%">catalog-page-500 — <em>Book of hours</em></th>
-  <th width="33%">catalog-page-5000 — <em>Lectionary</em></th>
+  <td width="30%"><img src="images/wbm_catalog-page-2_02042026.png" width="280"/></td>
+  <td><strong>catalog-page-2: <em>Tongeren fragments / Usuard - The Hague, KB : ms. 70 E 4</em></strong><br/>
+    <ul>
+      <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=2#r2">https://mmdc.nl/static/site/search/detail.html?recordId=2#r2</a></li>
+      <li>Wayback Machine (02-04-2026): <a href="https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html">https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html</a></li>
+    </ul>
+  </td>
 </tr>
 <tr>
-  <td><img src="images/wbm_catalog-page-2_02042026.png" width="280"/></td>
   <td><img src="images/wbm_catalog-page-500_02042026.png" width="280"/></td>
+  <td><strong>catalog-page-500: <em>Book of hours - The Hague, KB : ms. 77 L 60</em></strong><br/>
+    <ul>
+      <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=500#r500">https://mmdc.nl/static/site/search/detail.html?recordId=500#r500</a></li>
+      <li>Wayback Machine (02-04-2026): <a href="https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html">https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html</a></li>
+    </ul>
+  </td>
+</tr>
+<tr>
   <td><img src="images/wbm_catalog-page-5000_03042026.png" width="280"/></td>
+  <td><strong>catalog-page-5000: <em>Lectionary - The Hague, KB : ms. 70 E 8</em></strong><br/>
+    <ul>
+      <li>Original (defunct): <a href="https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000">https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000</a></li>
+      <li>Wayback Machine (03-04-2026): <a href="https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html">https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html</a></li>
+    </ul>
+  </td>
 </tr>
 </table>
 
-**catalog-page-2** — Original (defunct): [`…detail.html?recordId=2`](https://mmdc.nl/static/site/search/detail.html?recordId=2#r2) · WBM (02-04-2026): [`…20260402123710/…/catalog-page-2.html`](https://web.archive.org/web/20260402123710/https://mmdc.nl/wbm/site/search/catalog-page-2.html)
-
-**catalog-page-500** — Original (defunct): [`…detail.html?recordId=500`](https://mmdc.nl/static/site/search/detail.html?recordId=500#r500) · WBM (02-04-2026): [`…20260402222805/…/catalog-page-500.html`](https://web.archive.org/web/20260402222805/https://mmdc.nl/wbm/site/search/catalog-page-500.html)
-
-**catalog-page-5000** — Original (defunct): [`…detail.html?recordId=5000`](https://mmdc.nl/static/site/search/detail.html?recordId=5000#r5000) · WBM (03-04-2026): [`…20260403213400/…/catalog-page-5000.html`](https://web.archive.org/web/20260403213400/https://mmdc.nl/wbm/site/search/catalog-page-5000.html)
-
-## How it was done
+## How mmdc.nl got into the Wayback Machine
 
 ### Spidering the site
 
