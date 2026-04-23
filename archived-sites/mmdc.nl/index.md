@@ -162,7 +162,7 @@ To work around this, a headless-browser rendering pipeline was built using Pytho
 
 The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webserver at `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the Wayback Machine in April 2026. This is why the catalog pages in the WBM captures above show the full record content instead of an empty shell.
 
-The same rendered files are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of Github storage limits, only 10 (out of 11.738) sample pages are available in this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). 
+The same rendered files are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of Github storage limits, only 10 (out of 11.738) sample pages are available in this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000)
 
 ### 3. Submitting to the Wayback Machine
 
