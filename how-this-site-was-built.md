@@ -20,7 +20,6 @@ yes,
 - [KB huisstijl implementation](#kb-huisstijl-implementation)
 - [Accessibility, privacy & licensing](#compliance--accessibility)
 - [Why frequent commits matter](#why-frequent-commits-matter)
-- [Full session log](#full-session-log)
 
 ---
 
@@ -372,16 +371,6 @@ This project has **40+ commits** over two sessions. Each commit represents a log
 - Documentation updates are tracked independently
 
 The result is a complete, searchable history that serves as both documentation and a learning resource.
-
----
-
-## Full session log
-
-The complete session logs with all prompts, actions, and technical details are available at:
-
-📄 **[Session 1 (Dec 2, 2025)](.claude/logs/2025-12-02-session-1.md)** - Repository reorganization, screenshots, GitHub Pages setup
-
-📄 **[Session 2 (Dec 3, 2025)](.claude/logs/2025-12-03-session-1.md)** - KB huisstijl, compliance, code organization, documentation refinements
 
 ---
 
