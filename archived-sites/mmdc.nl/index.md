@@ -153,54 +153,71 @@ Full planning notes are available in [PLAN-url-spider-mmdc.md]({{ site.github.re
 
 On the (by now defunct) live mmdc.nl site, every manuscript record lived behind a single URL of the form `https://mmdc.nl/static/site/search/detail.html?recordId={N}#r{N}`. The HTML at that URL contained almost no content: an empty `<div id="recordDetail">` shell plus a block of JavaScript that fetched the record data client-side and injected it into the DOM. As a result, a conventional crawler — and the Wayback Machine's Save Page Now robot — captured only the empty shell, not the manuscript description.
 
-To work around this, a headless-browser rendering pipeline was built using Python and Playwright:
+To work around this, a headless-browser rendering pipeline was built using Python and Playwright, implemented in [render_catalog_full.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_catalog_full.py):
 
 1. **Load each record in a real browser.** For every `recordId` in the unified URL list, Playwright opened the live page with `wait_until="networkidle"` and then explicitly waited for `#recordDetail` to become non-empty (up to 30 s), so that the client-side JavaScript had fully populated the record.
+
 2. **Inline all CSS.** External stylesheets were walked via `document.styleSheets`, their rules serialised, and fetched `<link rel="stylesheet">` files downloaded over HTTP and concatenated. The resulting CSS was embedded in a single `<style>` block in the rendered file, so each page is a self-contained standalone HTML file with no external dependencies.
-3. **Write a stable, flat filename.** Each page was saved as `catalog-page-{N}.html` under `_archiving-artifacts/local-archive/catalog-pages/`, replacing the query-string URL (`/static/site/search/detail.html?recordId=N`) with a clean path-based one (`/wbm/site/search/catalog-page-N.html`) that the Wayback Machine could index cleanly.
+
+3. **Write a stable, flat filename.** Each page was saved as `catalog-page-{N}.html` under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/), replacing the query-string URL (`/static/site/search/detail.html?recordId=N`) with a clean path-based one (`/wbm/site/search/catalog-page-N.html`) that the Wayback Machine could index cleanly.
+
 4. **Resume, retry, log.** The pipeline checkpoints progress to a JSON file, retries transient failures up to three times, and logs any unrecoverable errors to another JSON file. This means the full 11.738-page run could be executed over several sessions without data loss.
 
 The 11.738 rendered HTML files were then uploaded to a temporary KB hosted webserver at `https://mmdc.nl/wbm/site/search/catalog-page-{N}.html` and submitted to the Wayback Machine in April 2026. This is why the catalog pages in the WBM captures above show the full record content instead of an empty shell.
 
-The same rendered files are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of Github storage limits, only 10 (out of 11.738) sample pages are available in this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000)
+### 3. Local archive (on Github)
 
-### 3. Submitting to the Wayback Machine
+As mentioned above, the rendered catalog pages are kept locally under [`_archiving-artifacts/local-archive/catalog-pages/`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/) as a second, independent preservation copy. Because of GitHub storage limits, only 10 (out of 11.738) sample pages have been uploaded to this folder (catalog-page-2, 10, 100, 500, 1000, 2005, 3001, 5000, 7000, 9000). <br/>
+The full set of 11.738 html files can be obtained from the Wayback Machine (using the [master Excel](mmdc-urls-unified_15042026.xlsx)), or via the KB (olaf.janssen@kb.nl).
 
-Once the full URL list was known, the URLs were submitted to the Wayback Machine. This was done in two phases:
+Additionally, all static pages were rendered locally using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py). These, together with all PDFs and images, have also been archived locally on GitHub:
 
-1. First, static pages, PDFs and images were archived during December 2025.
-"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_non-catalog-pages.py"
+* [`static-pages`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/) (318)
 
+* [`pdfs`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/) (63)
 
+* [`images`]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/) (38)
 
-3. 
-4. In a second phase, the 11.738 manuscript catalog records were archived during **April 2026**, once their pre-rendered HTML form was ready (see above).
-5. 
-"D:\KB-OPEN\github-repos\SaveToWaybackMachine\archived-sites\mmdc.nl\_archiving-artifacts\scripts\_SaveToWBM_mmdc_catalog-pages.py"
+### 4. Submitting to the Wayback Machine
 
+Once the full URL list was known, the URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access. Both scripts use concurrent connections (max 12), automatic retry on failure (up to 3 attempts), rate-limit handling, and checkpoint-based resume.
 
+The submissions were done in two phases:
+
+1. **Phase 1 — Static pages (Dec 2025):** 429 non-catalog URLs (static HTML pages + PDFs) were submitted on Dec 7-8, 2025 using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py). Result: **429/429 (100%) successfully archived**.
+
+2. **Phase 2 — Catalog pages (Apr 2026):** All 11.738 pre-rendered catalog pages were submitted Apr 2-11, 2026 using [SaveToWBM_mmdc_catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py). After an initial pass (11.658 successful) and a retry of the remaining 80, result: **11.738/11.738 (100%) indexed in the Wayback Machine**.
+
+### Lessons learned
+
+For a detailed account of what went wrong, what we tried, and what we learned — including the JavaScript rendering problem, the rate limiting disaster, and reflections on human-AI collaboration — see the **[Lessons learned](lessons-learned.md)** page.
 
 ## Folder structure
 
 ```
 mmdc.nl/
 ├── index.md                              # This page
-├── README.md                             # GitHub-view version
-├── images/                               # Screenshots used in docs
+├── excel-details.md                      # Column-by-column breakdown of the Excel
 ├── mmdc-urls-unified_15042026.xlsx       # Master URL list with WBM status
+├── images/                               # Screenshots used in docs
 ├── _spider-artifacts/                    # URL discovery (the spidering run)
 │   ├── input/seed-urls.txt
 │   ├── scripts/                          # spider.py, url_classifier.py, …
 │   ├── docs/                             # PLAN-url-spider-mmdc.md, DISCOVERY-sru-api.md
 │   └── runtime/                          # checkpoints, logs, storage
 └── _archiving-artifacts/                 # WBM submission & local rendering
-    ├── scripts/                          # Python archiving scripts
-    ├── data/                             # JSON result files
+    ├── scripts/                          # 4 core Python scripts:
+    │   ├── render_static_pages.py        #   render static pages to standalone HTML
+    │   ├── render_catalog_full.py        #   render all 11.738 catalog pages to standalone HTML
+    │   ├── SaveToWBM_mmdc_non-catalog-pages.py  # submit static pages to WBM
+    │   └── SaveToWBM_mmdc_catalog-pages.py      # submit catalog pages to WBM
+    ├── data/                             # JSON result files (progress, results)
     ├── docs/                             # Experiment reports, lessons learned
-    ├── reports/                          # Run reports
-    ├── screenshots/before|after/         # Comparison screenshots
-    ├── local-archive/                    # Full local site copy
-    └── warc/                             # WARC bundle (work in progress)
+    └── local-archive/                    # Full local site copy
+        ├── static-pages/                 #   318 rendered static HTML pages
+        ├── catalog-pages/                #   10 sample catalog pages (of 11.738)
+        ├── pdfs/                         #   63 PDFs
+        └── images/                       #   38 images
 ```
 
 ## Timeline
@@ -210,19 +227,20 @@ Dates reconstructed from the `WBM_Timestamp_submission` columns of the spreadshe
 | Date | Activity | Output |
 |------|----------|--------|
 | 2025 (sporadic) | A handful of early WBM captures of individual pages (one each on 2025-01-20, 2025-04-29, 2025-05-14, 2025-09-17/18/19) | 7 static pages opportunistically in the Wayback Machine |
-| Nov–early Dec 2025 | Site spidering with Python + Crawlee (headless browser), URL classification, catalog-ID enumeration, PDF harvesting | `mmdc-urls-UNIFIED.xlsx` — 317 static pages, 112 PDFs, 38 assets, 11.738 catalog record IDs |
-| **2025-12-14** | Mass WBM submission of all static HTML pages via Save Page Now | 459 static-page submissions indexed same day |
+| Nov–early Dec 2025 | Site spidering with Python + Crawlee (headless browser), URL classification, catalog-ID enumeration, PDF harvesting | [mmdc-urls-unified_15042026.xlsx](mmdc-urls-unified_15042026.xlsx) — 317 static pages, 112 PDFs, 38 assets, 11.738 catalog record IDs |
+| Dec 2025 | Rendering of all static pages to standalone HTML using [render_static_pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_static_pages.py) | 318 rendered static HTML pages in `local-archive/static-pages/` |
+| **2025-12-07 → 2025-12-08** | Mass WBM submission of all 429 non-catalog URLs (static pages + PDFs) via SPN2 API using [SaveToWBM_mmdc_non-catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_non-catalog-pages.py) | **429/429 (100%) successfully archived** |
 | **2025-12-15** | mmdc.nl officially phased out; domain starts redirecting to the KB manuscripts landing page | Live site no longer available |
 | Dec 2025 | PDFs and static asset images downloaded locally; 26 PDFs freshly indexed in WBM, 40 already had older captures | 112 PDFs + 38 images preserved locally |
-| Late Dec 2025 – Mar 2026 | Headless-browser rendering of the 11.738 catalog records to self-contained HTML (`render_catalog_full.py`), with resume + retry across multiple sessions | `_archiving-artifacts/local-archive/catalog-pages/catalog-page-{N}.html` |
-| **2026-04-02 → 2026-04-07** | Sequential WBM submission of all 11.738 pre-rendered catalog pages under `/wbm/site/search/catalog-page-{N}.html` | ≈ 2.000–3.000 submissions/day, 11.658 successful on first pass |
+| Late Dec 2025 – Mar 2026 | Headless-browser rendering of all 11.738 catalog records to self-contained HTML using [render_catalog_full.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/render_catalog_full.py), with resume + retry across multiple sessions | 11.738 files in `local-archive/catalog-pages/catalog-page-{N}.html` |
+| **2026-04-02 → 2026-04-07** | Sequential WBM submission of all 11.738 pre-rendered catalog pages using [SaveToWBM_mmdc_catalog-pages.py]({{ site.github.repository_url }}/blob/main/archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py) | ≈ 2.000–3.000 submissions/day, 11.658 successful on first pass |
 | 2026-04-08 → 2026-04-10 | CDX-API verification of indexed captures; identification of 80 URLs that needed retry | Retry list compiled |
-| **2026-04-11** | 34-minute retry pass for the remaining 80 catalog pages | 11.738 / 11.738 catalog pages indexed in the Wayback Machine |
-| **2026-04-15** | Unified spreadsheet exported with final WBM capture URLs and timestamps | [`mmdc-urls-unified_15042026.xlsx`](mmdc-urls-unified_15042026.xlsx) |
+| **2026-04-11** | 34-minute retry pass for the remaining 80 catalog pages | **11.738/11.738 catalog pages indexed in the Wayback Machine** |
+| **2026-04-15** | Unified spreadsheet exported with final WBM capture URLs and timestamps | [mmdc-urls-unified_15042026.xlsx](mmdc-urls-unified_15042026.xlsx) |
 
 See also the [broader development timeline](../../how-this-site-was-built.md#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) for day-by-day submission counts.
 
 ## Notes & known issues
 
 - Two URLs have minor source-data issues: `…/AccessibilityStatement` (missing `.html`) and `…/index_Bifolium.pdx` (typo, should be `.pdf`).
-- The large local artifacts (`_archiving-artifacts/local-archive/`, `warc/`, 11.738 rendered catalog pages) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit; long-term hosting via the Internet Archive is being arranged.
+- The large local artifacts (11.738 rendered catalog pages in `_archiving-artifacts/local-archive/`) are kept outside GitHub because the total repo exceeds GitHub's 2 GB limit. 10 sample pages are included; the full set can be obtained from the Wayback Machine or via the KB (olaf.janssen@kb.nl).
