@@ -40,7 +40,7 @@ Archiving was done in two phases:
 
 1. **Wiki priority** (10-11 Dec 2025) — 61 URLs linked from Dutch Wikipedia and Wikimedia Commons were archived first using `_archiving-artifacts/scripts/SaveToWBM_manuscripts_wiki_priority.py`. All 61 completed successfully in ~23 minutes.
 
-2. **Bulk archiving** (11-14 Dec 2025) — 7,433 URLs from the spider output were submitted sheet by sheet (smallest first) using `_archiving-artifacts/scripts/SaveToWBM_manuscripts_excel.py`. The script uses the Internet Archive SPN2 API with authenticated rate limits (17s between requests). All sheets completed with <0.1% transient error rate (4 errors, all retried successfully).
+2. **Bulk archiving** (11-14 Dec 2025) — 7,433 URLs from the spider output were submitted sheet by sheet (smallest first) using `_archiving-artifacts/scripts/SaveToWBM_manuscripts_bulk.py`. The script uses the Internet Archive SPN2 API with authenticated rate limits (17s between requests). All sheets completed with <0.1% transient error rate (4 errors, all retried successfully).
 
 Plan: [`_archiving-artifacts/docs/PLAN-wbm-archiving-manuscripts.kb.nl.md`](_archiving-artifacts/docs/PLAN-wbm-archiving-manuscripts.kb.nl.md).
 

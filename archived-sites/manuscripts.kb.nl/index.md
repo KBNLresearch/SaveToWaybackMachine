@@ -111,7 +111,7 @@ The discovered URLs were submitted to the Wayback Machine using the Internet Arc
 
 1. **Phase 1 — Wiki priority URLs (10-11 Dec 2025):** 61 URLs linked from Dutch Wikipedia and Wikimedia Commons were archived first using [SaveToWBM_manuscripts_wiki_priority.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_wiki_priority.py). Completed in ~23 minutes. Result: **61/61 (100%) successfully archived**.
 
-2. **Phase 2 — Bulk archiving (11-14 Dec 2025):** 7,433 URLs from the spider output were submitted sheet by sheet (smallest first: static_pages → indexes → search_literature → search_extended → show_text → show_images_text → show_manuscript) using [SaveToWBM_manuscripts_excel.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_excel.py). Rate-limited at 17 seconds between requests. Result: **7,433/7,433 (100%) successfully archived**, with only 4 transient errors (<0.1%) that were retried successfully.
+2. **Phase 2 — Bulk archiving (11-14 Dec 2025):** 7,433 URLs from the spider output were submitted sheet by sheet (smallest first: static_pages → indexes → search_literature → search_extended → show_text → show_images_text → show_manuscript) using [SaveToWBM_manuscripts_bulk.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_bulk.py). Rate-limited at 17 seconds between requests. Result: **7,433/7,433 (100%) successfully archived**, with only 4 transient errors (<0.1%) that were retried successfully.
 
 Full planning notes: [PLAN-wbm-archiving-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/docs/PLAN-wbm-archiving-manuscripts.kb.nl.md).
 
@@ -135,7 +135,7 @@ manuscripts.kb.nl/
 └── _archiving-artifacts/                    # WBM submission
     ├── scripts/                             # 3 core Python scripts:
     │   ├── SaveToWBM_manuscripts_wiki_priority.py  # submit wiki-priority URLs to WBM
-    │   ├── SaveToWBM_manuscripts_excel.py          # submit all URLs sheet by sheet to WBM
+    │   ├── SaveToWBM_manuscripts_bulk.py          # submit all URLs sheet by sheet to WBM
     │   └── lookup_wbm_captures.py                  # CDX lookup for actual capture URLs
     ├── data/                                # Progress/checkpoint files (not on GitHub)
     ├── docs/                                # PLAN-wbm-archiving-manuscripts.kb.nl.md
