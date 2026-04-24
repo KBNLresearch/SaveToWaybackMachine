@@ -209,7 +209,9 @@ All 11.738 `catalog-pages` rows in [`mmdc-urls-unified_15042026.xlsx`](archived-
 
 The matching `WBM_Timestamp_capture` column in the same sheet (which holds the *latest* snapshot the CDX API reports for each URL) shows that in every case the Wayback Machine subsequently indexed the submission successfully — see the [catalog-page-2 / 500 / 5000 examples](archived-sites/mmdc.nl/#catalog-pages-in-the-wayback-machine) on the mmdc.nl page.
 
-Scripts that drove the run: [`SaveToWBM_mmdc_catalog-pages.py`](archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py) (initial submission + April 11 retry). See the [mmdc.nl lessons learned](archived-sites/mmdc.nl/lessons-learned.md) for the full story.
+Scripts that drove the run: [`SaveToWBM_mmdc_catalog-pages.py`](archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py) (initial submission + April 11 retry). 
+
+See the [mmdc.nl archiving documentation](archived-sites/mmdc.nl/) and the [mmdc.nl lessons learned](archived-sites/mmdc.nl/lessons-learned.md) for the full story.
 
 ---
 
@@ -217,7 +219,7 @@ Scripts that drove the run: [`SaveToWBM_mmdc_catalog-pages.py`](archived-sites/m
 
 The [manuscripts.kb.nl](archived-sites/manuscripts.kb.nl/) site (Medieval Illuminated Manuscripts / MVH) was spidered and archived to the Wayback Machine in **December 2025** (10-14 Dec), before the site's shutdown on 15 December 2025. The archiving itself was done using custom Python scripts and the SPN2 API, resulting in **7,460 URLs archived with a 100% success rate**.
 
-In **April 2026**, the documentation for this archival run was consolidated:
+In **April 2026**, the documentation for this archival run was created:
 
 - Created `index.md`, `README.md`, and `excel-details.md` following the mmdc.nl documentation template
 - Restructured the master spreadsheet (`manuscripts-urls-wbm-archived.xlsx`) to distinguish between WBM submission and capture URLs/timestamps
