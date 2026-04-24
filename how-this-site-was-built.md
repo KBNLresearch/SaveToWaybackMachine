@@ -16,6 +16,7 @@ yes,
 - [Timeline overview](#timeline-overview)
 - [Development phases](#development-phases)
 - [April 2026: mmdc.nl catalog pages submitted to WBM](#april-2026-mmdcnl-catalog-pages-submitted-to-wbm)
+- [April 2026: manuscripts.kb.nl documentation](#april-2026-manuscriptskbnl-documentation)
 - [Major achievement: AI vision recognition](#major-achievement-ai-vision-recognition)
 - [KB huisstijl implementation](#kb-huisstijl-implementation)
 - [Accessibility, privacy & licensing](#compliance--accessibility)
@@ -35,7 +36,8 @@ yes,
 | [KB huisstijl & compliance](#phase-6-kb-huisstijl--compliance-dec-3-session-2) | Dec 3 | (session 2) | ~2h | 6 |
 | [Code organization & footer redesign](#phase-7-code-organization--footer-redesign-dec-3-session-2) | Dec 3 | (session 2) | ~1h | 4 |
 | [mmdc.nl catalog WBM submissions](#april-2026-mmdcnl-catalog-pages-submitted-to-wbm) | Apr 2–11, 2026 | (7 active days) | ~6 calendar days of wall-clock submission time | — |
-| **Total** | | | **~10 hours** (+ catalog run) | **33 commits** |
+| [manuscripts.kb.nl documentation](#april-2026-manuscriptskbnl-documentation) | Apr 24, 2026 | 1 session | ~3h | — |
+| **Total** | | | **~10 hours** (+ catalog run + manuscripts docs) | **33+ commits** |
 
 ---
 
@@ -208,6 +210,23 @@ All 11.738 `catalog-pages` rows in [`mmdc-urls-unified_15042026.xlsx`](archived-
 The matching `WBM_Timestamp_capture` column in the same sheet (which holds the *latest* snapshot the CDX API reports for each URL) shows that in every case the Wayback Machine subsequently indexed the submission successfully — see the [catalog-page-2 / 500 / 5000 examples](archived-sites/mmdc.nl/#catalog-pages-in-the-wayback-machine) on the mmdc.nl page.
 
 Scripts that drove the run: [`SaveToWBM_mmdc_catalog-pages.py`](archived-sites/mmdc.nl/_archiving-artifacts/scripts/SaveToWBM_mmdc_catalog-pages.py) (initial submission + April 11 retry). See the [mmdc.nl lessons learned](archived-sites/mmdc.nl/lessons-learned.md) for the full story.
+
+---
+
+## April 2026: manuscripts.kb.nl documentation
+
+The [manuscripts.kb.nl](archived-sites/manuscripts.kb.nl/) site (Medieval Illuminated Manuscripts / MVH) was spidered and archived to the Wayback Machine in **December 2025** (10-14 Dec), before the site's shutdown on 15 December 2025. The archiving itself was done using custom Python scripts and the SPN2 API, resulting in **7,460 URLs archived with a 100% success rate**.
+
+In **April 2026**, the documentation for this archival run was consolidated:
+
+- Created `index.md`, `README.md`, and `excel-details.md` following the mmdc.nl documentation template
+- Restructured the master spreadsheet (`manuscripts-urls-wbm-archived.xlsx`) to distinguish between WBM submission and capture URLs/timestamps
+- Merged wiki-priority URLs (61 URLs linked from Dutch Wikipedia and Wikimedia Commons) into the master spreadsheet
+- Ran CDX API lookups to populate the `WBM_URL_capture` and `WBM_Timestamp_capture` columns
+- Took before/after screenshots for the documentation gallery
+- Improved internal documentation (docstrings) of all spider and archiving scripts
+
+For full details, see the [manuscripts.kb.nl archiving documentation](archived-sites/manuscripts.kb.nl/).
 
 ---
 

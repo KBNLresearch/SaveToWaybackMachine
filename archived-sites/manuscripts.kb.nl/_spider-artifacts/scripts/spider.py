@@ -1,6 +1,37 @@
 """
-URL Spider for manuscripts.kb.nl
-Discovers all URLs on the Medieval Illuminated Manuscripts site.
+URL spider for manuscripts.kb.nl.
+
+Breadth-first crawler that discovers all URLs on the Medieval Illuminated
+Manuscripts site. Uses requests + BeautifulSoup (no headless browser needed
+since the site is server-rendered).
+
+Workflow:
+  1. Probe crawl: test connectivity on seed URLs, measure response times
+  2. Seed the queue from config.SEED_URLS (homepage, indexes, search entry points)
+  3. For each page: fetch HTML, extract <a> links, pagination links, and
+     JavaScript getIndex() calls (index pages embed shelfmark/author values
+     in JS rather than HTML links)
+  4. Prioritise index and search pages at the front of the queue so detail
+     pages are discovered breadth-first
+  5. Write every new URL to ExcelWriter (which auto-flushes every 25 URLs)
+
+URL filtering (in normalize_url):
+  - Excludes images, CSS, JS, fonts (EXCLUDE_EXTENSIONS from config)
+  - Excludes /show/images/ (image-only, redundant with /show/images_text/)
+  - Excludes /iconclass/, /haspart/, /zoom/ (search facets, not worth archiving)
+  - Excludes /search/manuscripts/extended/title/ (always returns empty results)
+  - Strips URL fragments and trailing control characters
+
+Output:
+  - manuscripts-urls-spider-output.xlsx via ExcelWriter (12,550 URLs)
+  - crawl.log in _spider-artifacts/logs/
+  - crawl_progress.json checkpointed every 100 pages
+
+Usage:
+  python spider.py               # full crawl
+  python spider.py --probe       # probe crawl only (test connectivity)
+  python spider.py --max-pages N # crawl at most N pages
+
 Created: 2025-12-10
 """
 
@@ -42,7 +73,13 @@ logger = logging.getLogger(__name__)
 
 
 class ManuscriptSpider:
-    """Spider for manuscripts.kb.nl."""
+    """Breadth-first HTTP crawler for manuscripts.kb.nl.
+
+    Maintains a FIFO queue of URLs to visit, a set of already-seen URLs,
+    and an ExcelWriter that streams results to the output spreadsheet.
+    Index/search pages are pushed to the front of the queue so that
+    detail pages are discovered as early as possible.
+    """
 
     def __init__(self):
         self.session = requests.Session()
@@ -67,7 +104,12 @@ class ManuscriptSpider:
         }
 
     def normalize_url(self, url: str) -> Optional[str]:
-        """Normalize URL and filter out unwanted URLs."""
+        """Normalize a URL and return None if it should be excluded.
+
+        Strips fragments, trailing control characters, and filters out
+        off-domain URLs, excluded extensions, and URL patterns that are
+        not worth archiving (see module docstring for the full list).
+        """
         # Filter out javascript: URLs immediately
         if url.startswith('javascript:') or url.startswith('javascript://'):
             return None
@@ -232,7 +274,11 @@ class ManuscriptSpider:
         return links
 
     def fetch_page(self, url: str) -> Optional[str]:
-        """Fetch a single page with rate limiting and error handling."""
+        """Fetch a single page, respecting crawl delays and retry settings.
+
+        Returns the HTML body on success, None on any error. Backs off
+        for 30 seconds on HTTP 429 (rate limited).
+        """
         try:
             # Random delay between requests
             delay = random.uniform(
@@ -269,7 +315,12 @@ class ManuscriptSpider:
             return None
 
     def crawl_page(self, url: str) -> List[str]:
-        """Crawl a single page and return discovered URLs."""
+        """Fetch one page, extract all link types, and return newly discovered URLs.
+
+        Combines regular links, pagination links, detail page links, and
+        (on index pages) JavaScript getIndex() URLs. Each new URL is
+        deduplicated and written to the ExcelWriter.
+        """
         html = self.fetch_page(url)
         if not html:
             return []
@@ -331,7 +382,7 @@ class ManuscriptSpider:
         return results
 
     def run(self, probe_only: bool = False, max_pages: Optional[int] = None):
-        """Run the spider."""
+        """Run the full crawl: probe, seed, crawl loop, finalize."""
         self.stats['start_time'] = datetime.now()
         logger.info("=" * 60)
         logger.info("manuscripts.kb.nl URL Spider Starting")

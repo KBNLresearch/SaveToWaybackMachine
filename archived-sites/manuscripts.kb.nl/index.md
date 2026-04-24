@@ -16,9 +16,10 @@ breadcrumb:
 
 [manuscripts.kb.nl](https://manuscripts.kb.nl/) - the **Medieval Illuminated Manuscripts** (Middeleeuwse Verluchte Handschriften / MVH) database of the KB, National Library of the Netherlands - was shut down on 15 December 2025.
 
-<img src="images/homepage_11122025.png" width="500" alt="Screenshot of manuscripts.kb.nl homepage"/>
+<img src="images/homepage_11122025.png" width="500" alt="Screenshot of manuscripts.kb.nl homepage"/><br/>
+*Screenshot of manuscripts.kb.nl homepage, December 2025*
 
-Before the site went offline, its URLs were spidered and archived to [The Wayback Machine](https://web.archive.org/) (WBM) during **10-14 December 2025**.
+Before the site went offline, the KB spidered and archived a representative sample of its URLs to [The Wayback Machine](https://web.archive.org/) (WBM) during **10-14 December 2025**.
 
 ## Results & URL spreadsheet
 

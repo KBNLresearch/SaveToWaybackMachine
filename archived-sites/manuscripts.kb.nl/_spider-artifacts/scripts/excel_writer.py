@@ -1,7 +1,26 @@
 """
-Excel Writer for manuscripts.kb.nl URL Spider
-Single sheet format (flat, no filters) with streaming saves every 25 URLs
-Full resume capability after failure/connection loss
+Streaming Excel writer for the manuscripts.kb.nl URL spider.
+
+Writes discovered URLs to manuscripts-urls-spider-output.xlsx as a single
+flat sheet (ALL_URLS). Each URL is classified by category (STATIC_PAGES,
+INDEX_PAGES, MANUSCRIPT_DETAIL, etc.) and assigned a priority level based
+on whether it's linked from Dutch Wikipedia or Wikimedia Commons.
+
+Key features:
+  - Streaming saves: flushes to Excel every 25 URLs to limit data loss
+  - Resume capability: persists state to spider_state.json after each flush;
+    on restart, reloads seen URLs from both the state file and the Excel,
+    trusting the Excel as source of truth if they diverge
+  - Deduplication: tracks seen URLs in memory; add_url() returns False for dupes
+
+Classes:
+  URLRecord   -- a single discovered URL with category, priority, and WBM fields
+  ExcelWriter -- manages the workbook, buffer, state file, and flush cycle
+
+Standalone functions:
+  classify_url()       -- map a URL path to a category string
+  determine_priority() -- assign a priority level given Wikimedia presence
+
 Created: 2025-12-10
 """
 
@@ -145,11 +164,15 @@ def determine_priority(url: str, wiki_urls: Set[str], commons_urls: Set[str]) ->
 
 
 class ExcelWriter:
-    """
-    Streaming Excel writer with:
-    - Save every 25 URLs
-    - Full resume capability after failure
-    - State file tracking for recovery
+    """Streaming Excel writer with resume capability.
+
+    Buffers incoming URLs and flushes them to the ALL_URLS sheet every
+    SAVE_INTERVAL (25) URLs. After each flush, persists a state file
+    (spider_state.json) containing the full set of seen URLs so the
+    spider can resume from exactly where it left off after a crash.
+
+    On init with resume=True, loads state from the JSON and cross-checks
+    it against the Excel; if they diverge, trusts the Excel.
     """
 
     # Save to Excel every 25 URLs

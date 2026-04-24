@@ -29,6 +29,8 @@ Complete overview of all pages on this site.
 | [mmdc.nl](./archived-sites/mmdc.nl/) | Medieval Manuscripts in Dutch Collections | 12.204 |
 | ├─ [Excel details](./archived-sites/mmdc.nl/excel-details.md) | Column-by-column breakdown of the master spreadsheet | |
 | └─ [Lessons learned](./archived-sites/mmdc.nl/lessons-learned.md) | JavaScript rendering, rate limiting, human-AI collaboration | |
+| [manuscripts.kb.nl](./archived-sites/manuscripts.kb.nl/) | Medieval Illuminated Manuscripts | 7.460 |
+| └─ [Excel details](./archived-sites/manuscripts.kb.nl/excel-details.md) | Column-by-column breakdown of the master spreadsheet | |
 | [kb.nl](./archived-sites/kb.nl/) | KB National Library | 7.633 |
 | ├─ [24122021/](./archived-sites/kb.nl/24122021/) | Old site (Dec 2021) | 5.719 |
 | └─ [23032022/](./archived-sites/kb.nl/23032022/) | New site (Mar 2022) | 1.914 |
@@ -49,7 +51,7 @@ Complete overview of all pages on this site.
 
 | Script | Description |
 |--------|-------------|
-| [wbm-archiver-scripts](./wbm-archiver-scripts/) | General-purpose and mmdc.nl-specific archiving scripts |
+| [wbm-archiver-scripts](./wbm-archiver-scripts/) | General-purpose, mmdc.nl-specific, and manuscripts.kb.nl-specific archiving scripts |
 
 ---
 
@@ -68,8 +70,8 @@ Complete overview of all pages on this site.
 
 | Metric | Count |
 |--------|-------|
-| **Total archived sites** | 8 |
-| **Total URLs archived** | ~126.307 |
+| **Total archived sites** | 9 |
+| **Total URLs archived** | ~133.767 |
 | **Total pages on this site** | 20+ |
 
 ---

@@ -1,5 +1,10 @@
 """
-Configuration for manuscripts.kb.nl URL Spider
+Configuration for the manuscripts.kb.nl URL spider.
+
+Central config for all spider components (spider.py, excel_writer.py).
+Defines seed URLs, crawl throttling, URL classification rules, Wikimedia
+API endpoints for priority detection, and Excel output schema.
+
 Created: 2025-12-10
 """
 

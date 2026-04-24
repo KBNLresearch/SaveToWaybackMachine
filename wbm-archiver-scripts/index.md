@@ -114,4 +114,51 @@ The core submission logic (SPN2 API calls, retry handling, progress tracking) is
 
 ---
 
-For more context on how these scripts were used, see the [mmdc.nl archiving documentation](../archived-sites/mmdc.nl/) and the [lessons learned](../archived-sites/mmdc.nl/lessons-learned.md).
+## 3. manuscripts.kb.nl-specific scripts
+
+These scripts were developed for the [manuscripts.kb.nl archiving project](../archived-sites/manuscripts.kb.nl/) and are located in two folders: [`_spider-artifacts/scripts/`]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts) for URL discovery and [`_archiving-artifacts/scripts/`]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts) for WBM submission. They also use the SPN2 API with authenticated access.
+
+### Spider scripts
+
+| Script | Description |
+|--------|-------------|
+| [spider.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/spider.py) | Breadth-first HTTP crawler (requests + BeautifulSoup). Discovers all URLs by following links and extracting JavaScript `getIndex()` calls from index pages. Output: **12,550 URLs**. |
+| [excel_writer.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/excel_writer.py) | Streaming Excel writer with resume capability. Flushes discovered URLs to the spreadsheet every 25 URLs. |
+| [config.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/config.py) | Seed URLs, crawl throttling, URL classification rules, and Excel schema. |
+
+### Archiving scripts
+
+| Script | Description |
+|--------|-------------|
+| [SaveToWBM_manuscripts_wiki_priority.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_wiki_priority.py) | Phase 1: fetches manuscripts.kb.nl URLs linked from Dutch Wikipedia and Wikimedia Commons via the MediaWiki API, then submits them to WBM. Used 10-11 Dec 2025: **61/61 (100%) archived** in ~23 minutes. |
+| [SaveToWBM_manuscripts_bulk.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_bulk.py) | Phase 2: bulk submission of all 7,433 spidered URLs, processed sheet by sheet (smallest first). Used 11-14 Dec 2025: **7,433/7,433 (100%) archived** with <0.1% transient error rate. |
+| [lookup_wbm_captures.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/lookup_wbm_captures.py) | Post-archiving: queries the CDX API to find the actual capture URL and timestamp for each submitted URL. Writes results to the `WBM_URL_capture` and `WBM_Timestamp_capture` columns in the master Excel. |
+
+### Features
+
+The archiving scripts share the same robustness features as the mmdc.nl scripts:
+
+* **Resume capability** — progress saved after every URL
+* **Automatic retry** — exponential backoff on transient failures
+* **Rate-limit handling** — 17s base delay, 5-minute pause on HTTP 429
+* **Streaming Excel updates** — results written back to the spreadsheet every 5-10 URLs
+
+### Usage
+
+```bash
+# Navigate to the scripts folder
+cd archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts
+
+# Phase 1: Archive wiki-priority URLs
+python SaveToWBM_manuscripts_wiki_priority.py
+
+# Phase 2: Bulk archive all URLs
+python SaveToWBM_manuscripts_bulk.py
+
+# Post-archiving: Look up actual capture URLs via CDX
+python lookup_wbm_captures.py
+```
+
+---
+
+For more context, see the [mmdc.nl archiving documentation](../archived-sites/mmdc.nl/), the [mmdc.nl lessons learned](../archived-sites/mmdc.nl/lessons-learned.md), and the [manuscripts.kb.nl archiving documentation](../archived-sites/manuscripts.kb.nl/).
