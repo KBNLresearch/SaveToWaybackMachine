@@ -57,14 +57,15 @@ manuscripts.kb.nl/
 │   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
-│   ├── data/spider_state.json               # Crawl checkpoint (resume state)
+│   ├── data/                               # ⛔ NOT ON GITHUB (spider_state.json etc.)
 │   ├── docs/                                # Spider plan
 │   └── logs/                                # Crawl log
 └── _archiving-artifacts/                    # WBM submission
     ├── scripts/                             # SaveToWBM_*.py, lookup_wbm_captures.py
-    ├── data/                                # Progress/checkpoint files (not on GitHub)
+    │   └── .env                             # ⛔ NOT ON GITHUB (IA API keys)
+    ├── data/                                # ⛔ NOT ON GITHUB (progress/checkpoint JSON files)
     ├── docs/                                # Archiving plan
-    └── logs/                                # Archiving logs
+    └── logs/                                # ⛔ NOT ON GITHUB (archiving logs)
 ```
 
 ## Notes

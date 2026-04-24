@@ -129,17 +129,18 @@ manuscripts.kb.nl/
 │   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
-│   ├── data/spider_state.json               # Crawl checkpoint (resume state)
+│   ├── data/                               # ⛔ NOT ON GITHUB (spider_state.json etc.)
 │   ├── docs/                                # PLAN-url-spider-manuscripts.kb.nl.md
 │   └── logs/                                # crawl.log
 └── _archiving-artifacts/                    # WBM submission
     ├── scripts/                             # 3 core Python scripts:
     │   ├── SaveToWBM_manuscripts_wiki_priority.py  # submit wiki-priority URLs to WBM
-    │   ├── SaveToWBM_manuscripts_bulk.py          # submit all URLs sheet by sheet to WBM
-    │   └── lookup_wbm_captures.py                  # CDX lookup for actual capture URLs
-    ├── data/                                # Progress/checkpoint files (not on GitHub)
+    │   ├── SaveToWBM_manuscripts_bulk.py           # submit all URLs sheet by sheet to WBM
+    │   ├── lookup_wbm_captures.py                  # CDX lookup for actual capture URLs
+    │   └── .env                                    # ⛔ NOT ON GITHUB (IA API keys)
+    ├── data/                                # ⛔ NOT ON GITHUB (progress/checkpoint JSON files)
     ├── docs/                                # PLAN-wbm-archiving-manuscripts.kb.nl.md
-    └── logs/                                # Archiving logs
+    └── logs/                                # ⛔ NOT ON GITHUB (archiving logs)
 ```
 
 ## Timeline
