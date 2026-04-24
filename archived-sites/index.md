@@ -18,6 +18,12 @@ Browse all websites that the KB, national library of the Netherlands, archived i
     <p>Medieval Manuscripts in Dutch Collections - 11.738 & 466 URLs archived</p>
     <span class="archive-date">April 2026 & Dec 2025</span>
   </a>
+  <a href="manuscripts.kb.nl/" class="nav-card">
+    <img src="manuscripts.kb.nl/images/wbm_homepage_11122025.png" alt="manuscripts.kb.nl screenshot">
+    <h3>manuscripts.kb.nl</h3>
+    <p>Medieval Illuminated Manuscripts - 7.460 URLs archived</p>
+    <span class="archive-date">Dec 2025</span>
+  </a>
   <a href="kb.nl/" class="nav-card">
     <img src="kb.nl/23032022/images/kbnl_homepage_23032022.png" alt="kb.nl screenshot">
     <h3>kb.nl</h3>
@@ -69,6 +75,7 @@ Browse all websites that the KB, national library of the Netherlands, archived i
 |---------------------------------------------------------------------------------------------------|---------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Medieval Manuscripts in Dutch Collections (catalog records)](mmdc.nl/index.md)    | Apr 2026      | 11.738 | [Excel file](mmdc.nl/mmdc-urls-unified_15042026.xlsx) (sheets *catalog-pages* and *catalog-pages-full-metadata*)                                                                                                                 |
 | [Medieval Manuscripts in Dutch Collections (static pages, PDFs, assets)](mmdc.nl/) | Dec 2025      | 466    | [Excel file](mmdc.nl/mmdc-urls-unified_15042026.xlsx) (sheet *non-catalog-pages*)                                                                                                                                                |
+| [Medieval Illuminated Manuscripts (manuscripts.kb.nl)](manuscripts.kb.nl/)         | Dec 2025      | 7.460  | [Excel file](manuscripts.kb.nl/manuscripts-urls-wbm-archived.xlsx)                                                                                                                                                               |
 | [kb.nl (new)](kb.nl/)                                                              | Mar 2022      | 1.915  | [Excel file](kb.nl/23032022/urls_kbnl_archivedwbm_23032022.xlsx) and  [CSV](kb.nl/23032022/urls_kbnl_archivedwbm_23032022.csv)                                                                                    |
 | [Literatuurgeschiedenis.org](Literatuurgeschiedenis.org/)                          | Mar 2022      | 465   | [Excel file](Literatuurgeschiedenis.org/25032022/urls_literatuurgeschiedenisorg_archivedwbm_25032022.xlsx) and [CSV](Literatuurgeschiedenis.org/25032022/urls_literatuurgeschiedenisorg_archivedwbm_25032022.csv) |
 | [kb.nl (old)](kb.nl/)                                                              | Dec 2021      | 5.720  | [Excel file](kb.nl/24122021/urls_kbnl_archivedwbm_24122021.xlsx) and  [CSV](kb.nl/24122021/urls_kbnl_archivedwbm_24122021.csv)                                                                                    |

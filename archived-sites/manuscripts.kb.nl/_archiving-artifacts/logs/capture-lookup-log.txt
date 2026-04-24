@@ -1,0 +1,237 @@
+[2026-04-24 11:48:37] Starting capture lookup for manuscripts-urls-wbm-archived.xlsx
+[2026-04-24 11:48:37] 
+--- Sheet: ALL_URLS (7460 rows) ---
+[2026-04-24 11:49:32]   [ALL_URLS] 1/7460 | OK: https://manuscripts.kb.nl/indexes/authortitle... -> 20251211005650
+[2026-04-24 11:49:47]   [ALL_URLS] 2/7460 | OK: https://manuscripts.kb.nl/indexes/haspart... -> 20251211005723
+[2026-04-24 11:49:50]   [ALL_URLS] 3/7460 | OK: https://manuscripts.kb.nl/indexes/iconclass... -> 20251211005759
+[2026-04-24 11:49:54]   [ALL_URLS] 4/7460 | OK: https://manuscripts.kb.nl/indexes/imagetype... -> 20251211005816
+[2026-04-24 11:50:03]   [ALL_URLS] 5/7460 | OK: https://manuscripts.kb.nl/indexes/language... -> 20251211005904
+[2026-04-24 11:50:05]   Saved Excel (5 captures so far)
+[2026-04-24 11:50:10]   [ALL_URLS] 6/7460 | OK: https://manuscripts.kb.nl/indexes/miniaturist... -> 20251211005928
+[2026-04-24 11:50:29]   [ALL_URLS] 7/7460 | OK: https://manuscripts.kb.nl/indexes/place... -> 20251211005927
+[2026-04-24 11:50:58]   [ALL_URLS] 8/7460 | OK: https://manuscripts.kb.nl/indexes/shelfmark... -> 20251214002409
+[2026-04-24 11:51:03]   [ALL_URLS] 9/7460 | OK: https://manuscripts.kb.nl/indexes/titleImage... -> 20251211010104
+[2026-04-24 11:51:27]   [ALL_URLS] 10/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114245
+[2026-04-24 11:51:28]   Saved Excel (10 captures so far)
+[2026-04-24 11:52:22]   [ALL_URLS] 11/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114408
+[2026-04-24 11:52:39]   [ALL_URLS] 12/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114421
+[2026-04-24 11:53:03]   [ALL_URLS] 13/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114332
+[2026-04-24 11:53:12]   [ALL_URLS] 14/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114505
+[2026-04-24 11:54:14]   CDX timeout, retry in 10s...
+[2026-04-24 11:54:28]   [ALL_URLS] 15/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114417
+[2026-04-24 11:54:28]   Saved Excel (15 captures so far)
+[2026-04-24 11:54:34]   [ALL_URLS] 16/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114601
+[2026-04-24 11:54:54]   [ALL_URLS] 17/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114617
+[2026-04-24 11:54:57]   [ALL_URLS] 18/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114643
+[2026-04-24 11:55:03]   [ALL_URLS] 19/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114658
+[2026-04-24 11:55:09]   [ALL_URLS] 20/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114641
+[2026-04-24 11:55:09]   Saved Excel (20 captures so far)
+[2026-04-24 11:55:31]   [ALL_URLS] 21/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114657
+[2026-04-24 11:55:36]   [ALL_URLS] 22/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114824
+[2026-04-24 11:55:48]   [ALL_URLS] 23/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114844
+[2026-04-24 11:55:52]   [ALL_URLS] 24/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114908
+[2026-04-24 11:56:07]   [ALL_URLS] 25/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114807
+[2026-04-24 11:56:07]   Saved Excel (25 captures so far)
+[2026-04-24 11:56:28]   [ALL_URLS] 26/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211114840
+[2026-04-24 11:56:31]   [ALL_URLS] 27/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115027
+[2026-04-24 11:56:39]   [ALL_URLS] 28/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115024
+[2026-04-24 11:56:44]   [ALL_URLS] 29/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115037
+[2026-04-24 11:56:59]   [ALL_URLS] 30/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115114
+[2026-04-24 11:56:59]   Saved Excel (30 captures so far)
+[2026-04-24 11:57:06]   [ALL_URLS] 31/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115148
+[2026-04-24 11:57:15]   [ALL_URLS] 32/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115208
+[2026-04-24 11:57:19]   [ALL_URLS] 33/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115216
+[2026-04-24 11:57:24]   Connection error, retry in 15s...
+[2026-04-24 11:57:41]   [ALL_URLS] 34/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115206
+[2026-04-24 11:57:46]   Connection error, retry in 15s...
+[2026-04-24 11:58:03]   [ALL_URLS] 35/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115238
+[2026-04-24 11:58:03]   Saved Excel (35 captures so far)
+[2026-04-24 11:58:10]   [ALL_URLS] 36/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115350
+[2026-04-24 11:58:27]   [ALL_URLS] 37/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115355
+[2026-04-24 11:58:37]   [ALL_URLS] 38/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115429
+[2026-04-24 11:58:41]   [ALL_URLS] 39/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115400
+[2026-04-24 11:58:45]   [ALL_URLS] 40/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115510
+[2026-04-24 11:58:46]   Saved Excel (40 captures so far)
+[2026-04-24 11:58:51]   Connection error, retry in 15s...
+[2026-04-24 11:59:26]   [ALL_URLS] 41/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115526
+[2026-04-24 11:59:53]   [ALL_URLS] 42/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115603
+[2026-04-24 12:00:01]   [ALL_URLS] 43/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115504
+[2026-04-24 12:00:45]   [ALL_URLS] 44/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115542
+[2026-04-24 12:00:51]   [ALL_URLS] 45/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115708
+[2026-04-24 12:00:51]   Saved Excel (45 captures so far)
+[2026-04-24 12:01:19]   [ALL_URLS] 46/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115635
+[2026-04-24 12:01:50]   [ALL_URLS] 47/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115806
+[2026-04-24 12:01:55]   [ALL_URLS] 48/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115743
+[2026-04-24 12:02:00]   [ALL_URLS] 49/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115852
+[2026-04-24 12:02:33]   [ALL_URLS] 50/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115905
+[2026-04-24 12:02:36]   Saved Excel (50 captures so far)
+[2026-04-24 12:03:59]   [ALL_URLS] 51/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115918
+[2026-04-24 12:04:08]   [ALL_URLS] 52/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211115938
+[2026-04-24 12:04:12]   [ALL_URLS] 53/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120007
+[2026-04-24 12:04:16]   [ALL_URLS] 54/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120158
+[2026-04-24 12:04:23]   [ALL_URLS] 55/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120100
+[2026-04-24 12:04:25]   Saved Excel (55 captures so far)
+[2026-04-24 12:05:28]   CDX timeout, retry in 10s...
+[2026-04-24 12:06:39]   CDX timeout, retry in 20s...
+[2026-04-24 12:07:22]   [ALL_URLS] 56/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120127
+[2026-04-24 12:07:36]   [ALL_URLS] 57/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120045
+[2026-04-24 12:07:42]   [ALL_URLS] 58/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120201
+[2026-04-24 12:07:45]   [ALL_URLS] 59/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120141
+[2026-04-24 12:07:53]   [ALL_URLS] 60/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120304
+[2026-04-24 12:07:53]   Saved Excel (60 captures so far)
+[2026-04-24 12:07:57]   [ALL_URLS] 61/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120336
+[2026-04-24 12:08:00]   [ALL_URLS] 62/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120335
+[2026-04-24 12:08:46]   [ALL_URLS] 63/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120357
+[2026-04-24 12:08:57]   [ALL_URLS] 64/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120317
+[2026-04-24 12:09:10]   [ALL_URLS] 65/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120416
+[2026-04-24 12:09:11]   Saved Excel (65 captures so far)
+[2026-04-24 12:09:22]   [ALL_URLS] 66/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120508
+[2026-04-24 12:09:26]   [ALL_URLS] 67/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120543
+[2026-04-24 12:09:39]   [ALL_URLS] 68/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120546
+[2026-04-24 12:09:44]   [ALL_URLS] 69/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120508
+[2026-04-24 12:10:10]   [ALL_URLS] 70/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120606
+[2026-04-24 12:10:10]   Saved Excel (70 captures so far)
+[2026-04-24 12:10:20]   [ALL_URLS] 71/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120717
+[2026-04-24 12:10:48]   [ALL_URLS] 72/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120737
+[2026-04-24 12:11:02]   [ALL_URLS] 73/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120806
+[2026-04-24 12:12:04]   CDX timeout, retry in 10s...
+[2026-04-24 12:13:06]   [ALL_URLS] 74/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120816
+[2026-04-24 12:13:10]   [ALL_URLS] 75/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120843
+[2026-04-24 12:13:10]   Saved Excel (75 captures so far)
+[2026-04-24 12:14:13]   CDX timeout, retry in 10s...
+[2026-04-24 12:15:09]   [ALL_URLS] 76/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120901
+[2026-04-24 12:15:21]   [ALL_URLS] 77/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120814
+[2026-04-24 12:16:15]   [ALL_URLS] 78/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211120935
+[2026-04-24 12:16:45]   [ALL_URLS] 79/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121014
+[2026-04-24 12:16:49]   [ALL_URLS] 80/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121041
+[2026-04-24 12:16:50]   Saved Excel (80 captures so far)
+[2026-04-24 12:16:54]   [ALL_URLS] 81/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121108
+[2026-04-24 12:16:57]   [ALL_URLS] 82/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121116
+[2026-04-24 12:17:01]   [ALL_URLS] 83/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121205
+[2026-04-24 12:17:10]   [ALL_URLS] 84/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121208
+[2026-04-24 12:17:34]   [ALL_URLS] 85/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121119
+[2026-04-24 12:17:37]   Saved Excel (85 captures so far)
+[2026-04-24 12:17:43]   [ALL_URLS] 86/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121257
+[2026-04-24 12:18:45]   CDX timeout, retry in 10s...
+[2026-04-24 12:19:06]   [ALL_URLS] 87/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121318
+[2026-04-24 12:19:10]   [ALL_URLS] 88/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121236
+[2026-04-24 12:19:58]   [ALL_URLS] 89/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121358
+[2026-04-24 12:20:06]   [ALL_URLS] 90/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121418
+[2026-04-24 12:20:07]   Saved Excel (90 captures so far)
+[2026-04-24 12:20:12]   [ALL_URLS] 91/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121446
+[2026-04-24 12:20:18]   [ALL_URLS] 92/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121524
+[2026-04-24 12:20:23]   [ALL_URLS] 93/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121417
+[2026-04-24 12:20:28]   [ALL_URLS] 94/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121605
+[2026-04-24 12:20:53]   [ALL_URLS] 95/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121615
+[2026-04-24 12:20:54]   Saved Excel (95 captures so far)
+[2026-04-24 12:20:58]   [ALL_URLS] 96/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121648
+[2026-04-24 12:21:03]   [ALL_URLS] 97/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121711
+[2026-04-24 12:21:07]   [ALL_URLS] 98/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121736
+[2026-04-24 12:21:13]   [ALL_URLS] 99/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121756
+[2026-04-24 12:21:46]   [ALL_URLS] 100/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121829
+[2026-04-24 12:21:46]   Saved Excel (100 captures so far)
+[2026-04-24 12:21:54]   [ALL_URLS] 101/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121844
+[2026-04-24 12:22:01]   [ALL_URLS] 102/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121750
+[2026-04-24 12:23:04]   CDX timeout, retry in 10s...
+[2026-04-24 12:23:16]   [ALL_URLS] 103/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121934
+[2026-04-24 12:23:20]   [ALL_URLS] 104/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121957
+[2026-04-24 12:23:36]   [ALL_URLS] 105/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122022
+[2026-04-24 12:23:39]   Saved Excel (105 captures so far)
+[2026-04-24 12:23:57]   [ALL_URLS] 106/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122030
+[2026-04-24 12:24:18]   [ALL_URLS] 107/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211121950
+[2026-04-24 12:25:21]   CDX timeout, retry in 10s...
+[2026-04-24 12:25:33]   [ALL_URLS] 108/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122126
+[2026-04-24 12:25:36]   [ALL_URLS] 109/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122055
+[2026-04-24 12:25:41]   [ALL_URLS] 110/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122202
+[2026-04-24 12:25:43]   Saved Excel (110 captures so far)
+[2026-04-24 12:26:11]   [ALL_URLS] 111/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122252
+[2026-04-24 12:26:23]   [ALL_URLS] 112/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122304
+[2026-04-24 12:26:59]   [ALL_URLS] 113/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122252
+[2026-04-24 12:27:14]   [ALL_URLS] 114/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122347
+[2026-04-24 12:27:19]   [ALL_URLS] 115/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122450
+[2026-04-24 12:27:20]   Saved Excel (115 captures so far)
+[2026-04-24 12:27:42]   [ALL_URLS] 116/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122343
+[2026-04-24 12:27:54]   [ALL_URLS] 117/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122451
+[2026-04-24 12:28:22]   [ALL_URLS] 118/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122409
+[2026-04-24 12:28:28]   [ALL_URLS] 119/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122553
+[2026-04-24 12:28:38]   [ALL_URLS] 120/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122619
+[2026-04-24 12:28:38]   Saved Excel (120 captures so far)
+[2026-04-24 12:28:42]   [ALL_URLS] 121/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122525
+[2026-04-24 12:28:48]   [ALL_URLS] 122/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122555
+[2026-04-24 12:28:52]   [ALL_URLS] 123/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122618
+[2026-04-24 12:28:58]   [ALL_URLS] 124/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122756
+[2026-04-24 12:29:04]   [ALL_URLS] 125/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122807
+[2026-04-24 12:29:05]   Saved Excel (125 captures so far)
+[2026-04-24 12:29:13]   [ALL_URLS] 126/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122820
+[2026-04-24 12:29:18]   [ALL_URLS] 127/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122732
+[2026-04-24 12:29:35]   [ALL_URLS] 128/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211122853
+[2026-04-24 12:30:24]   [ALL_URLS] 129/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123635
+[2026-04-24 12:31:21]   [ALL_URLS] 130/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123555
+[2026-04-24 12:31:22]   Saved Excel (130 captures so far)
+[2026-04-24 12:31:26]   [ALL_URLS] 131/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123721
+[2026-04-24 12:32:28]   CDX timeout, retry in 10s...
+[2026-04-24 12:32:51]   [ALL_URLS] 132/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123746
+[2026-04-24 12:32:55]   [ALL_URLS] 133/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123751
+[2026-04-24 12:33:58]   CDX timeout, retry in 10s...
+[2026-04-24 12:35:09]   CDX timeout, retry in 20s...
+[2026-04-24 12:35:35]   [ALL_URLS] 134/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123818
+[2026-04-24 12:35:54]   [ALL_URLS] 135/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123854
+[2026-04-24 12:35:54]   Saved Excel (135 captures so far)
+[2026-04-24 12:36:07]   [ALL_URLS] 136/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123858
+[2026-04-24 12:36:24]   [ALL_URLS] 137/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123930
+[2026-04-24 12:36:28]   [ALL_URLS] 138/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123958
+[2026-04-24 12:36:32]   [ALL_URLS] 139/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211123945
+[2026-04-24 12:37:00]   [ALL_URLS] 140/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124033
+[2026-04-24 12:37:02]   Saved Excel (140 captures so far)
+[2026-04-24 12:37:18]   [ALL_URLS] 141/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124111
+[2026-04-24 12:38:21]   CDX timeout, retry in 10s...
+[2026-04-24 12:39:25]   [ALL_URLS] 142/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124044
+[2026-04-24 12:39:32]   [ALL_URLS] 143/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124159
+[2026-04-24 12:39:54]   [ALL_URLS] 144/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124222
+[2026-04-24 12:40:03]   [ALL_URLS] 145/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124303
+[2026-04-24 12:40:04]   Saved Excel (145 captures so far)
+[2026-04-24 12:40:43]   [ALL_URLS] 146/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124311
+[2026-04-24 12:41:25]   [ALL_URLS] 147/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124337
+[2026-04-24 12:41:36]   [ALL_URLS] 148/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124358
+[2026-04-24 12:42:38]   CDX timeout, retry in 10s...
+[2026-04-24 12:43:49]   CDX timeout, retry in 20s...
+[2026-04-24 12:44:22]   [ALL_URLS] 149/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124405
+[2026-04-24 12:44:30]   [ALL_URLS] 150/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124445
+[2026-04-24 12:44:30]   Saved Excel (150 captures so far)
+[2026-04-24 12:44:35]   [ALL_URLS] 151/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124504
+[2026-04-24 12:44:38]   [ALL_URLS] 152/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124548
+[2026-04-24 12:45:41]   CDX timeout, retry in 10s...
+[2026-04-24 12:46:39]   [ALL_URLS] 153/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124608
+[2026-04-24 12:46:47]   [ALL_URLS] 154/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124543
+[2026-04-24 12:46:57]   [ALL_URLS] 155/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124600
+[2026-04-24 12:46:58]   Saved Excel (155 captures so far)
+[2026-04-24 12:48:00]   CDX timeout, retry in 10s...
+[2026-04-24 12:48:13]   [ALL_URLS] 156/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124735
+[2026-04-24 12:48:34]   [ALL_URLS] 157/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124653
+[2026-04-24 12:48:39]   [ALL_URLS] 158/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124822
+[2026-04-24 12:48:42]   [ALL_URLS] 159/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124742
+[2026-04-24 12:48:46]   [ALL_URLS] 160/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124911
+[2026-04-24 12:48:47]   Saved Excel (160 captures so far)
+[2026-04-24 12:48:51]   [ALL_URLS] 161/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124926
+[2026-04-24 12:48:55]   [ALL_URLS] 162/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124949
+[2026-04-24 12:49:04]   [ALL_URLS] 163/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211124932
+[2026-04-24 12:49:15]   [ALL_URLS] 164/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125051
+[2026-04-24 12:49:20]   [ALL_URLS] 165/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125112
+[2026-04-24 12:49:23]   Saved Excel (165 captures so far)
+[2026-04-24 12:49:54]   [ALL_URLS] 166/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125008
+[2026-04-24 12:50:01]   [ALL_URLS] 167/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125055
+[2026-04-24 12:50:13]   [ALL_URLS] 168/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125211
+[2026-04-24 12:50:30]   [ALL_URLS] 169/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125251
+[2026-04-24 12:50:34]   [ALL_URLS] 170/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125205
+[2026-04-24 12:50:36]   Saved Excel (170 captures so far)
+[2026-04-24 12:50:43]   [ALL_URLS] 171/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125243
+[2026-04-24 12:51:08]   [ALL_URLS] 172/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125408
+[2026-04-24 12:51:23]   [ALL_URLS] 173/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125422
+[2026-04-24 12:51:28]   [ALL_URLS] 174/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125344
+[2026-04-24 12:51:33]   Connection error, retry in 15s...
+[2026-04-24 12:51:49]   [ALL_URLS] 175/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125408
+[2026-04-24 12:51:50]   Saved Excel (175 captures so far)
+[2026-04-24 12:51:55]   Connection error, retry in 15s...
+[2026-04-24 12:52:17]   [ALL_URLS] 176/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125528
+[2026-04-24 12:53:11]   [ALL_URLS] 177/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125548
+[2026-04-24 12:53:18]   [ALL_URLS] 178/7460 | OK: https://manuscripts.kb.nl/search/manuscript/extended/page/1/... -> 20251211125610
