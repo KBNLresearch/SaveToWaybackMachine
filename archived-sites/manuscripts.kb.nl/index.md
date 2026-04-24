@@ -45,7 +45,7 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/homepage_11122025.png" width="380" alt="manuscripts.kb.nl homepage, original"/></td><td><img src="images/wbm_homepage_11122025.png" width="380" alt="manuscripts.kb.nl homepage, as archived in Wayback Machine on 11-12-2025"/></td></tr>
+<tr><td><img src="images/homepage_11122025.png" width="280" alt="manuscripts.kb.nl homepage, original"/></td><td><img src="images/wbm_homepage_11122025.png" width="280" alt="manuscripts.kb.nl homepage, as archived in Wayback Machine on 11-12-2025"/></td></tr>
 </table>
 
 - Original: <https://manuscripts.kb.nl/>
@@ -55,7 +55,7 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/introduction_11122025.png" width="380" alt="manuscripts.kb.nl Introduction page, original"/></td><td><img src="images/wbm_introduction_11122025.png" width="380" alt="manuscripts.kb.nl Introduction page, as archived in Wayback Machine on 11-12-2025"/></td></tr>
+<tr><td><img src="images/introduction_11122025.png" width="280" alt="manuscripts.kb.nl Introduction page, original"/></td><td><img src="images/wbm_introduction_11122025.png" width="280" alt="manuscripts.kb.nl Introduction page, as archived in Wayback Machine on 11-12-2025"/></td></tr>
 </table>
 
 - Original: <https://manuscripts.kb.nl/introduction>
@@ -65,7 +65,7 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/show_manuscript_13122025.png" width="380" alt="manuscripts.kb.nl manuscript detail page for 10 A 11, original"/></td><td><img src="images/wbm_show_manuscript_13122025.png" width="380" alt="manuscripts.kb.nl manuscript detail page for 10 A 11, as archived in Wayback Machine on 13-12-2025"/></td></tr>
+<tr><td><img src="images/show_manuscript_13122025.png" width="280" alt="manuscripts.kb.nl manuscript detail page for 10 A 11, original"/></td><td><img src="images/wbm_show_manuscript_13122025.png" width="280" alt="manuscripts.kb.nl manuscript detail page for 10 A 11, as archived in Wayback Machine on 13-12-2025"/></td></tr>
 </table>
 
 - Original: <https://manuscripts.kb.nl/show/manuscript/10+A+11>
@@ -75,7 +75,7 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/show_images_text_12122025.png" width="380" alt="manuscripts.kb.nl image gallery with text for 10 A 11, original"/></td><td><img src="images/wbm_show_images_text_12122025.png" width="380" alt="manuscripts.kb.nl image gallery with text for 10 A 11, as archived in Wayback Machine on 12-12-2025"/></td></tr>
+<tr><td><img src="images/show_images_text_12122025.png" width="280" alt="manuscripts.kb.nl image gallery with text for 10 A 11, original"/></td><td><img src="images/wbm_show_images_text_12122025.png" width="280" alt="manuscripts.kb.nl image gallery with text for 10 A 11, as archived in Wayback Machine on 12-12-2025"/></td></tr>
 </table>
 
 - Original: <https://manuscripts.kb.nl/show/images_text/10+A+11>
@@ -85,7 +85,7 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 
 <table>
 <tr><th width="50%">Original (defunct)</th><th width="50%">Wayback Machine</th></tr>
-<tr><td><img src="images/indexes_shelfmark_14122025.png" width="380" alt="manuscripts.kb.nl shelfmark index, original"/></td><td><img src="images/wbm_indexes_shelfmark_14122025.png" width="380" alt="manuscripts.kb.nl shelfmark index, as archived in Wayback Machine on 14-12-2025"/></td></tr>
+<tr><td><img src="images/indexes_shelfmark_14122025.png" width="280" alt="manuscripts.kb.nl shelfmark index, original"/></td><td><img src="images/wbm_indexes_shelfmark_14122025.png" width="280" alt="manuscripts.kb.nl shelfmark index, as archived in Wayback Machine on 14-12-2025"/></td></tr>
 </table>
 
 - Original: <https://manuscripts.kb.nl/indexes/shelfmark>
