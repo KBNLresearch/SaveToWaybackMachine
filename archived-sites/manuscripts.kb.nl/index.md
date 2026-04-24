@@ -14,11 +14,11 @@ breadcrumb:
 
 ## About
 
-[manuscripts.kb.nl](https://manuscripts.kb.nl/) — the **Medieval Illuminated Manuscripts** (Middeleeuwse Verluchte Handschriften / MVH) database of the KB, National Library of the Netherlands — was shut down on 15 December 2025.
-
-Before the site went offline, its URLs were spidered and archived to [The Wayback Machine](https://web.archive.org/) (WBM) during **10-14 December 2025**.
+[manuscripts.kb.nl](https://manuscripts.kb.nl/) - the **Medieval Illuminated Manuscripts** (Middeleeuwse Verluchte Handschriften / MVH) database of the KB, National Library of the Netherlands - was shut down on 15 December 2025.
 
 <img src="images/homepage_11122025.png" width="500" alt="Screenshot of manuscripts.kb.nl homepage"/>
+
+Before the site went offline, its URLs were spidered and archived to [The Wayback Machine](https://web.archive.org/) (WBM) during **10-14 December 2025**.
 
 ## Results & URL spreadsheet
 
@@ -36,30 +36,6 @@ Before the site went offline, its URLs were spidered and archived to [The Waybac
   9. `wiki_priority` (61 rows — all URLs linked from Wikipedia/Commons)
 
 * [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx) contains the full spider crawl output (12,550 URLs). The 5,117 URLs not selected for archiving are mostly image search result pages.
-
-## How manuscripts.kb.nl got into the Wayback Machine
-
-### 1. Spidering the site
-
-Unlike mmdc.nl, manuscripts.kb.nl was a server-rendered site, so a straightforward HTTP crawler could discover all URLs. A custom spider was built, see the [`_spider-artifacts/`]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/) folder:
-
-1. **[Seed URLs]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/seed-urls.txt)** — homepage, introduction, background, advanced search, and all 9 index pages (shelfmark, author/title, place, language, iconclass, image type, miniaturist, has part, title/image).
-
-2. **[Crawler]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/spider.py)** — Python + requests/BeautifulSoup, crawls each page, extracts internal links, and classifies them into categories (manuscript detail, image galleries, text views, search results, indexes, static pages) via [config.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/config.py).
-
-3. **Output** — 12,550 unique URLs written to [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx), with crawl state checkpointed in `_spider-artifacts/data/spider_state.json` for resume capability.
-
-Full planning notes: [PLAN-url-spider-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/docs/PLAN-url-spider-manuscripts.kb.nl.md).
-
-### 2. Submitting to the Wayback Machine
-
-The discovered URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access, in two phases:
-
-1. **Phase 1 — Wiki priority URLs (10-11 Dec 2025):** 61 URLs linked from Dutch Wikipedia and Wikimedia Commons were archived first using [SaveToWBM_manuscripts_wiki_priority.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_wiki_priority.py). Completed in ~23 minutes. Result: **61/61 (100%) successfully archived**.
-
-2. **Phase 2 — Bulk archiving (11-14 Dec 2025):** 7,433 URLs from the spider output were submitted sheet by sheet (smallest first: static_pages → indexes → search_literature → search_extended → show_text → show_images_text → show_manuscript) using [SaveToWBM_manuscripts_excel.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_excel.py). Rate-limited at 17 seconds between requests. Result: **7,433/7,433 (100%) successfully archived**, with only 4 transient errors (<0.1%) that were retried successfully.
-
-Full planning notes: [PLAN-wbm-archiving-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/docs/PLAN-wbm-archiving-manuscripts.kb.nl.md).
 
 ## Screenshots
 
@@ -115,6 +91,31 @@ Each pair shows the original manuscripts.kb.nl page (left) and the same URL as c
 - Original: <https://manuscripts.kb.nl/indexes/shelfmark>
 - Wayback Machine (14-12-2025): <https://web.archive.org/web/20251214002409/https://manuscripts.kb.nl/indexes/shelfmark>
 
+## How manuscripts.kb.nl got into the Wayback Machine
+
+### 1. Spidering the site
+
+Unlike mmdc.nl, manuscripts.kb.nl was a server-rendered site, so a straightforward HTTP crawler could discover all URLs. A custom spider was built, see the [`_spider-artifacts/`]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/) folder:
+
+1. **[Seed URLs]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/seed-urls.txt)** — homepage, introduction, background, advanced search, and all 9 index pages (shelfmark, author/title, place, language, iconclass, image type, miniaturist, has part, title/image).
+
+2. **[Crawler]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/spider.py)** — Python + requests/BeautifulSoup, crawls each page, extracts internal links, and classifies them into categories (manuscript detail, image galleries, text views, search results, indexes, static pages) via [config.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/config.py).
+
+3. **Output** — 12,550 unique URLs written to [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx).
+
+Full planning notes: [PLAN-url-spider-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/docs/PLAN-url-spider-manuscripts.kb.nl.md).
+
+### 2. Submitting to the Wayback Machine
+
+The discovered URLs were submitted to the Wayback Machine using the Internet Archive's [Save Page Now 2 (SPN2) API](https://web.archive.org/save) with authenticated access, in two phases:
+
+1. **Phase 1 — Wiki priority URLs (10-11 Dec 2025):** 61 URLs linked from Dutch Wikipedia and Wikimedia Commons were archived first using [SaveToWBM_manuscripts_wiki_priority.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_wiki_priority.py). Completed in ~23 minutes. Result: **61/61 (100%) successfully archived**.
+
+2. **Phase 2 — Bulk archiving (11-14 Dec 2025):** 7,433 URLs from the spider output were submitted sheet by sheet (smallest first: static_pages → indexes → search_literature → search_extended → show_text → show_images_text → show_manuscript) using [SaveToWBM_manuscripts_excel.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_excel.py). Rate-limited at 17 seconds between requests. Result: **7,433/7,433 (100%) successfully archived**, with only 4 transient errors (<0.1%) that were retried successfully.
+
+Full planning notes: [PLAN-wbm-archiving-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/docs/PLAN-wbm-archiving-manuscripts.kb.nl.md).
+
+
 ## Folder structure
 
 ```
@@ -124,8 +125,9 @@ manuscripts.kb.nl/
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
 ├── manuscripts-urls-spider-output.xlsx      # Full spider output (12,550 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
-├── seed-urls.txt                            # Spider seed URLs
+├── images/                                  # Before/after screenshots
 ├── _spider-artifacts/                       # URL discovery (the spidering run)
+│   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
 │   ├── data/spider_state.json               # Crawl checkpoint (resume state)
 │   ├── docs/                                # PLAN-url-spider-manuscripts.kb.nl.md
@@ -135,9 +137,7 @@ manuscripts.kb.nl/
     │   ├── SaveToWBM_manuscripts_wiki_priority.py  # submit wiki-priority URLs to WBM
     │   ├── SaveToWBM_manuscripts_excel.py          # submit all URLs sheet by sheet to WBM
     │   └── lookup_wbm_captures.py                  # CDX lookup for actual capture URLs
-    ├── data/
-    │   ├── wikiPriorityArchiving/            # Wiki priority progress & results
-    │   └── excelArchiving/                   # Bulk archiving progress & errors
+    ├── data/                                # Progress/checkpoint files (not on GitHub)
     ├── docs/                                # PLAN-wbm-archiving-manuscripts.kb.nl.md
     └── logs/                                # Archiving logs
 ```

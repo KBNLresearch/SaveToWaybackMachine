@@ -27,7 +27,7 @@ Full per-URL status lives in [`manuscripts-urls-wbm-archived.xlsx`](manuscripts-
 
 ## How the site was spidered
 
-1. **Seeds** — `seed-urls.txt` (homepage, introduction, background, advanced search, and all 9 index pages).
+1. **Seeds** — `_spider-artifacts/seed-urls.txt` (homepage, introduction, background, advanced search, and all 9 index pages).
 2. **Crawler** — `_spider-artifacts/scripts/spider.py` (Python + requests/BeautifulSoup) crawls each page, extracts links, and classifies them into categories (manuscript detail, image galleries, search results, indexes, static pages).
 3. **Configuration** — `_spider-artifacts/scripts/config.py` defines seed URLs, crawl settings, and category definitions.
 4. **Output** — 12,550 unique URLs written to `manuscripts-urls-spider-output.xlsx`, with crawl state checkpointed in `_spider-artifacts/data/spider_state.json`.
@@ -53,17 +53,16 @@ manuscripts.kb.nl/
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
 ├── manuscripts-urls-spider-output.xlsx      # Full spider output (12,550 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
-├── seed-urls.txt                            # Spider seed URLs
+├── images/                                  # Before/after screenshots
 ├── _spider-artifacts/                       # URL discovery
+│   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
 │   ├── data/spider_state.json               # Crawl checkpoint (resume state)
 │   ├── docs/                                # Spider plan
 │   └── logs/                                # Crawl log
 └── _archiving-artifacts/                    # WBM submission
     ├── scripts/                             # SaveToWBM_*.py, lookup_wbm_captures.py
-    ├── data/
-    │   ├── wikiPriorityArchiving/           # Wiki priority progress & results
-    │   └── excelArchiving/                  # Bulk archiving progress & errors
+    ├── data/                                # Progress/checkpoint files (not on GitHub)
     ├── docs/                                # Archiving plan
     └── logs/                                # Archiving logs
 ```

@@ -1,0 +1,48 @@
+===ENTRY POINT
+https://manuscripts.kb.nl
+
+See also: https://www.kb.nl/sites/default/files/documents/techniek-mvh.pdf for  Technische uitleg datasets Middeleeuwse Verluchte
+Handschriften (MVH)
+
+Technische uitleg datasets Middeleeuwse Verluchte
+Handschriften (MVH)
+Deze pagina geeft uitleg over en voorbeelden van de
+ Beschrijvende metadata van de 400 manuscripten (set BYVANCK)
+ Beschrijvende metadata van de 11.141 afbeeldingen in deze 400 manuscripten (set
+ByvanckB)
+ Afbeeldingen in JPG (set ByvanckB)
+
+=======Indexes=============
+https://manuscripts.kb.nl/advanced
+
+== For the manuscripts (400 or so) ===
+* https://manuscripts.kb.nl/indexes/shelfmark
+  * -- https://manuscripts.kb.nl/search/manuscripts/extended/shelfmark/*
+  * -- https://manuscripts.kb.nl/search/manuscripts/extended/page/2/shelfmark/%2A
+  * -- https://manuscripts.kb.nl/search/manuscripts/extended/page/3/shelfmark/%2A
+* manuscripts.kb.nl/indexes/authortitle
+  * -- https://manuscripts.kb.nl/search/manuscripts/extended/authortitle/*
+  * -- https://manuscripts.kb.nl/search/manuscripts/extended/page/2/authortitle/%2A
+* manuscripts.kb.nl/indexes/place
+ * -- https://manuscripts.kb.nl/search/manuscripts/extended/place/*
+   * -- https://manuscripts.kb.nl/search/manuscripts/extended/page/2/place/%2A
+* manuscripts.kb.nl/indexes/language
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+=== For the images, 10-11K===
+* https://manuscripts.kb.nl/indexes/titleImage
+  * -- https://manuscripts.kb.nl/search/images_text/extended/titleImage/*
+  * -- https://manuscripts.kb.nl/search/images_text/extended/page/2/titleImage/%2A
+  * -- https://manuscripts.kb.nl/search/images_text/extended/page/3/titleImage/%2A
+* manuscripts.kb.nl/indexes/iconclass
+  * -- https://manuscripts.kb.nl/search/images_text/extended/iconclass/*
+  * -- https://manuscripts.kb.nl/search/images_text/extended/page/2/iconclass/%2A
+
+* manuscripts.kb.nl/indexes/haspart
+* manuscripts.kb.nl/indexes/imagetype
+* manuscripts.kb.nl/indexes/miniaturist
+
+== Static pages:
+* https://manuscripts.kb.nl/introduction
+* https://manuscripts.kb.nl/background
