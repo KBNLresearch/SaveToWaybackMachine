@@ -35,7 +35,7 @@ Before the site went offline, its URLs were spidered and archived to [The Waybac
   8. `static_pages` (8 rows — homepage, introduction, background, advanced search)
   9. `wiki_priority` (61 rows — all URLs linked from Wikipedia/Commons)
 
-* [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx) contains the full spider crawl output (12,550 URLs). The 5,117 URLs not selected for archiving are mostly image search result pages.
+* [manuscripts-urls-spider-output.xlsx](_spider-artifacts/manuscripts-urls-spider-output.xlsx) contains the full spider crawl output (12,550 URLs). The 5,117 URLs not selected for archiving are mostly image search result pages.
 
 ## Screenshots
 
@@ -101,7 +101,7 @@ Unlike mmdc.nl, manuscripts.kb.nl was a server-rendered site, so a straightforwa
 
 2. **[Crawler]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/spider.py)** — Python + requests/BeautifulSoup, crawls each page, extracts internal links, and classifies them into categories (manuscript detail, image galleries, text views, search results, indexes, static pages) via [config.py]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/config.py).
 
-3. **Output** — 12,550 unique URLs written to [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx).
+3. **Output** — 12,550 unique URLs written to [manuscripts-urls-spider-output.xlsx](_spider-artifacts/manuscripts-urls-spider-output.xlsx).
 
 Full planning notes: [PLAN-url-spider-manuscripts.kb.nl.md]({{ site.github.repository_url }}/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/docs/PLAN-url-spider-manuscripts.kb.nl.md).
 
@@ -123,10 +123,10 @@ manuscripts.kb.nl/
 ├── index.md                                 # This page
 ├── excel-details.md                         # Column-by-column breakdown of the Excel
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
-├── manuscripts-urls-spider-output.xlsx      # Full spider output (12,550 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
 ├── images/                                  # Before/after screenshots
 ├── _spider-artifacts/                       # URL discovery (the spidering run)
+│   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
 │   ├── data/spider_state.json               # Crawl checkpoint (resume state)
@@ -146,7 +146,7 @@ manuscripts.kb.nl/
 
 | Date | Activity | Output |
 |------|----------|--------|
-| 2025-12-10 | Site spidering with Python + requests/BeautifulSoup; probe crawl of 15 seed URLs (100% success, ~1.6s avg response) | 12,550 URLs in [manuscripts-urls-spider-output.xlsx](manuscripts-urls-spider-output.xlsx) |
+| 2025-12-10 | Site spidering with Python + requests/BeautifulSoup; probe crawl of 15 seed URLs (100% success, ~1.6s avg response) | 12,550 URLs in [manuscripts-urls-spider-output.xlsx](_spider-artifacts/manuscripts-urls-spider-output.xlsx) |
 | **2025-12-10 → 2025-12-11** | Wiki priority archiving: 61 URLs linked from Dutch Wikipedia and Wikimedia Commons submitted via SPN2 API | **61/61 (100%) successfully archived** |
 | **2025-12-11 → 2025-12-14** | Bulk WBM submission of 7,433 URLs, sheet by sheet (smallest first), at 17s/request | **7,433/7,433 (100%) successfully archived** |
 | **2025-12-15** | manuscripts.kb.nl officially shut down | Live site no longer available |

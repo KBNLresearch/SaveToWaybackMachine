@@ -30,7 +30,7 @@ Full per-URL status lives in [`manuscripts-urls-wbm-archived.xlsx`](manuscripts-
 1. **Seeds** — `_spider-artifacts/seed-urls.txt` (homepage, introduction, background, advanced search, and all 9 index pages).
 2. **Crawler** — `_spider-artifacts/scripts/spider.py` (Python + requests/BeautifulSoup) crawls each page, extracts links, and classifies them into categories (manuscript detail, image galleries, search results, indexes, static pages).
 3. **Configuration** — `_spider-artifacts/scripts/config.py` defines seed URLs, crawl settings, and category definitions.
-4. **Output** — 12,550 unique URLs written to `manuscripts-urls-spider-output.xlsx`, with crawl state checkpointed in `_spider-artifacts/data/spider_state.json`.
+4. **Output** — 12,550 unique URLs written to `_spider-artifacts/manuscripts-urls-spider-output.xlsx`, with crawl state checkpointed in `_spider-artifacts/data/spider_state.json`.
 
 Plan: [`_spider-artifacts/docs/PLAN-url-spider-manuscripts.kb.nl.md`](_spider-artifacts/docs/PLAN-url-spider-manuscripts.kb.nl.md).
 
@@ -51,10 +51,10 @@ manuscripts.kb.nl/
 ├── README.md                                # This file
 ├── excel-details.md                         # Spreadsheet column documentation
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
-├── manuscripts-urls-spider-output.xlsx      # Full spider output (12,550 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
 ├── images/                                  # Before/after screenshots
 ├── _spider-artifacts/                       # URL discovery
+│   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs
 │   ├── scripts/                             # spider.py, config.py, excel_writer.py
 │   ├── data/spider_state.json               # Crawl checkpoint (resume state)
