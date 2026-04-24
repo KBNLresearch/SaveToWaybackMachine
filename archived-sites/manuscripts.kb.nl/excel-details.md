@@ -15,7 +15,7 @@ breadcrumb:
 
 The master spreadsheet [`manuscripts-urls-wbm-archived.xlsx`](manuscripts-urls-wbm-archived.xlsx) contains all URLs from manuscripts.kb.nl (Medieval Illuminated Manuscripts / Middeleeuwse Verluchte Handschriften) that were archived to the Wayback Machine in December 2025, before the site's shutdown on 15 December 2025.
 
-A second file, [`manuscripts-urls-spider-output.xlsx`](manuscripts-urls-spider-output.xlsx), contains the full spider crawl output (12,550 URLs) but has no archiving data. It is kept as a reference for the complete URL inventory.
+A second file, [`manuscripts-urls-spider-output.xlsx`](_spider-artifacts/manuscripts-urls-spider-output.xlsx), contains the full spider crawl output (12,550 URLs) but has no archiving data. It is kept as a reference for the complete URL inventory.
 
 ## Sheets overview
 

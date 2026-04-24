@@ -400,9 +400,9 @@ concurrency_settings = ConcurrencySettings(
 
 ```
 archived-sites/manuscripts.kb.nl/
-├── seed-urls.txt                           # Existing seed file
-├── manuscripts-urls-spider-output.xlsx           # Main output (root)
 ├── _spider-artifacts/
+│   ├── seed-urls.txt                       # Seed file
+│   ├── manuscripts-urls-spider-output.xlsx # Main output
 │   ├── docs/
 │   │   └── PLAN-url-spider-manuscripts.kb.nl.md
 │   ├── logs/

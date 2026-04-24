@@ -14,7 +14,7 @@ PROJECT_ROOT = SPIDER_ROOT.parent
 ARCHIVING_ROOT = PROJECT_ROOT / "_archiving-artifacts"
 
 # Output paths
-EXCEL_OUTPUT = PROJECT_ROOT / "manuscripts-urls-spider-output.xlsx"
+EXCEL_OUTPUT = SPIDER_ROOT / "manuscripts-urls-spider-output.xlsx"
 CHECKPOINT_DIR = SPIDER_ROOT / "checkpoints"
 LOGS_DIR = SPIDER_ROOT / "logs"
 DATA_DIR = SPIDER_ROOT / "data"
