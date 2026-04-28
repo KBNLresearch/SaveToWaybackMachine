@@ -160,8 +160,8 @@ manuscripts.kb.nl/
 ## Wikipedia & Commons link updates
 
 All 61 wiki-priority URLs have been manually updated on the corresponding Dutch Wikipedia articles and Wikimedia Commons file pages (24-28 April 2026). The now-defunct manuscripts.kb.nl links were augmented with their Wayback Machine capture URLs:
-- **13 Dutch Wikipedia articles** — updated using the [`{{Citeer web}}`](https://nl.wikipedia.org/wiki/Sjabloon:Citeer_web) template with `|archiefurl=`, `|archiefdatum=`, and `|dodeurl=ja` parameters
-- **48 Wikimedia Commons file pages** — updated using the [`{{Wayback}}`](https://commons.wikimedia.org/wiki/Template:Wayback) template in the `|source=` field and other relevant fields
+- **13 Dutch Wikipedia articles** — updated using the [`{{{{Citeer web}}}}`](https://nl.wikipedia.org/wiki/Sjabloon:Citeer_web) template with `|archiefurl=`, `|archiefdatum=`, and `|dodeurl=ja` parameters
+- **48 Wikimedia Commons file pages** — updated using the [`{{{{Wayback}}}}`](https://commons.wikimedia.org/wiki/Template:Wayback) template in the `|source=` field and other relevant fields
 
 The full overview of all replacements is available in [`wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx`]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/wiki-url-replacements-completed).
 
