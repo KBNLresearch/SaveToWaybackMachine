@@ -53,6 +53,8 @@ manuscripts.kb.nl/
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
 ├── images/                                  # Before/after screenshots
+├── wiki-url-replacements-completed/         # Overview of Wikipedia/Commons link updates
+│   └── manuscripts-urls-wbm-archived-wiki.xlsx  # All 61 replacements with proposed wikitext
 ├── _spider-artifacts/                       # URL discovery
 │   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs

@@ -126,6 +126,8 @@ manuscripts.kb.nl/
 ├── manuscripts-urls-wbm-archived.xlsx       # Master URL list with WBM status (7,460 URLs)
 ├── wiki-priority-urls-WBM.xlsx              # Original wiki priority list (merged into master)
 ├── images/                                  # Before/after screenshots
+├── wiki-url-replacements-completed/         # Overview of Wikipedia/Commons link updates
+│   └── manuscripts-urls-wbm-archived-wiki.xlsx  # All 61 replacements with proposed wikitext
 ├── _spider-artifacts/                       # URL discovery (the spidering run)
 │   ├── manuscripts-urls-spider-output.xlsx  # Full spider output (12,550 URLs)
 │   ├── seed-urls.txt                        # Spider seed URLs
@@ -161,7 +163,7 @@ All 61 wiki-priority URLs have been manually updated on the corresponding Dutch 
 - **13 Dutch Wikipedia articles** — updated using the [`{{Citeer web}}`](https://nl.wikipedia.org/wiki/Sjabloon:Citeer_web) template with `|archiefurl=`, `|archiefdatum=`, and `|dodeurl=ja` parameters
 - **48 Wikimedia Commons file pages** — updated using the [`{{Wayback}}`](https://commons.wikimedia.org/wiki/Template:Wayback) template in the `|source=` field and other relevant fields
 
-The full overview of all replacements is in [`wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx`](wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx).
+The full overview of all replacements is available in [`wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx`]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/wiki-url-replacements-completed).
 
 ## Notes & known issues
 
