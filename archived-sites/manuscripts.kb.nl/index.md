@@ -23,7 +23,9 @@ Before the site went offline, the KB spidered and archived a representative samp
 
 ## Results & URL spreadsheet
 
-* [manuscripts-urls-wbm-archived.xlsx](manuscripts-urls-wbm-archived.xlsx) is the master spreadsheet for everything archived from manuscripts.kb.nl. It gives a detailed overview of all 7,460 archived URLs with per-URL status, WBM submission and capture URLs/timestamps, and Wikipedia/Commons metadata where applicable.
+
+
+* [manuscripts-urls-wbm-archived.xlsx]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/manuscripts-urls-wbm-archived.xlsx) is the master spreadsheet for everything archived from manuscripts.kb.nl. It gives a detailed overview of all 7,460 archived URLs with per-URL status, WBM submission and capture URLs/timestamps, and Wikipedia/Commons metadata where applicable.
 
 * The [Excel detail page](excel-details.md) gives the full column-by-column breakdown of all nine sheets in the Excel:
   1. `ALL_URLS` (7,460 rows — union of all sheets below)
@@ -36,11 +38,12 @@ Before the site went offline, the KB spidered and archived a representative samp
   8. `static_pages` (8 rows — homepage, introduction, background, advanced search)
   9. `wiki_priority` (61 rows — all URLs linked from Wikipedia/Commons)
 
-* [manuscripts-urls-spider-output.xlsx](_spider-artifacts/manuscripts-urls-spider-output.xlsx) contains the full spider crawl output (12,550 URLs). The 5,117 URLs not selected for archiving are mostly image search result pages.
+* [manuscripts-urls-spider-output.xlsx]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/manuscripts-urls-spider-output.xlsx) contains the full spider crawl output (12,550 URLs). The 5,117 URLs not selected for archiving are mostly image search result pages.
+
 
 ## Screenshots
 
-Each pair shows the original manuscripts.kb.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top). The original site is no longer available.
+Each pair shows the original manuscripts.kb.nl page (left) and the same URL as captured in the Wayback Machine (right, with the WBM toolbar visible at the top). The original site is no longer available per 15 December 2025.
 
 #### Homepage
 
