@@ -2,7 +2,7 @@
 title: SaveToWaybackMachine
 description: Scripts and data for archiving KB-managed websites to the Internet Archive's Wayback Machine
 baseurl: "/SaveToWaybackMachine"
-url: "https://ookgezellig.github.io"
+url: "https://kbnlresearch.github.io"
 
 # Include underscore-prefixed directories (Jekyll ignores _ dirs by default)
 include:

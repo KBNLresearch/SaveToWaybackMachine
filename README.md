@@ -8,7 +8,7 @@ Scripts and data for archiving KB-managed websites to the Internet Archive's Way
 
 ## Website
 
-**[View the live site →](https://ookgezellig.github.io/SaveToWaybackMachine/)**
+**[View the live site →](https://kbnlresearch.github.io/SaveToWaybackMachine/)**
 
 This repository has a companion GitHub Pages website with screenshot galleries, interactive navigation, and comprehensive documentation.
 
@@ -49,7 +49,7 @@ This project was transformed in December 2025 through an intensive AI-human coll
 4. **AI vision recognition** - Used multimodal AI to extract meaningful captions from screenshots
 5. **EU compliance** - GDPR, WCAG 2.1 Level AA, comprehensive accessibility features
 
-**[Read the full story →](https://ookgezellig.github.io/SaveToWaybackMachine/how-this-site-was-built)**
+**[Read the full story →](https://kbnlresearch.github.io/SaveToWaybackMachine/how-this-site-was-built)**
 
 ## Scripts
 
@@ -77,7 +77,7 @@ The companion website meets European standards:
 - **Responsive design** - Desktop, tablet, mobile support
 - **SEO optimized** - Schema.org, Open Graph, Twitter Cards
 
-**[View compliance documentation →](https://ookgezellig.github.io/SaveToWaybackMachine/compliance)**
+**[View compliance documentation →](https://kbnlresearch.github.io/SaveToWaybackMachine/compliance)**
 
 ## License
 
@@ -88,4 +88,4 @@ The **source code** and **text content** of this project are dedicated to the pu
 - KB logo (CC BY-SA 3.0)
 - Social media brand icons (respective trademarks)
 
-See [Image credits & copyrights](https://ookgezellig.github.io/SaveToWaybackMachine/compliance#image-credits--copyrights) for details.
+See [Image credits & copyrights](https://kbnlresearch.github.io/SaveToWaybackMachine/compliance#image-credits--copyrights) for details.
