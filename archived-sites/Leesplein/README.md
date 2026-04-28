@@ -11,7 +11,7 @@ breadcrumb:
 
 # Leesplein - Wayback Machine Archive
 
-**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/Leesplein/)**
+**[View on GitHub Pages]({{ site.url }}{{ site.baseurl }}/archived-sites/Leesplein/)**
 
 *Archived: June 2018*
 

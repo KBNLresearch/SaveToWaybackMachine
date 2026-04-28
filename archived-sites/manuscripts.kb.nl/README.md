@@ -9,7 +9,7 @@ breadcrumb:
 
 # manuscripts.kb.nl - Wayback Machine archive
 
-**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/manuscripts.kb.nl/)**
+**[View on GitHub Pages]({{ site.url }}{{ site.baseurl }}/archived-sites/manuscripts.kb.nl/)**
 
 *Archived: December 2025 | Documentation updated: April 2026*
 
@@ -36,7 +36,7 @@ The site was scheduled to be shut down on **15 December 2025**. All discoverable
 
 Full per-URL status lives in [`manuscripts-urls-wbm-archived.xlsx`](manuscripts-urls-wbm-archived.xlsx). Column schema documented in [`excel-details.md`](excel-details.md).
 
-For the full documentation with screenshots, timeline, and detailed descriptions, see [`index.md`](index.md) (the [GitHub Pages version](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/manuscripts.kb.nl/)).
+For the full documentation with screenshots, timeline, and detailed descriptions, see [`index.md`](index.md) (the [GitHub Pages version]({{ site.url }}{{ site.baseurl }}/archived-sites/manuscripts.kb.nl/)).
 
 ## How the site was spidered
 

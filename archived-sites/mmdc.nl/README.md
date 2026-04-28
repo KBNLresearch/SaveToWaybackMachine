@@ -9,7 +9,7 @@ breadcrumb:
 
 # mmdc.nl - Wayback Machine archive
 
-**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/mmdc.nl/)**
+**[View on GitHub Pages]({{ site.url }}{{ site.baseurl }}/archived-sites/mmdc.nl/)**
 
 *Archived: December 2025*
 

@@ -11,7 +11,7 @@ breadcrumb:
 
 # Literatuurgeschiedenis.org - Wayback Machine Archive
 
-**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/Literatuurgeschiedenis.org/)**
+**[View on GitHub Pages]({{ site.url }}{{ site.baseurl }}/archived-sites/Literatuurgeschiedenis.org/)**
 
 *Archived: March 2022*
 

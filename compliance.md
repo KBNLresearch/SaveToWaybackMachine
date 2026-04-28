@@ -273,7 +273,7 @@ The screenshots displayed in the gallery sections are captures of archived websi
 - **Cultural heritage preservation** - Showcasing Dutch digital heritage
 - **Educational purposes** - Illustrating web archiving practices
 
-**Copyright notice:** If any rights holder believes their copyright is infringed by the display of these screenshots, please [file a GitHub Issue](https://github.com/ookgezellig/SaveToWaybackMachine/issues) and the KB will remove the images as soon as possible.
+**Copyright notice:** If any rights holder believes their copyright is infringed by the display of these screenshots, please [file a GitHub Issue]({{ site.github.repository_url }}/issues) and the KB will remove the images as soon as possible.
 
 #### KB logo
 
@@ -305,7 +305,7 @@ For accessibility issues, compliance questions, or **copyright concerns**, pleas
 
 - **Organization**: KB, national library of the Netherlands
 - **Website**: [www.kb.nl](https://www.kb.nl)
-- **GitHub Issues**: [Report an issue](https://github.com/ookgezellig/SaveToWaybackMachine/issues)
+- **GitHub Issues**: [Report an issue]({{ site.github.repository_url }}/issues)
 
 ---
 

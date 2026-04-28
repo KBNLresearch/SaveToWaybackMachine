@@ -11,7 +11,7 @@ breadcrumb:
 
 # kb.nl - Wayback Machine Archive
 
-**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/kb.nl/)**
+**[View on GitHub Pages]({{ site.url }}{{ site.baseurl }}/archived-sites/kb.nl/)**
 
 *Archived: March 2022 & December 2021*
 
