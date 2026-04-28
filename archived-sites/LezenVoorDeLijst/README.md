@@ -11,6 +11,8 @@ breadcrumb:
 
 # LezenVoorDeLijst - Wayback Machine Archive
 
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/LezenVoorDeLijst/)**
+
 *Archived: July-August 2018*
 
 ## About

@@ -1,4 +1,15 @@
+---
+layout: default
+title: mmdc.nl
+breadcrumb:
+  - title: Archived sites
+    url: /archived-sites/
+  - title: mmdc.nl
+---
+
 # mmdc.nl - Wayback Machine archive
+
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/mmdc.nl/)**
 
 *Archived: December 2025*
 

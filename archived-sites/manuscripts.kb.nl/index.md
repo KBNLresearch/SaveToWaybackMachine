@@ -10,7 +10,7 @@ breadcrumb:
 [← Back to Archived sites](../)
 
 # Saving manuscripts.kb.nl to the Wayback Machine
-*Latest update: 24-04-2026*
+*Latest update: 28-04-2026*
 
 ## About
 

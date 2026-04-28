@@ -1,6 +1,17 @@
+---
+layout: default
+title: manuscripts.kb.nl
+breadcrumb:
+  - title: Archived sites
+    url: /archived-sites/
+  - title: manuscripts.kb.nl
+---
+
 # manuscripts.kb.nl - Wayback Machine archive
 
-*Archived: December 2025*
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/manuscripts.kb.nl/)**
+
+*Archived: December 2025 | Documentation updated: April 2026*
 
 ## About
 
@@ -24,6 +35,8 @@ The site was scheduled to be shut down on **15 December 2025**. All discoverable
 | Spider output (all discovered) | 12,550 | 5,117 not submitted (mostly image search pages) |
 
 Full per-URL status lives in [`manuscripts-urls-wbm-archived.xlsx`](manuscripts-urls-wbm-archived.xlsx). Column schema documented in [`excel-details.md`](excel-details.md).
+
+For the full documentation with screenshots, timeline, and detailed descriptions, see [`index.md`](index.md) (the [GitHub Pages version](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/manuscripts.kb.nl/)).
 
 ## How the site was spidered
 
@@ -72,7 +85,7 @@ manuscripts.kb.nl/
 
 ## Wikipedia & Commons link updates
 
-All 61 wiki-priority URLs have been manually updated on the corresponding Dutch Wikipedia articles (13) and Wikimedia Commons file pages (48) in April 2026, replacing the defunct manuscripts.kb.nl links with their Wayback Machine capture URLs.
+All 61 wiki-priority URLs have been manually updated on the corresponding Dutch Wikipedia articles (13) and Wikimedia Commons file pages (48) in April 2026, replacing the defunct manuscripts.kb.nl links with their Wayback Machine capture URLs. The full overview of all replacements is in [`wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx`](wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx).
 
 ## Notes
 

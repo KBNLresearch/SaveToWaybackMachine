@@ -11,6 +11,8 @@ breadcrumb:
 
 # GidsVoorNederland - Wayback Machine Archive
 
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/GidsVoorNederland/)**
+
 *Archived: November 2018*
 
 ## About

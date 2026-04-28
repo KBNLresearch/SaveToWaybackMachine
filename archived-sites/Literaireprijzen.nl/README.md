@@ -11,6 +11,8 @@ breadcrumb:
 
 # Literaireprijzen.nl - Wayback Machine Archive
 
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/Literaireprijzen.nl/)**
+
 *Archived: October-November 2018*
 
 ## About

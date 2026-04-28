@@ -10,6 +10,9 @@ breadcrumb:
 [← Back to Archived sites](../)
 
 # Saving Literatuurplein.nl to the Wayback Machine
+
+**[View on GitHub Pages](https://ookgezellig.github.io/SaveToWaybackMachine/archived-sites/Literatuurplein/)**
+
 *Latest update: 22-04-2026*
 
 ## About
