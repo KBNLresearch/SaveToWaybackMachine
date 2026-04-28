@@ -153,6 +153,15 @@ manuscripts.kb.nl/
 | **2025-12-11 → 2025-12-14** | Bulk WBM submission of 7,433 URLs, sheet by sheet (smallest first), at 17s/request | **7,433/7,433 (100%) successfully archived** |
 | **2025-12-15** | manuscripts.kb.nl officially shut down | Live site no longer available |
 | 2026-04-24 | CDX capture URL lookup; documentation and spreadsheet consolidation | Capture URLs and timestamps added to master Excel |
+| 2026-04-28 | Manual update of 61 wiki-priority links on Dutch Wikipedia (13 articles) and Wikimedia Commons (48 file pages) | Dead manuscripts.kb.nl links augmented with WBM archive URLs |
+
+## Wikipedia & Commons link updates
+
+All 61 wiki-priority URLs have been manually updated on the corresponding Dutch Wikipedia articles and Wikimedia Commons file pages (24-28 April 2026). The now-defunct manuscripts.kb.nl links were augmented with their Wayback Machine capture URLs:
+- **13 Dutch Wikipedia articles** — updated using the [`{{Citeer web}}`](https://nl.wikipedia.org/wiki/Sjabloon:Citeer_web) template with `|archiefurl=`, `|archiefdatum=`, and `|dodeurl=ja` parameters
+- **48 Wikimedia Commons file pages** — updated using the [`{{Wayback}}`](https://commons.wikimedia.org/wiki/Template:Wayback) template in the `|source=` field and other relevant fields
+
+The full overview of all replacements is in [`wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx`](wiki-url-replacements-completed/manuscripts-urls-wbm-archived-wiki.xlsx).
 
 ## Notes & known issues
 

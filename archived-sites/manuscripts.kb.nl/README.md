@@ -68,6 +68,10 @@ manuscripts.kb.nl/
     └── logs/                                # ⛔ NOT ON GITHUB (archiving logs)
 ```
 
+## Wikipedia & Commons link updates
+
+All 61 wiki-priority URLs have been manually updated on the corresponding Dutch Wikipedia articles (13) and Wikimedia Commons file pages (48) in April 2026, replacing the defunct manuscripts.kb.nl links with their Wayback Machine capture URLs.
+
 ## Notes
 
 - The spider discovered 12,550 URLs; 7,433 were selected for archiving (excluding ~5,100 image search result pages in the `SEARCH_RESULTS` and `OTHER` categories).
