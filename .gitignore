@@ -27,12 +27,9 @@ nul
 
 # Secrets
 .env
-scripts/wbm-archiver/.env
-wbm-archiver-scripts/.env
 
 # Claude Code / Playwright / Prompt Page
-.claude/logs/
-.claude/settings.local.json
+/.claude/
 .mcp.json
 .playwright-mcp/
 .prompt-page/
@@ -81,8 +78,5 @@ archived-sites/manuscripts.kb.nl/_archiving-artifacts/logs/
 archived-sites/manuscripts.kb.nl/_spider-artifacts/data/
 archived-sites/manuscripts.kb.nl/a.png
 archived-sites/manuscripts.kb.nl/b.png
-archived-sites/manuscripts.kb.nl/_archiving-artifacts/logs/capture-lookup-log.txt
-.prompt-page/prompt-page.txt
-/.claude/
 archived-sites/manuscripts.kb.nl/manuscripts-urls-wbm-archived - kopie.xlsx
 archived-sites/manuscripts.kb.nl/wiki-url-replacements-completed/status_28042026.txt
