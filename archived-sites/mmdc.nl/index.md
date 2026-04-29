@@ -25,7 +25,7 @@ Before the site went offline, its URLs were archived to [The Wayback Machine](ht
 
 ## Results & URL spreadsheet
 
-* [mmdc-urls-unified_15042026.xlsx]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/mmdc-urls-unified_15042026.xlsx) is the master spreadsheet and the single source of truth for everything archived from mmdc.nl. It gives a detailed overview of all mmdc.nl URLs captured in the WBM. These include per-URL status, WBM capture URLs and timestamps, and local file paths for every individual item. 
+* [mmdc-urls-unified_15042026.xlsx]({{ site.github.repository_url }}/tree/main/archived-sites/mmdc.nl/mmdc-urls-unified_15042026.xlsx) is the master spreadsheet and the single source of truth for everything archived from mmdc.nl. It gives a detailed overview of all mmdc.nl URLs captured in the WBM. These include per-URL status, WBM capture URLs and timestamps, and local file paths for every individual item. 
 
 * The [Excel detail page](excel-details.md) gives the full column-by-column breakdown of all three sheets in the Excel: 
   1. `non-catalog-pages` (466 rows - Phase 1, Dec 2025)
