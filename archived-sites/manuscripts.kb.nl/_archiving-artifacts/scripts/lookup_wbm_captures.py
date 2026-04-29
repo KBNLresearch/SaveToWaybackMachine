@@ -153,7 +153,14 @@ def main():
     log(f"Starting capture lookup for {EXCEL_FILE.name}")
 
     wb = openpyxl.load_workbook(EXCEL_FILE)
-    sheets_to_process = [s for s in wb.sheetnames if s != "ALL_URLS"]
+    # Process wiki_priority first (needed for Wikipedia/Commons link updates),
+    # then the remaining per-type sheets, then ALL_URLS last
+    sheets_to_process = []
+    if "wiki_priority" in wb.sheetnames:
+        sheets_to_process.append("wiki_priority")
+    for s in wb.sheetnames:
+        if s not in ("ALL_URLS", "wiki_priority"):
+            sheets_to_process.append(s)
     sheets_to_process.append("ALL_URLS")
 
     total_looked_up = 0
@@ -162,7 +169,7 @@ def main():
     total_not_found = 0
     unsaved_count = 0
 
-    for sheet_name in wb.sheetnames:
+    for sheet_name in sheets_to_process:
         ws = wb[sheet_name]
         row_count = ws.max_row - 1
         log(f"\n--- Sheet: {sheet_name} ({row_count} rows) ---")
