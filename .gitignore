@@ -17,14 +17,72 @@ Thumbs.db
 desktop.ini
 nul
 
-# Logs
-*.log
-
-# Tijdelijke bestanden
+# Temp files
 *.tmp
 *.temp
 ~$*
 
-# Excluded folders
+# Logs
+*.log
+
+# Secrets
+.env
+scripts/wbm-archiver/.env
+wbm-archiver-scripts/.env
+
+# Claude Code / Playwright / Prompt Page
+.claude/logs/
+.claude/settings.local.json
+.mcp.json
+.playwright-mcp/
+.prompt-page/
+
+# -----------------------------------------------------------
+# Archived sites
+# -----------------------------------------------------------
+
+# Leesplein
 archived-sites/Leesplein/olderstuff/
 
+# mmdc.nl - local archive (~5 GB): ignore everything under local-archive
+archived-sites/mmdc.nl/_archiving-artifacts/local-archive/**
+# except sample files used as illustrations in the docs
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/static-pages/**
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/images/**
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/pdfs/**
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-2.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-10.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-100.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-500.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-1000.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-2005.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-3001.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-5000.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-7000.html
+!archived-sites/mmdc.nl/_archiving-artifacts/local-archive/catalog-pages/catalog-page-9000.html
+
+# mmdc.nl - data, runtime, and working files
+archived-sites/mmdc.nl/_archiving-artifacts/data/
+archived-sites/mmdc.nl/_archiving-artifacts/scripts/wbm-archiving-progress.json
+archived-sites/mmdc.nl/_archiving-artifacts/scripts/wbm-archiving-results.json
+archived-sites/mmdc.nl/_archiving-artifacts/scripts/wbm-archiving-log.txt
+archived-sites/mmdc.nl/_spider-artifacts/runtime/
+archived-sites/mmdc.nl/_spider-artifacts/screenshots/
+archived-sites/mmdc.nl/screenshots_claude-code/
+
+# manuscripts.kb.nl - data, logs, and old screenshots
+archived-sites/manuscripts.kb.nl/_archiving-artifacts/data/
+archived-sites/manuscripts.kb.nl/_archiving-artifacts/logs/
+archived-sites/manuscripts.kb.nl/_spider-artifacts/data/
+archived-sites/manuscripts.kb.nl/a.png
+archived-sites/manuscripts.kb.nl/b.png
+archived-sites/manuscripts.kb.nl/_archiving-artifacts/logs/capture-lookup-log.txt
+.prompt-page/prompt-page.txt
+/.claude/
+archived-sites/manuscripts.kb.nl/manuscripts-urls-wbm-archived - kopie.xlsx
+archived-sites/manuscripts.kb.nl/wiki-url-replacements-completed/status_28042026.txt
