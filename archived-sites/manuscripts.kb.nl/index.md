@@ -23,8 +23,6 @@ Before the site went offline, the KB spidered and archived a representative samp
 
 ## Results & URL spreadsheet
 
-
-
 * [manuscripts-urls-wbm-archived.xlsx]({{ site.github.repository_url }}/tree/main/archived-sites/manuscripts.kb.nl/manuscripts-urls-wbm-archived.xlsx) is the master spreadsheet for everything archived from manuscripts.kb.nl. It gives a detailed overview of all 7,460 archived URLs with per-URL status, WBM submission and capture URLs/timestamps, and Wikipedia/Commons metadata where applicable.
 
 * The [Excel detail page](excel-details.md) gives the full column-by-column breakdown of all nine sheets in the Excel:
