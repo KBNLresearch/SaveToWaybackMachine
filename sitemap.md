@@ -50,9 +50,9 @@ Complete overview of all pages on this site.
 
 ### [Stories overview](./stories/)
 
-| Story | Date |
-|-------|------|
-| [Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine](./stories/Twee%20KB-websites%20met%20middeleeuwse%20handschriften%20opgenomen%20in%20de%20Wayback%20Machine,%20april%202026.md) | April 2026 |
+| Story                                                                                                                                                                                                                      | Date                     |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| [Two KB websites with medieval manuscripts archived in the Wayback Machine](./stories/Twee%20KB-websites%20met%20middeleeuwse%20handschriften%20opgenomen%20in%20de%20Wayback%20Machine,%20april%202026.md) *(Dutch only)* | April 2026  |
 
 ---
 
