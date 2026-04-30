@@ -13,6 +13,7 @@ Complete overview of all pages on this site.
 ## Main pages
 
 - [Home](./index.md) - Main landing page
+- [Stories](./stories/) - Narratives behind the archiving projects
 - [How this site was built](./how-this-site-was-built.md) - Development story and timeline
 - [KB huisstijl implementation](./kb-huisstijl.md) - Brand colors and house style
 - [Accessibility, privacy & licensing](./compliance.md) - GDPR, WCAG 2.1, SEO documentation
@@ -42,6 +43,16 @@ Complete overview of all pages on this site.
 | [Literaireprijzen.nl](./archived-sites/Literaireprijzen.nl/) | Literary prizes | 452 |
 | [LezenVoorDeLijst.nl](./archived-sites/LezenVoorDeLijst/) | Reading lists | 12.456 |
 | [Leesplein.nl](./archived-sites/Leesplein/) | Children's reading | 23.785 |
+
+---
+
+## Stories
+
+### [Stories overview](./stories/)
+
+| Story | Date |
+|-------|------|
+| [Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine](./stories/Twee%20KB-websites%20met%20middeleeuwse%20handschriften%20opgenomen%20in%20de%20Wayback%20Machine,%20april%202026.md) | April 2026 |
 
 ---
 

@@ -5,7 +5,7 @@ title: Home
 
 # Save KB websites to Wayback Machine
 
-Scripts and data for archiving KB-managed websites to the Internet Archive's [Wayback Machine](https://web.archive.org/).
+Data, stories and scripts for archiving KB-managed websites to the Internet Archive's [Wayback Machine](https://web.archive.org/).
 
 ## Purpose
 
@@ -17,6 +17,12 @@ Some websites managed by the KB, national library of the Netherlands, have been 
 See the [overview of archived sites](archived-sites/). This page also gives access to the datasets of pages (URLs) archived in the Wayback Machine, available as Excel, TXT or CSV files.
 
 <a href="archived-sites/"><img src="assets/images/archived-sites-overview.png" width="600" alt="Screenshot of the overview page of all archived sites"/></a>
+
+---
+
+## Stories
+
+Read the [stories](stories/) behind some of these archiving projects — narratives of how (parts of) KB websites were rescued from the digital memory hole, and the role AI assistants played along the way.
 
 ---
 

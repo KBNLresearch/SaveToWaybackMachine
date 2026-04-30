@@ -33,6 +33,10 @@ Some websites managed by the KB have been discontinued. To preserve their conten
 | [Lezenvoordelijst.nl](archived-sites/LezenVoorDeLijst/)                                           | Aug 2018      | 12.456 | [TXT](archived-sites/LezenVoorDeLijst/Output-LvdL_GearchiveerdeURLs_17082018_masterfile.txt)                                                                                                                                                    |
 | [Leesplein.nl](archived-sites/Leesplein/)                                                         | Jun 2018      | 23.785 | [TXT](archived-sites/Leesplein/Output-Leesplein_GearchiveerdeURLs_14062018_masterfile.txt)                                                                                                                                                      |
 
+## Stories
+
+Read the [stories](stories/) behind some of these archiving projects — narratives of how (parts of) KB websites were rescued from the digital memory hole, and the role AI assistants played along the way.
+
 ## How this site was built
 
 This project was transformed in December 2025 through an intensive AI-human collaboration:
