@@ -16,10 +16,10 @@ breadcrumb:
 
 --------------
 
-Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en Huis van het Boek (voorheen Museum Meermanno-Westreenianum).
+Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/, voorheen Museum Meermanno-Westreenianum.
 **Medieval Manuscripts in Dutch Collections (mmdc.nl)** bevatte beschrijvingen van westerse middeleeuwse manuscripten tot circa 1550, geschreven in het Latijn of in een West-Europese volkstaal, bewaard in publieke en semipublieke collecties in Nederland.
 
-Beide waren inhoudelijk verouderd en pasten niet meer in ons huidige dienstenaanbod. Tijd om ze uit te faseren.
+Beide waren inhoudelijk verouderd en pasten niet meer in het huidige dienstenaanbod van de KB. Tijd om ze uit te faseren.
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
   <img src="media/mim-homepage_11122025.png" alt="Screenshot of manuscripts.kb.nl homepage" width="400">
@@ -31,12 +31,12 @@ Beide waren inhoudelijk verouderd en pasten niet meer in ons huidige dienstenaan
 Maar er waren een paar problemen:
 
 1. Er werd nog volop naar ze gelinkt. In onderzoekspublicaties, in catalogi van andere instellingen, op de Nederlandstalige Wikipedia, op Wikimedia Commons. Wie zo'n link na 15 december aanklikte, dreigde op op een 404 uit te komen. Geen manuscript, geen beschrijving, geen bron die iemand had geciteerd.
-2. Er zijn nog geen volwaardig alternatieven voor beide diensten. Zo bevat [eCodicesNL nog niet alle 400 handschriften](https://db.ecodices.nl/search/eyJzZWFyY2h2YWx1ZXMiOltdLCJwYWdlIjoxLCJwYWdlX2xlbmd0aCI6MzAsInNvcnRvcmRlciI6InRpdGxlIn0=) van de KB en Huis van het Boek. En collecties.kb.nl is nog niet zover wij (via IIIF) onze eigen handschriftverluchtingen aldaar kunnen tonen.
+2. Er zijn nog geen volwaardig alternatieven voor beide diensten. Zo bevat [eCodicesNL nog niet alle 400 handschriften](https://db.ecodices.nl/search/eyJzZWFyY2h2YWx1ZXMiOltdLCJwYWdlIjoxLCJwYWdlX2xlbmd0aCI6MzAsInNvcnRvcmRlciI6InRpdGxlIn0=) van de KB en Huis van het Boek. En [collecties.kb.nl](https://collecties.kb.nl) is nog niet zover dat de KB (via IIIF) haar eigen handschriftverluchtingen aldaar kan tonen.
 3. Niet iedereen kon zich vinden in de beslissing om deze sites offline te halen, omdat ze nog regelmatig gebruikt werden voor studie en onderzoek.
 
 ## Wayback Machine
 
-Om toch een publiek toegankelijke plek te hebben waar (pagina's van) beide sites door de hele wereld nog geraadpleegd kunnen worden, bood de Wayback Machine (WBM) van Internet Archive uitkomst. Gelukkig hadden we al eerdere ervaring met het onderbrengen van uitgefaseerde KB-sites, of representatieve delen daarvan, in dit webarchief. Een kort overzicht van de archiveringsacties uit het verleden:
+Om toch een publiek toegankelijke plek te hebben waar (pagina's van) beide sites door de hele wereld nog geraadpleegd kunnen worden, bood de Wayback Machine (WBM) van Internet Archive uitkomst. Gelukkig hadden we al eerdere ervaring met het onderbrengen van uitgefaseerde KB-websites, of representatieve delen daarvan, in dit webarchief. Een kort overzicht van de archiveringsacties uit het verleden:
 
 [![](media/wbm-archived-sites-overview.png)](https://kbnlresearch.github.io/SaveToWaybackMachine/archived-sites/)
 *Screenshot van KB-websites die in het verleden in de Wayback Machine zijn gearchiveerd, april 2026.*
