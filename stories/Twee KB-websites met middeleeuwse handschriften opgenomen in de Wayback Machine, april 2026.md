@@ -39,7 +39,6 @@ Maar er waren een paar problemen:
 Om toch een publiek toegankelijke plek te hebben waar (pagina's van) beide sites door de hele wereld nog geraadpleegd kunnen worden, bood de Wayback Machine (WBM) van Internet Archive uitkomst. Gelukkig hadden we al eerdere ervaring met het onderbrengen van uitgefaseerde KB-sites, of representatieve delen daarvan, in dit webarchief. Een kort overzicht van de archiveringsacties uit het verleden:
 
 [![](media/wbm-archived-sites-overview.png)](https://kbnlresearch.github.io/SaveToWaybackMachine/archived-sites/)
-
 *Screenshot van KB-websites die in het verleden in de Wayback Machine zijn gearchiveerd, april 2026.*
 
 - [kb.nl en collecties.kb.nl](https://kbnlresearch.github.io/SaveToWaybackMachine/archived-sites/kb.nl/23032022/) (huidige site, maart 2022)
