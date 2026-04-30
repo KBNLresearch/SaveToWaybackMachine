@@ -52,7 +52,7 @@ Complete overview of all pages on this site.
 
 | Story                                                                                                                                                                                                                      | Date                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| [Two KB websites with medieval manuscripts archived in the Wayback Machine](./stories/Twee%20KB-websites%20met%20middeleeuwse%20handschriften%20opgenomen%20in%20de%20Wayback%20Machine,%20april%202026.md) *(Dutch only)* | April 2026  |
+| [Two KB websites with medieval manuscripts archived in the Wayback Machine](./stories/twee-kb-websites-middeleeuwse-handschriften-april-2026.html) *(Dutch only)* | April 2026  |
 
 ---
 

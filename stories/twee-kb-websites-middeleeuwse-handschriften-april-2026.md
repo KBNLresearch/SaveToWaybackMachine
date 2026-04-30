@@ -16,7 +16,7 @@ breadcrumb:
 
 --------------
 
-Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/), voorheen Museum Meermanno-Westreenianum.
+Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/, voorheen Museum Meermanno-Westreenianum.
 **Medieval Manuscripts in Dutch Collections (mmdc.nl)** bevatte beschrijvingen van westerse middeleeuwse manuscripten tot circa 1550, geschreven in het Latijn of in een West-Europese volkstaal, bewaard in publieke en semipublieke collecties in Nederland.
 
 Beide waren inhoudelijk verouderd en pasten niet meer in het huidige dienstenaanbod van de KB. Tijd om ze uit te faseren.
