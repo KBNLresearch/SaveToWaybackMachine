@@ -10,7 +10,7 @@ title: How this site was built
 **An AI-human collaboration journey**
 
 This GitHub Pages site was created in multiple intensive sessions on December 2-3, 2025, through collaboration between a human curator at the KB (National Library of the Netherlands) and Claude Opus 4.5, an AI assistant by Anthropic.
-yes,
+
 ## Table of contents
 
 - [Timeline overview](#timeline-overview)
