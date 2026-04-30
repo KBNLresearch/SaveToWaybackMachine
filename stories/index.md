@@ -17,5 +17,7 @@ Stories behind the archiving projects — how (parts of) KB websites were rescue
 
 ## All stories
 
-- **[Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine](Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine, april 2026.md)** — *April 2026* — *Dutch only*
+<img src="media/mim-homepage_11122025.png" alt="Screenshot of the manuscripts.kb.nl homepage" width="280" style="float: right; margin: 0 0 1em 1.5em;">
+
+- **[Two KB websites with medieval manuscripts archived in the Wayback Machine](Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine, april 2026.md)** - *April 2026* - *Dutch only*<br/>
   On 15 December 2025 manuscripts.kb.nl and mmdc.nl were taken offline. Nearly 20,000 pages were preserved in the Wayback Machine, with help from an AI assistant.
