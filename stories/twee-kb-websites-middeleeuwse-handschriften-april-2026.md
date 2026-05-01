@@ -14,9 +14,11 @@ breadcrumb:
 
 *Op 15 december 2025 ging de stekker uit twee oudere KB-websites met middeleeuwse handschriften: manuscripts.kb.nl en mmdc.nl. Om dit digitaal erfgoed openbaar en toegankelijk te archiveren hebben we ze ondergebracht in de Wayback Machine van Internet Archive, in totaal bijna 20.000 pagina's. Het hele traject is uitgevoerd met hulp van een AI-assistent. Hieronder lees je het hele verhaal.*
 
+*Olaf Janssen (KB), 30 april 2026*
+
 --------------
 
-Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/, voorheen Museum Meermanno-Westreenianum.
+Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/), voorheen Museum Meermanno-Westreenianum.
 **Medieval Manuscripts in Dutch Collections (mmdc.nl)** bevatte beschrijvingen van westerse middeleeuwse manuscripten tot circa 1550, geschreven in het Latijn of in een West-Europese volkstaal, bewaard in publieke en semipublieke collecties in Nederland.
 
 Beide waren inhoudelijk verouderd en pasten niet meer in het huidige dienstenaanbod van de KB. Tijd om ze uit te faseren.
