@@ -54,103 +54,137 @@
   <!-- Skip to main content for accessibility -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <header class="header" role="banner">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <img src="{{ '/assets/Logo_koninklijke_bibliotheek.svg' | relative_url }}" alt="KB - Koninklijke Bibliotheek, national library of the Netherlands" width="100" height="50">
-  </header>
+  <div class="page-wrap">
 
-  {% if page.breadcrumb %}
-  <nav class="breadcrumb" aria-label="Breadcrumb navigation">
-    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">Home</span></a>
-        <meta itemprop="position" content="1">
-      </li>
-      {% assign position = 2 %}
-      {% for crumb in page.breadcrumb %}
-      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        {% if crumb.url %}
-        <a href="{{ crumb.url | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb.title }}</span></a>
-        {% else %}
-        <span class="current" itemprop="name" aria-current="page">{{ crumb.title }}</span>
-        {% endif %}
-        <meta itemprop="position" content="{{ position }}">
-      </li>
-      {% assign position = position | plus: 1 %}
-      {% endfor %}
-    </ol>
-  </nav>
-  {% endif %}
-
-  <main id="main-content" class="content" role="main">
-    {{ content }}
-  </main>
-
-  <footer class="footer" role="contentinfo">
-    <div class="footer-content">
-      <div class="footer-section">
-        <div class="footer-logo">
-          <img src="{{ '/assets/Online_wit_Nederlands_KB-logo_0.svg' | relative_url }}" alt="KB nationale bibliotheek" height="40">
-        </div>
-        <p>Preserving Dutch digital heritage through web archiving.</p>
-        <div class="social-icons">
-          <a href="https://bsky.app/profile/kb.nl" rel="noopener" aria-label="Bluesky">
-            <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="">
-          </a>
-          <a href="https://mastodon.social/@KB_Nederland" rel="noopener" aria-label="Mastodon">
-            <img src="{{ '/assets/icons/mastodon.svg' | relative_url }}" alt="">
-          </a>
-          <a href="https://www.linkedin.com/company/koninklijke-bibliotheek" rel="noopener" aria-label="LinkedIn">
-            <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" alt="">
-          </a>
-          <a href="https://www.youtube.com/user/KBNederland" rel="noopener" aria-label="YouTube">
-            <img src="{{ '/assets/icons/youtube.svg' | relative_url }}" alt="">
-          </a>
-          <a href="https://www.instagram.com/kb_nederland/" rel="noopener" aria-label="Instagram">
-            <img src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="">
-          </a>
-          <a href="https://www.facebook.com/KoninklijkeBibliotheek" rel="noopener" aria-label="Facebook">
-            <img src="{{ '/assets/icons/facebook.svg' | relative_url }}" alt="">
-          </a>
-          <a href="{{ site.github.repository_url }}" rel="noopener" aria-label="GitHub">
-            <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="">
-          </a>
+    <header class="site-header" role="banner">
+      <div class="container site-header__inner">
+        <a href="{{ '/' | relative_url }}" class="site-header__brand" aria-label="{{ site.title }} — home">
+          <img src="{{ '/assets/Logo_koninklijke_bibliotheek.svg' | relative_url }}" alt="" width="120" height="52">
+          <span>
+            <span class="site-header__title">{{ site.title }}</span>
+            <span class="site-header__tag">KB, national library of the Netherlands</span>
+          </span>
+        </a>
+        <div class="site-header__utility" aria-label="External links">
+          <a href="https://www.kb.nl" rel="noopener">www.kb.nl</a>
+          <a href="https://web.archive.org" rel="noopener">Wayback Machine</a>
         </div>
       </div>
+    </header>
 
-      <div class="footer-section">
-        <h4>Navigation</h4>
-        <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/archived-sites/' | relative_url }}">Archived sites</a></li>
-          <li><a href="{{ '/stories/' | relative_url }}">Stories</a></li>
-          <li><a href="{{ '/wbm-archiver-scripts/' | relative_url }}">Scripts</a></li>
-          <li><a href="{{ '/how-this-site-was-built' | relative_url }}">How this site was built</a></li>
-          <li><a href="{{ '/sitemap' | relative_url }}">Sitemap</a></li>
-        </ul>
+    {%- assign current = page.url -%}
+    <nav class="site-nav" role="navigation" aria-label="Primary">
+      <div class="container site-nav__inner">
+        <a class="site-nav__link {% if current == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        <a class="site-nav__link {% if current contains '/archived-sites' %}is-active{% endif %}" href="{{ '/archived-sites/' | relative_url }}">Archived sites</a>
+        <a class="site-nav__link {% if current contains '/stories' %}is-active{% endif %}" href="{{ '/stories/' | relative_url }}">Stories</a>
+        <a class="site-nav__link {% if current contains '/wbm-archiver-scripts' %}is-active{% endif %}" href="{{ '/wbm-archiver-scripts/' | relative_url }}">Scripts</a>
+        <a class="site-nav__link {% if current contains 'how-this-site-was-built' %}is-active{% endif %}" href="{{ '/how-this-site-was-built' | relative_url }}">How it was built</a>
+        <a class="site-nav__link {% if current contains 'kb-huisstijl' %}is-active{% endif %}" href="{{ '/kb-huisstijl' | relative_url }}">KB huisstijl</a>
+        <a class="site-nav__link {% if current contains 'compliance' %}is-active{% endif %}" href="{{ '/compliance' | relative_url }}">Compliance</a>
       </div>
+    </nav>
 
-      <div class="footer-section">
-        <h4>Legal & compliance</h4>
-        <ul>
-          <li><a href="{{ '/compliance' | relative_url }}">Accessibility, privacy & licensing</a></li>
-          <li><a href="https://www.kb.nl/privacy" rel="noopener">Privacy (KB)</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-section">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="https://www.kb.nl" rel="noopener">www.kb.nl</a></li>
-          <li><a href="{{ site.github.repository_url }}/issues" rel="noopener">Report an issue</a></li>
-        </ul>
-      </div>
+    {% if page.breadcrumb %}
+    <div class="breadcrumb-bar">
+      <nav class="container breadcrumb" aria-label="Breadcrumb navigation">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+          {% assign position = 2 %}
+          {% for crumb in page.breadcrumb %}
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            {% if crumb.url %}
+            <a href="{{ crumb.url | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb.title }}</span></a>
+            {% else %}
+            <span class="current" itemprop="name" aria-current="page">{{ crumb.title }}</span>
+            {% endif %}
+            <meta itemprop="position" content="{{ position }}">
+          </li>
+          {% assign position = position | plus: 1 %}
+          {% endfor %}
+        </ol>
+      </nav>
     </div>
+    {% endif %}
 
-    <div class="footer-bottom">
-      <p>&copy; {{ 'now' | date: '%Y' }} KB, national library of the Netherlands. Code and text are <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0 public domain</a>. <a href="{{ '/compliance#image-credits--copyrights' | relative_url }}">Image credits</a>.</p>
-    </div>
-  </footer>
+    <main id="main-content" class="site-main" role="main">
+      <div class="container content">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img src="{{ '/assets/Online_wit_Nederlands_KB-logo_0.svg' | relative_url }}" alt="KB nationale bibliotheek" height="44">
+            </div>
+            <p>Preserving Dutch digital heritage through web archiving.</p>
+            <div class="social-icons">
+              <a href="https://bsky.app/profile/kb.nl" rel="noopener" aria-label="Bluesky">
+                <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="">
+              </a>
+              <a href="https://mastodon.social/@KB_Nederland" rel="noopener" aria-label="Mastodon">
+                <img src="{{ '/assets/icons/mastodon.svg' | relative_url }}" alt="">
+              </a>
+              <a href="https://www.linkedin.com/company/koninklijke-bibliotheek" rel="noopener" aria-label="LinkedIn">
+                <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" alt="">
+              </a>
+              <a href="https://www.youtube.com/user/KBNederland" rel="noopener" aria-label="YouTube">
+                <img src="{{ '/assets/icons/youtube.svg' | relative_url }}" alt="">
+              </a>
+              <a href="https://www.instagram.com/kb_nederland/" rel="noopener" aria-label="Instagram">
+                <img src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="">
+              </a>
+              <a href="https://www.facebook.com/KoninklijkeBibliotheek" rel="noopener" aria-label="Facebook">
+                <img src="{{ '/assets/icons/facebook.svg' | relative_url }}" alt="">
+              </a>
+              <a href="{{ site.github.repository_url }}" rel="noopener" aria-label="GitHub">
+                <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="{{ '/' | relative_url }}">Home</a></li>
+              <li><a href="{{ '/archived-sites/' | relative_url }}">Archived sites</a></li>
+              <li><a href="{{ '/stories/' | relative_url }}">Stories</a></li>
+              <li><a href="{{ '/wbm-archiver-scripts/' | relative_url }}">Scripts</a></li>
+              <li><a href="{{ '/how-this-site-was-built' | relative_url }}">How this site was built</a></li>
+              <li><a href="{{ '/sitemap' | relative_url }}">Sitemap</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Legal &amp; compliance</h4>
+            <ul>
+              <li><a href="{{ '/compliance' | relative_url }}">Accessibility, privacy &amp; licensing</a></li>
+              <li><a href="https://www.kb.nl/privacy" rel="noopener">Privacy (KB)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="https://www.kb.nl" rel="noopener">www.kb.nl</a></li>
+              <li><a href="{{ site.github.repository_url }}/issues" rel="noopener">Report an issue</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; {{ 'now' | date: '%Y' }} KB, national library of the Netherlands. Code and text are <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0 public domain</a>. <a href="{{ '/compliance#image-credits--copyrights' | relative_url }}">Image credits</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrap -->
 
   <!-- Lightbox with ARIA attributes -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
