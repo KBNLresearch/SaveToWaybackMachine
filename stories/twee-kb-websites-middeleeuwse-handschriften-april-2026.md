@@ -12,13 +12,13 @@ breadcrumb:
 
 # Twee KB-websites met middeleeuwse handschriften opgenomen in de Wayback Machine, april 2026
 
-*Op 15 december 2025 ging de stekker uit twee oudere KB-websites met middeleeuwse handschriften: manuscripts.kb.nl en mmdc.nl. Om dit digitaal erfgoed openbaar en toegankelijk te archiveren hebben we ze ondergebracht in de Wayback Machine van Internet Archive, in totaal bijna 20.000 pagina's. Het hele traject is uitgevoerd met hulp van een AI-assistent. Hieronder lees je het hele verhaal.*
+*Op 15 december 2025 ging de stekker uit twee oudere KB-websites met middeleeuwse handschriften: manuscripts.kb.nl (MIM) en mmdc.nl. Om dit digitaal erfgoed openbaar en toegankelijk te archiveren hebben we ze ondergebracht in de Wayback Machine van Internet Archive, in totaal bijna 20.000 pagina's. Het hele traject is uitgevoerd met hulp van een AI-assistent. Hieronder lees je het hele verhaal. Hiermee kun je ook reflecteren op de voor- en nadelen van het gebruik van de Wayback Machine & Internet Archive voor archivering van erfgoedcollecties.*
 
-*Olaf Janssen (KB), 30 april 2026*
+*Olaf Janssen (KB), 20 mei 2026*
 
 --------------
 
-Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/), voorheen Museum Meermanno-Westreenianum.
+Op 15 december 2025 trok de KB de stekker uit twee websites met middeleeuwse handschriften. **Middeleeuwse Verluchte Handschriften (manuscripts.kb.nl, MIM)** bevatte beschrijvingen, afbeeldingen en verluchtingen uit zo'n 400 manuscripten uit de collecties van de KB en [Huis van het Boek](https://www.huisvanhetboek.nl/), voorheen Museum Meermanno-Westreenianum.
 **Medieval Manuscripts in Dutch Collections (mmdc.nl)** bevatte beschrijvingen van westerse middeleeuwse manuscripten tot circa 1550, geschreven in het Latijn of in een West-Europese volkstaal, bewaard in publieke en semipublieke collecties in Nederland.
 
 Beide waren inhoudelijk verouderd en pasten niet meer in het huidige dienstenaanbod van de KB. Tijd om ze uit te faseren.
@@ -38,7 +38,7 @@ Maar er waren een paar problemen:
 
 ## Wayback Machine
 
-Om toch een publiek toegankelijke plek te hebben waar (pagina's van) beide sites door de hele wereld nog geraadpleegd kunnen worden, bood de Wayback Machine (WBM) van Internet Archive uitkomst. Gelukkig hadden we al eerdere ervaring met het onderbrengen van uitgefaseerde KB-websites, of representatieve delen daarvan, in dit webarchief. Een kort overzicht van de archiveringsacties uit het verleden:
+Om toch een publiek en gratis toegankelijke plek te hebben waar (pagina's van) beide sites door de hele wereld nog geraadpleegd kunnen worden, bood de Wayback Machine (WBM) van Internet Archive  - ondanks de onder aan dit artikel genoemde bezwaren - uitkomst. Gelukkig hadden we al eerdere ervaring met het onderbrengen van uitgefaseerde KB-websites, of representatieve delen daarvan, in dit webarchief. Een kort overzicht van de archiveringsacties uit het verleden:
 
 [![](media/wbm-archived-sites-overview.png)](https://kbnlresearch.github.io/SaveToWaybackMachine/archived-sites/)
 *Screenshot van KB-websites die in het verleden in de Wayback Machine zijn gearchiveerd, april 2026.*
@@ -58,7 +58,7 @@ In de weken voor de uitschakeldatum hebben we beide sites in kaart gebracht (ges
 
 We hebben ons hierbij laten helpen door AI: Claude Code was niet alleen superhandig bij het schrijven van de benodigde plandocumenten, software en workflows, maar ook bij het uitvoeren hiervan, de algehele voortgangs-en procesbewaking en het na afloop controleren van de kwaliteit en integriteit van de resultaten was deze AI-assistent van onmisbare waarde. En laten we het schrijven van de bijbehorende [documentatie op Github](https://kbnlresearch.github.io/SaveToWaybackMachine/) niet vergeten, dankzij AI een degelijke en eenvoudige klus!
 
-## manuscripts.kb.nl
+## manuscripts.kb.nl (MIM)
 
 Voor manuscripts.kb.nl ging het hele archiveerproces redelijk rechttoe rechtaan. Een [Python-spider](https://github.com/KBNLresearch/SaveToWaybackMachine/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/scripts/spider.py) liep alle [12.550 vindbare URL's](https://github.com/KBNLresearch/SaveToWaybackMachine/blob/main/archived-sites/manuscripts.kb.nl/_spider-artifacts/manuscripts-urls-spider-output.xlsx) af en filterde daaruit 7.460 unieke pagina's die het bewaren waard waren: de
 [manuscriptbeschrijvingen](https://web.archive.org/web/20251213032801/https://manuscripts.kb.nl/show/manuscript/10+A+11), de [beeldgalerijen](https://web.archive.org/web/20251212054623/https://manuscripts.kb.nl/show/images_text/10+A+11), de [literatuurverwijzingen](https://web.archive.org/web/20251212164239/https://manuscripts.kb.nl/search/literature/10+A+11), de [inleidende teksten](https://web.archive.org/web/20251211005548/https://manuscripts.kb.nl/introduction). Deze werden vervolgens [met behulp van dit archiveerscript](https://github.com/KBNLresearch/SaveToWaybackMachine/blob/main/archived-sites/manuscripts.kb.nl/_archiving-artifacts/scripts/SaveToWBM_manuscripts_bulk.py) naar de WBM gestuurd. Eindstand: 7.460 op 7.460 succesvol gearchiveerd.
@@ -105,3 +105,19 @@ We hebben dit in drie stappen opgelost, wederom met behulp van onze AI-assistent
   - [Download dataset](https://github.com/KBNLresearch/SaveToWaybackMachine/blob/main/archived-sites/mmdc.nl/mmdc-urls-unified_15042026.xlsx) (Excel)
 - [Scripts and data for archiving KB-managed websites to the Internet Archive’s Wayback Machine](https://kbnlresearch.github.io/SaveToWaybackMachine/)
 - Repo: <https://github.com/KBNLresearch/SaveToWaybackMachine/>
+
+## Bezwaren bij het gebruik van de Wayback Machine & Internet Archive
+
+Het gebruik van Internet Archive voor het archiveren van KB-spulletjes is niet ideaal, er zitten naast bovengenoemde voordelen ook wat nadelen aan. Je kunt daarbij denken aan:
+
+*1) Het Internet Archive is een Amerikaanse particuliere non-profitorganisatie en geen publieke erfgoedinstelling die wordt gefinancierd met geld van de overheid. Als een organisatie als de KB het Internet Archive een site wil laten archiveren, dan hoort die eigenlijk gebruik te maken van hun betaalde dienst die daarvoor in het leven is geroepen: Archive-IT. Dat is dus geen gratis service en je zal hier een overeenkomst voor af moeten sluiten met alle juridische plichten van dien.*
+
+* Reactie auteur: Ik werd pas nadat beide sites gearchiveed waren op [Archive-IT](https://archive-it.org/) gewezen door een KB-collega. Iets om in het achterhoofd te houden voor de volgende KB-archiveringsslag in de WBM.
+
+*2) Als je als KB het Internet Archive de “opdracht” geeft content online te zetten, ben je nog altijd zelf aansprakelijk voor de potentiële auteursrechtschendingen als gevolg van die openbaarmaking. Een openbaarmaking die in Nederland toegankelijk is, valt onder het Nederlandse auteursrecht, waar we (zoals in alle EU-landen) geen fair use kennen, zodat eerder sprake is van copyright-inbreuk. Daarnaast is bij het Internet Archive vaak zichtbaar wie degene is geweest die content heeft aangeleverd. Het juridische risico is daarmee nog net zo groot als wanneer wij zelf content bewaren.*
+
+* Reactie auteur: Het risico op potentiële auteursrechtschendingen als gevolg van de openbaarmaking van mmdc.nl en MIM via de WBM schat ik erg klein/verwaarloosbaar in. MIM was [al jaren onder CC0 (metadata) en PD-mark (afbeeldingen) beschikbaar](https://www.kb.nl/onderzoeken-vinden/datasets/dataset-middeleeuwse-verluchte-handschriften). Voor mmdc.nl wellicht iets met databankrecht, maar dat [berust bij de KB zelf](https://web.archive.org/web/20251207231826/https://mmdc.nl/static/site/about/copyright/index.html). En de potentiële auteursrechtschendingen wegen niet op tegen de voordelen van het behouden van beide sites in de WBM en het offline gaan van beide diensten.
+
+*3) Het Internet Archive garandeert als Amerikaanse particuliere non-profitorganisatie geen eeuwig en duurzaam behoud en is ook niet opgericht om, zoals erfgoedinstellingen, publieke culturele belangen van Nederlands erfgoed te dienen.*
+
+* Reactie auteur m.b.t. "Internet Archive garandeert geen eeuwig en duurzaam behoud": Wat dat betreft is de KB met het offline halen van mmdc.nl, MIM en de andere boven in dit artikel genoemde [voormalige KB-sites](https://kbnlresearch.github.io/SaveToWaybackMachine/archived-sites/), in goed gezelschap! Sterker nog, ik denk dat Internet Archive en hun WBM duurzamere opties kunnen zijn dan de gemiddelde erfgoedinstelling in Nederland, ondanks hun promessen van "duurzaam behoud voor de eeuwigheid". 
